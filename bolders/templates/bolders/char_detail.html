@@ -1,13 +1,16 @@
 {% extends 'bolders/base.html' %}
 
-{% block title %}{{ story.title }}{% endblock %}
+{% block title %}{{ char.name }}{% endblock %}
 
 {% block content %}
     <div class="panel panel-default">
         <div class="panel-body">
-            <h2>{{ story.title }}</h2>
-            <h6>{{ story.ingamedate }}</h6>
-            <p>{{ story.content|linebreaks }}</p>
+            <h2>{{ char.name }}</h2>
+            <span class="char-class">{{ char.char_class }} {{ char.get_current_level }}</span>
+            {% if char.photo_full %}
+            <img class="full-body" src="{{ char.photo_full.url }}">
+            {% endif %}
+            <p>{% lorem 5 p random%}</p>
         </div>
     </div>
 

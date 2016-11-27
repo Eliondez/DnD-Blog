@@ -7,26 +7,24 @@ from .models import Post, Character
 from .forms import PostForm
 
 def story_list(request):
-    queryset = Post.objects.all().order_by('-timestamp')
-    leftchars = Character.objects.all()[:3]
-    rightchars = Character.objects.all()[3:]
+    post_list = Post.objects.all().order_by('-timestamp')
+    chars = Character.objects.all()
 
-    paginator = Paginator(queryset, 3)
-    page = request.GET.get('page')
-    try:
-        queryset = paginator.page(page)
-    except PageNotAnInteger:
-        # If page is not an integer, deliver first page.
-        queryset = paginator.page(1)
-    except EmptyPage:
-        # If page is out of range (e.g. 9999), deliver last page of results.
-        queryset = paginator.page(paginator.num_pages)
+    # paginator = Paginator(post_list, 3)
+    # page = request.GET.get('page')
+    # try:
+    #     queryset = paginator.page(page)
+    # except PageNotAnInteger:
+    #     # If page is not an integer, deliver first page.
+    #     queryset = paginator.page(1)
+    # except EmptyPage:
+    #     # If page is out of range (e.g. 9999), deliver last page of results.
+    #     queryset = paginator.page(paginator.num_pages)
 
     context = {
-        'leftchars': leftchars,
-        'rightchars': rightchars,
-        'queryset': queryset,
-        'title': 'List'
+        'chars': chars,
+        'queryset': post_list,
+        'section': 'story_list'
     }
     return render(request, 'bolders/index.html', context)
 
@@ -49,13 +47,12 @@ def story_create(request):
 
 def story_detail(request, id=None):
     instance = get_object_or_404(Post, id=id)
-    leftchars = Character.objects.all()[:3]
-    rightchars = Character.objects.all()[3:]
+    chars = Character.objects.all()
     context = {
-        'leftchars': leftchars,
-        'rightchars': rightchars,
-        'title': 'Detail',
-        'story': instance
+        'chars': chars,
+        'story': instance,
+        'section': 'story_detail'
+
     }
     return render(request, 'bolders/detail.html', context)
 
@@ -65,5 +62,15 @@ def story_update(request):
 def story_delete(request):
     return HttpResponse('Hello')
 
+
+def char_detail(request, id=0):
+    char = get_object_or_404(Character, id=id)
+    chars = Character.objects.all()
+    context = {
+        'chars' : chars,
+        'char': char,
+        'section': 'chars'
+    }
+    return render(request, 'bolders/char_detail.html', context)
 
 # Create your views here.

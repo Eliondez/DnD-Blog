@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>{% block title %}Title{% endblock %}</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     {% load staticfiles %}
@@ -41,18 +40,14 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">История<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Квесты</a></li>
+        <li {% if section == "story_list" %}class="active{% endif %}"><a href="{% url 'story_list' %}">История</a></li>
+        <li {% if section == "quests" %}class="active{% endif %}"><a href="#">Квесты</a></li>
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Персонажи<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Тэн</a></li>
-            <li><a href="#">Вэл</a></li>
-            <li><a href="#">Майкл</a></li>
-            <li><a href="#">Сайтама</a></li>
-            <li><a href="#">Тарла</a></li>
-            <li><a href="#">Мэйс</a></li>
-
+              {% for char in chars %}
+                <li><a href="{{ char.get_absolute_url }}">{{ char.name }}</a></li>
+              {% endfor %}
           </ul>
         </li>
       </ul>
@@ -65,31 +60,15 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                {% if leftchars %}
-                {% for char in leftchars %}
+                {% if chars %}
+                {% for char in chars %}
                     {% include 'bolders/char_list_item.html' %}
                 {% endfor %}
                 {% endif %}
             </div>
-            <div class="col-md-6">
+            <div class="col-md-9">
                 {% block content %}
-                {% for itm in queryset %}
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h1>{{ itm.title }}</h1>
-                            <h3>{{ itm.ingamedate }}</h3>
-                            <a href="{{ itm.get_absolute_url }}">♥♥♥</a>
-                        </div>
-                    </div>
-                {% endfor %}
                 {% endblock %}
-            </div>
-            <div class="col-md-3">
-                {% if rightchars %}
-                {% for char in rightchars %}
-                    {% include 'bolders/char_list_item.html' %}
-                {% endfor %}
-                {% endif %}
             </div>
         </div>
     </div>

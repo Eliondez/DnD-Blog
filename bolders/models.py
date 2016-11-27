@@ -1,7 +1,7 @@
 from django.db import models
 from django.core.urlresolvers import reverse
 
-experience = {1:0,
+experience_levels = {1:0,
               2:300,
               3:900,
               4:2700,
@@ -34,17 +34,32 @@ class Post(models.Model):
 class Character(models.Model):
     name = models.CharField(max_length=200)
     char_class = models.CharField(max_length=100)
-    level = models.IntegerField()
     exp = models.IntegerField()
     description = models.TextField()
     photo = models.FileField(null=True, blank=True)
+    photo_full = models.FileField(null=True, blank=True)
 
     def __str__(self):
         return self.name
 
+    def get_current_level(self):
+        level = 0
+        for key, val in experience_levels.items():
+            if self.exp > val:
+                level = int(key)
+            else:
+                break
+        print(self.name, level)
+        return level
+
+
     def to_next_level(self):
-        curr_level_exp = experience[self.level]
-        next_level_exp = experience[self.level + 1]
+        current_level = self.get_current_level()
+        curr_level_exp = experience_levels[current_level]
+        next_level_exp = experience_levels[current_level + 1]
         need_exp = next_level_exp - curr_level_exp
         extra_exp = self.exp - curr_level_exp
         return (extra_exp * 100)//need_exp
+
+    def get_absolute_url(self):
+        return reverse('char_detail', kwargs={'id': self.id})

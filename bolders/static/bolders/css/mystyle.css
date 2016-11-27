@@ -5,9 +5,6 @@ body {
 .char-name {
 	font-size: 32px;
 }
-
-
-
 .char-logo {
 	margin: 10px auto;
     width: 150px;
@@ -38,4 +35,20 @@ body {
 
 .panel {
 	border-radius: 10px;
+}
+
+img.full-body {
+    margin: 10px;
+    float: right;
+    max-width: 40%;
+}
+
+.char-panel a {
+    text-decoration: none;
+    color: black;
+}
+
+.char-panel a:hover {
+    text-decoration: none;
+    color: black;
 }

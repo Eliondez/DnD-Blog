@@ -6,24 +6,24 @@
         <div class="panel-body">
             <h2><a href="{{ itm.get_absolute_url }}">{{ itm.title }}</a></h2>
             <h6>{{ itm.ingamedate }}</h6>
-            <p>{{ itm.content|truncatechars:280 }}</p>
+            <p>{{ itm.content|linebreaks|truncatechars:280 }}</p>
             <p><a href="{{ itm.get_absolute_url }}" class="btn btn-primary">Далее...</a></p>
         </div>
     </div>
 {% endfor %}
-<div class="pagination">
-    <span class="step-links">
-        {% if queryset.has_previous %}
-            <a href="?page={{ queryset.previous_page_number }}">previous</a>
-        {% endif %}
+<!--<div class="pagination">-->
+    <!--<span class="step-links">-->
+        <!--{% if queryset.has_previous %}-->
+            <!--<a href="?page={{ queryset.previous_page_number }}">previous</a>-->
+        <!--{% endif %}-->
 
-        <span class="current">
-            Page {{ queryset.number }} of {{ queryset.paginator.num_pages }}.
-        </span>
+        <!--<span class="current">-->
+            <!--Page {{ queryset.number }} of {{ queryset.paginator.num_pages }}.-->
+        <!--</span>-->
 
-        {% if queryset.has_next %}
-            <a href="?page={{ queryset.next_page_number }}">next</a>
-        {% endif %}
-    </span>
-</div>
+        <!--{% if queryset.has_next %}-->
+            <!--<a href="?page={{ queryset.next_page_number }}">next</a>-->
+        <!--{% endif %}-->
+    <!--</span>-->
+<!--</div>-->
 {% endblock %}
