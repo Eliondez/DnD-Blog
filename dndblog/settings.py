@@ -25,7 +25,7 @@ SECRET_KEY = '5+$zy@7rcjo84enfzlgc_m68vcskct4_w3+g1i_augmhqa(n6k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["192.168.5.90", 'localhost']
+ALLOWED_HOSTS = ['elion.pythonanywhere.com', 'localhost']
 
 
 # Application definition
