@@ -41,6 +41,8 @@ img.full-body {
     margin: 10px;
     float: right;
     max-width: 40%;
+    border-radius: 10px;
+    box-shadow: 1px;
 }
 
 .char-panel a {
@@ -51,4 +53,27 @@ img.full-body {
 .char-panel a:hover {
     text-decoration: none;
     color: black;
+}
+
+.prevlink {
+    display: inline-block;
+    float: left;
+}
+
+.nextlink {
+    display: inline-block;
+    float: right;
+}
+
+.main-logo {
+    max-width: 100px;
+}
+
+.main-itm img{
+    width: 100%;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.main-itm h2{
+    text-align: center;
 }

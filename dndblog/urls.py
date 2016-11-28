@@ -17,10 +17,12 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
+from bolders import views
 
 urlpatterns = [
     url(r'^bolders/', include('bolders.urls')),
     url(r'^admin/', admin.site.urls),
+    url(r'^$', views.main_view),
 ]
 
 if settings.DEBUG:

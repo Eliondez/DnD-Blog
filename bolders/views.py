@@ -6,6 +6,10 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from .models import Post, Character
 from .forms import PostForm
 
+def main_view(request):
+    return render(request, 'bolders/main_screen.html')
+
+
 def story_list(request):
     post_list = Post.objects.all().order_by('-timestamp')
     chars = Character.objects.all()
@@ -48,11 +52,14 @@ def story_create(request):
 def story_detail(request, id=None):
     instance = get_object_or_404(Post, id=id)
     chars = Character.objects.all()
+    next = instance.get_next()
+    prev = instance.get_prev()
     context = {
         'chars': chars,
+        'prevstory': prev,
+        'nextstory': next,
         'story': instance,
         'section': 'story_detail'
-
     }
     return render(request, 'bolders/detail.html', context)
 

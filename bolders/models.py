@@ -24,6 +24,18 @@ class Post(models.Model):
     updated = models.DateTimeField(auto_now=True, auto_now_add=False)
     timestamp = models.DateTimeField(auto_now=False, auto_now_add=True)
 
+    def get_next(self):
+        next = Post.objects.filter(id__gt=self.id)
+        if next:
+            return next.first()
+        return False
+
+    def get_prev(self):
+        prev = Post.objects.filter(id__lt=self.id).order_by('-id')
+        if prev:
+            return prev.first()
+        return False
+
     def __str__(self):
         return self.title
 
@@ -49,9 +61,7 @@ class Character(models.Model):
                 level = int(key)
             else:
                 break
-        print(self.name, level)
         return level
-
 
     def to_next_level(self):
         current_level = self.get_current_level()

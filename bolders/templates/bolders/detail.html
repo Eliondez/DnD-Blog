@@ -8,6 +8,16 @@
             <h2>{{ story.title }}</h2>
             <h6>{{ story.ingamedate }}</h6>
             <p>{{ story.content|linebreaks }}</p>
+            {% if prevstory %}
+            <a class="prevlink" href="{{ prevstory.get_absolute_url }}">
+                <span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span>
+                {{ prevstory.title }}</a>
+            {% endif %}
+            {% if nextstory %}
+            <a class="nextlink" href="{{ nextstory.get_absolute_url }}">
+                {{ nextstory.title }}
+                <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>
+            {% endif %}
         </div>
     </div>
 
