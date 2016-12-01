@@ -1,5 +1,6 @@
 body {
 	background: url(../images/bg.png);
+	margin-top: 60px;
 }
 
 .char-name {
@@ -39,10 +40,9 @@ body {
 
 img.full-body {
     margin: 10px;
-    float: right;
-    max-width: 40%;
     border-radius: 10px;
     box-shadow: 1px;
+    max-width: 90%;
 }
 
 .char-panel a {
@@ -71,9 +71,37 @@ img.full-body {
 
 .main-itm img{
     width: 100%;
-    margin-top: 100px;
     border-radius: 10px;
 }
-.main-itm h2{
+.main-itm h2, .main-itm p{
     text-align: center;
 }
+
+*
+{
+    #font-family: 'Lobster', cursive;
+    #font-family: 'Comfortaa', cursive;
+    #font-family: 'Philosopher', sans-serif;
+    #font-family: 'Marck Script', cursive;
+    #font-family: 'Neucha', cursive;
+    font-family: 'Marmelad', sans-serif;
+    #font-family: 'Kurale', serif;
+}
+
+.post-body h2,
+.navbar-brand,
+.char-name
+{
+    #font-family: 'Lobster', cursive;
+    #font-family: 'Comfortaa', cursive;
+    #font-family: 'Philosopher', sans-serif;
+    #font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
+    #font-family: 'Marmelad', sans-serif;
+    #font-family: 'Kurale', serif;
+}
+
+.char-menu {
+    margin-top: 10px;
+}
+

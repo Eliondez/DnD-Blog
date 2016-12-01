@@ -14,20 +14,20 @@ def story_list(request):
     post_list = Post.objects.all().order_by('-timestamp')
     chars = Character.objects.all()
 
-    # paginator = Paginator(post_list, 3)
-    # page = request.GET.get('page')
-    # try:
-    #     queryset = paginator.page(page)
-    # except PageNotAnInteger:
-    #     # If page is not an integer, deliver first page.
-    #     queryset = paginator.page(1)
-    # except EmptyPage:
-    #     # If page is out of range (e.g. 9999), deliver last page of results.
-    #     queryset = paginator.page(paginator.num_pages)
+    paginator = Paginator(post_list, 6)
+    page = request.GET.get('page')
+    try:
+        queryset = paginator.page(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page.
+        queryset = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+        queryset = paginator.page(paginator.num_pages)
 
     context = {
         'chars': chars,
-        'queryset': post_list,
+        'queryset': queryset,
         'section': 'story_list'
     }
     return render(request, 'bolders/index.html', context)
