@@ -1,5 +1,4 @@
 import requests
-import unittest
 from bs4 import BeautifulSoup
 
 page = 0
@@ -34,36 +33,11 @@ def get_jobs():
         return False
     return True
 
-def is_even(number):
-    ''' Returns True if **number** is even or False if it is odd. '''
-    return number % 2
-
-class FirstTestCase(unittest.TestCase):
-    def even_ints(self):
-        self.assertEqual(True, is_even(2))
-        self.assertEqual(False, is_even(3))
-
-a = FirstTestCase()
-a.even_ints()
-
-
-
-res_query = Product.objects.filter(Q(sku__contains = q) | Q(name__contains = q) | Q(description__contains = q))
-res_json = serializers.serialize('json', res_query)
-return HttpResponse(res_json, content_type='application/json')
-
-# while True:
-#     a = get_jobs()
-#     page += 1
-#     payload = {'text': 'python',
-#            'metro': '6',
-#            'page': str(page)}
-#     if not a:
-#         break
-
-r = requests.get('https://www.python.org/')
-soup = BeautifulSoup(r.text, 'html.parser')
-needed_div = soup.select_one(".shrubbery")
-
-for item in needed_div.find_all('li'):
-    print(item.find('a').string)
+while True:
+    a = get_jobs()
+    page += 1
+    payload = {'text': 'python',
+           'metro': '6',
+           'page': str(page)}
+    if not a:
+        break

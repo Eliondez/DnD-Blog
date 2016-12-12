@@ -11,9 +11,9 @@ def main_view(request):
     context = {
         'achievments': Achievment.objects.all(),
     }
-    data_json = serializers.serialize('json', Achievment.objects.all())
-    return HttpResponse(data_json, content_type='application/json')
-    #return render(request, 'campaign/base2.html', context)
+    # data_json = serializers.serialize('json', Achievment.objects.all())
+    # return HttpResponse(data_json, content_type='application/json')
+    return render(request, 'campaign/base2.html', context)
 
 
 def story_list(request):

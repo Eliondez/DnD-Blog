@@ -19,11 +19,15 @@ from django.conf.urls.static import static
 from django.conf import settings
 #from bolders import views
 from campaign import views
+from accounts.views import login_view, register_view, logout_view
 
 urlpatterns = [
     url(r'^campaign/', include('campaign.urls')),
     url(r'^bolders/', include('bolders.urls')),
     url(r'^admin/', admin.site.urls),
+    url(r'^login/', login_view, name='login'),
+    url(r'^logout/', logout_view, name='logout'),
+    url(r'^register/', register_view, name='register'),
     url(r'^$', views.main_view),
 ]
 
