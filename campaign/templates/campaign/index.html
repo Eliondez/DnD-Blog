@@ -1,0 +1,40 @@
+{% extends 'bolders/base.html' %}
+
+{% block title %}Дерзоблог{% endblock %}
+
+{% block content %}
+{% for itm in queryset %}
+    <div class="panel panel-default">
+        <div class="panel-body post-body">
+            <h2><a href="{{ itm.get_absolute_url }}">{{ itm.title }}</a></h2>
+            <h6>{{ itm.ingamedate }}</h6>
+            <p>{{ itm.content|linebreaks|truncatechars:280 }}</p>
+            <p><a href="{{ itm.get_absolute_url }}" class="btn btn-primary">Далее...</a></p>
+        </div>
+    </div>
+{% endfor %}
+
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+    <li {% if not queryset.has_previous %}class="disabled"{% endif %}>
+      {% if queryset.has_previous %}
+      <a href="?page={{ queryset.previous_page_number }}" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+      {% else %}
+      <span aria-hidden="true">&laquo;</span>
+      {% endif %}
+    </li>
+    <li><span>{{ queryset.number }}</span></li>
+    <li {% if not queryset.has_next %}class="disabled"{% endif %}>
+      {% if queryset.has_next %}
+      <a href="?page={{ queryset.next_page_number }}" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+      {% else %}
+      <span aria-hidden="true">&raquo;</span>
+      {% endif %}
+    </li>
+  </ul>
+</nav>
+{% endblock %}

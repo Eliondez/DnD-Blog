@@ -3,32 +3,21 @@
 {% block title %}{{ char.name }}{% endblock %}
 
 {% block content %}
-<style>
-.f-class {
-    color: #ccc;
-}
-.s-class {
-    color: #f00;
-}
-</style>
-
 <div class="panel panel-default">
     <div class="panel-body">
         <h2>{{ char.name }}</h2>
         <span class="char-class">{{ char.char_class }} {{ char.get_current_level }}</span>
         <div ng-init='tab = 1'>
-            <div class="char-menu">
+            <div class="char-menu" ng-controller="CharPanelController as cPanel">
                 <ul class="nav nav-tabs">
-                  <li><a href="#">Описание</a></li>
-                  <li><a href="#">Характеристики</a></li>
-                  <li><a href="#">Фото</a></li>
+                  <li ng-class="{active:cPanel.isSelected(1)}"><a href ng-click="cPanel.selectTab(1)">Описание</a></li>
+                  <li ng-class="{active:cPanel.isSelected(2)}"><a href ng-click="cPanel.selectTab(2)">Характеристики</a></li>
+                  <li ng-class="{active:cPanel.isSelected(3)}"><a href ng-click="cPanel.selectTab(3)">Фото</a></li>
                 </ul>
-                <div>
-                    <input type="text" ng-model="s1n" />
-                    {% verbatim %}
-                    <blog-list></blog-list>
-                    {% endverbatim %}
-                    {% lorem 5 p random%}
+                <div ng-show='cPanel.isSelected(1)'>
+                    <h3>{{ smfn }}</h3>
+                    <input type="text" ng-model="smfn" />
+                    <p>{% lorem 5 p random%}</p>
                 </div>
                 <div ng-show='cPanel.isSelected(2)'>
                     <p>{% lorem 5 p random%}</p>

@@ -80,4 +80,3 @@ def char_detail(request, id=0):
     }
     return render(request, 'bolders/char_detail.html', context)
 
-# Create your views here.

@@ -13,20 +13,12 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
-from django.conf.urls import url, include
+from django.conf.urls import url
 from django.contrib import admin
-from django.conf.urls.static import static
-from django.conf import settings
-#from bolders import views
-from campaign import views
+from . import views
 
 urlpatterns = [
-    url(r'^campaign/', include('campaign.urls')),
-    url(r'^bolders/', include('bolders.urls')),
-    url(r'^admin/', admin.site.urls),
-    url(r'^$', views.main_view),
+    #url(r'^(?P<id>[0-9]+)/$', views.campaign_detail, name='campaign_detail'),
+    #url(r'^story/(?P<id>[0-9]+)/$', views.story_detail, name='story_detail'),
+    url(r'^character/(?P<id>\d+)/$', views.char_detail, name='char_detail'),
 ]
-
-if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

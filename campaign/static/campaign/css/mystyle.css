@@ -1,0 +1,155 @@
+body {
+	background: url(../images/bg.png);
+	margin-top: 80px;
+}
+
+.char-name {
+	font-size: 32px;
+}
+.char-logo {
+	margin: 10px auto;
+    width: 150px;
+    height: 150px;
+}
+
+.char-logo img {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	background-color: #ccc;
+}
+
+.char-content {
+}
+
+.char-name {
+	margin-top: 40px;
+}
+
+.panel-default {
+
+}
+
+.panel-body p {
+	text-align: justify;
+}
+
+.panel {
+	border-radius: 10px;
+}
+
+img.full-body {
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px;
+    max-width: 90%;
+}
+
+.char-panel a {
+    text-decoration: none;
+    color: black;
+}
+
+.char-panel a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.prevlink {
+    display: inline-block;
+    float: left;
+}
+
+.nextlink {
+    display: inline-block;
+    float: right;
+}
+
+.main-logo {
+    max-width: 100px;
+}
+
+.main-itm img{
+    width: 100%;
+    border-radius: 10px;
+}
+.main-itm h2, .main-itm p{
+    text-align: center;
+}
+
+*
+{
+    #font-family: 'Lobster', cursive;
+    #font-family: 'Comfortaa', cursive;
+    #font-family: 'Philosopher', sans-serif;
+    #font-family: 'Marck Script', cursive;
+    #font-family: 'Neucha', cursive;
+    font-family: 'Marmelad', sans-serif;
+    #font-family: 'Kurale', serif;
+}
+
+.post-body h2,
+.navbar-brand,
+.char-name
+{
+    #font-family: 'Lobster', cursive;
+    #font-family: 'Comfortaa', cursive;
+    #font-family: 'Philosopher', sans-serif;
+    #font-family: 'Marck Script', cursive;
+    font-family: 'Neucha', cursive;
+    #font-family: 'Marmelad', sans-serif;
+    #font-family: 'Kurale', serif;
+}
+
+.char-menu {
+    margin-top: 10px;
+}
+
+.marketing {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.achievment {
+  width: 400px;
+  background-color: #ddd;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.achievment:hover {
+  background-color: #bbb;
+}
+.achievment a {
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  text-decoration: none;
+  color: #555;
+}
+
+.ach-image {
+  float: left;
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #222;
+  border-radius: 2px;
+  box-shadow: #222 0 0 14px;
+  overflow: hidden;
+}
+
+.ach-content {
+  padding-left: 16px;
+  #padding-top: 16px;
+  overflow: hidden;
+}
+
+.ach-content h2 {
+  font-size: 20px;
+  margin: 0;
+}

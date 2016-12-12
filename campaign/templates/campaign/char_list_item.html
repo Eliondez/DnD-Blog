@@ -1,0 +1,17 @@
+<div class="char-panel panel panel-default">
+    <div class="panel-body">
+        <a href="{{ char.get_absolute_url }}">
+        <div class="char-logo">
+            <img src="{{ char.photo.url }}">
+        </div>
+        <div class="char-content">
+        <span class="char-name">{{ char.name }}</span><br>
+        <span class="char-class">{{ char.char_class }} {{ char.get_current_level }}</span>
+          <div class="progress">
+              <div class="progress-bar progress-bar-success role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: {{  char.to_next_level }}%">
+              </div>
+          </div>
+        </div>
+        </a>
+    </div>
+</div>

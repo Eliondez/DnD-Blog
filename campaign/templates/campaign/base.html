@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app='try'>
+<html lang="en" ng-app='char-app'>
 <head>
     <meta charset="UTF-8">
     <title>{% block title %}Title{% endblock %}</title>
@@ -10,11 +10,7 @@
     {% load staticfiles %}
     <link rel="stylesheet" href="{% static 'bolders/css/mystyle.css' %}">
     <script src="{% static 'bolders/js/angular.min.js' %}"></script>
-    <!--<script src="{% static 'bolders/js/app.js' %}"></script>-->
-    <script src="{% static 'bolders/js/app.module.js' %}"></script>
-    <script src="{% static 'bolders/js/app.config.js' %}"></script>
-    <script src="{% static 'bolders/js/blog-list.module.js' %}"></script>
-    <script src="{% static 'bolders/js/blog-list.component.js' %}"></script>
+    <script src="{% static 'bolders/js/app.js' %}"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Kurale|Lobster|Marck+Script|Marmelad|Neucha|Philosopher" rel="stylesheet">
     <!-- Latest compiled and minified JavaScript -->

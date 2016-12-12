@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='char-app'>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src='./angular.min.js'></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- <script src='./app.module.js'></script>
+	<script src='./app.config.js'></script>
+	<script src='./blog-list/blog-list.module.js'></script>
+	<script src='./blog-list/blog-list.component.js'></script> -->
+	<script src='app.js'></script>
+	<style>
+		body {
+			background-color: rgb(247, 247, 247);
+		}
+		.one-class {
+			font-size: {{ font }}px;
+		}
+		.two-class {
+			font-size: 12px;
+		}
+	</style>
+</head>
+<body>
+	<div class="panel panel-default" ng-init='tab = 1'>
+		<div class="panel-body">
+			<ul class="nav nav-tabs">
+			  <li ng-class="{active:tab === 1}"><a href ng-click="tab = 1">Home</a></li>
+			  <li ng-class="{active:tab === 2}"><a href ng-click="tab = 2">Profile</a></li>
+			  <li ng-class="{active:tab === 3}"><a href ng-click="tab = 3">Messages</a></li>
+			</ul>
+			<div class="" ng-show='tab === 1'>
+				<h4>Description</h4>
+				<p>{{ product.description }}</p>
+			</div>
+			<div class="" ng-show='tab === 2'>
+				<h4>Description2</h4>
+				<p>{{ product.description }}</p>
+			</div>
+			<div class="" ng-show='tab === 3'>
+				<h4>Description3</h4>
+				<p>{{ product.description }}</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
