@@ -19,8 +19,8 @@ from django.contrib import admin
 from . import views
 
 urlpatterns = [
-    url(r'^create/$', views.story_create, name='story_create'),
-    url(r'^(?P<id>[0-9]+)/$', views.story_detail, name='story_detail'),
-    url(r'^character/(?P<id>\d+)/$', views.char_detail, name='char_detail'),
-    url(r'^', views.story_list, name='story_list'),
+    url(r'^create/$', views.story_create),
+    url(r'^(?P<id>[0-9]+)/$', views.story_detail),
+    url(r'^character/(?P<id>\d+)/$', views.char_detail),
+    url(r'^', views.story_list),
 ]

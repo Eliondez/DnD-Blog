@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="char-panel panel panel-default">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>{{ campaign.title }}</h2>
+                </div>
+                <div class="col-sm-4">
+                    <h4>Мастер - {{ campaign.master.user.username }}</h4>
+                    <h4>Начата {{ campaign.started|date }}</h4>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-default pull-right" href="{% url 'campaign_detail' campaign.id %}" role="button">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+{% for story in stories %}
+    <div class="char-panel panel panel-default">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2>{{ story.title }}</h2>
+                    <h4>{{ story.ingamedate|date }}</h4>
+                </div>
+                <div class="col-sm-2">
+                    {% if request.user.profile == campaign.master %}
+                    <a class="btn btn-default pull-right" href="{% url 'edit_story' campaign.id story.id %}" role="button">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>{{ story.content }}</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+{% endfor %}
+{% endblock content %}
+
+
+

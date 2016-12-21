@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Campaign, Achievment, Character
+from .models import Campaign, Story
 
 class CampaignAdmin(admin.ModelAdmin):
     list_display = ('title', 'rp_system', 'description', 'started', 'ended')
@@ -8,5 +8,5 @@ class CampaignAdmin(admin.ModelAdmin):
         model = Campaign
 
 admin.site.register(Campaign, CampaignAdmin)
-admin.site.register(Achievment)
-admin.site.register(Character)
+admin.site.register(Story)
+

@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block title %}Профиль{% endblock %}
+
+{% block content %}
+<div class="row featurette">
+    <div class='col-sm-12'>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2>Персонажи</h2>
+                <table class="table table-bordered text-center">
+                    <tr>
+                        <th class="text-center">Имя</th>
+                        <th class="text-center">Класс</th>
+                        <th class="text-center">Кампания</th>
+                        <th class="text-center">Опции</th>
+                    </tr>
+                {% for char in char_list %}
+                    <tr>
+                        <td>{{ char.name }}</td>
+                        <td>{{ char.char_class }}</td>
+                        <td>{% firstof char.campaign.title 'Нет кампании' %}</td>
+                        <td>
+                            <a class="btn btn-default" href="{% url 'char_detail' char.id %}" role="button">
+                                <span class="glyphicon glyphicon-search"></span></a>
+                            <a class="btn btn-default" href="{% url 'char_edit' char.id %}" role="button">
+                                <span class="glyphicon glyphicon-cog"></span></a>
+                            <a class="btn btn-default" href="{% url 'char_delete' char.id %}" role="button">
+                                <span class="glyphicon glyphicon-trash"></span>
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </table>
+                <a class="btn btn-default" href="{% url 'char_create' %}" role="button">Добавить персонажа</a>
+            </div>
+        </div>
+    </div>
+    <div class='col-sm-12'>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2>Кампании</h2>
+                <table class="table table-bordered">
+                    <tr>
+                        <th class="text-center">Название</th>
+                        <th class="text-center">Система</th>
+                        <th class="text-center">Начата</th>
+                        <th class="text-center">Закончена</th>
+                        <th class="text-center">Игроки</th>
+                        <th class="text-center">Опции</th>
+                    </tr>
+                {% for campaign in campaign_list %}
+                    <tr>
+                        <td>{{ campaign.title }}</td>
+                        <td>{{ campaign.rp_system }}</td>
+                        <td>
+                            {% if campaign.started %}
+                                {{ campaign.started|date }}
+                            {% else %}
+                                <a class="btn btn-default" href="{% url 'campaign_start' campaign.id %}" role="button">Начать</a>
+                            {% endif %}
+                        </td>
+                        <td>
+                            {% if campaign.ended %}
+                                {{ campaign.ended|date }}
+                            {% else %}
+                                <a class="btn btn-default" href="{% url 'campaign_end' campaign.id %}" role="button">Завершить</a>
+                            {% endif %}
+                        </td>
+                        <td>{{ campaign.character_set.all|length }}<td>
+                            <a class="btn btn-default" href="{% url 'create_story' campaign.id %}" role="button">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                            </a>
+                            <a class="btn btn-default" href="{% url 'story_list' campaign.id %}" role="button">
+                                <span class="glyphicon glyphicon-menu-hamburger"></span>
+                            </a>
+                            <a class="btn btn-default" href="{% url 'campaign_detail' campaign.id %}" role="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </a>
+                        </td>
+                    </tr>
+                {% endfor %}
+                </table>
+                <a class="btn btn-default" href="{% url 'campaign_create' %}" role="button">Начать новую</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

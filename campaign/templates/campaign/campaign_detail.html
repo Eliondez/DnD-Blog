@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ campaign.title }}{% endblock %}
+
+{% block content %}
+<div class="panel panel-default">
+    <div class="panel-body">
+        <h2>{{ campaign.title }}</h2>
+        <span class="char-class">{{ campaign.rp_system }}</span>
+        <div>
+            <div class="char-menu" ng-controller="CharPanelController as cPanel">
+                <ul class="nav nav-tabs"  ng-init='cPanel.selectTab({{ panel }})'>
+                  <li ng-class="{active:cPanel.isSelected(1)}"><a href ng-click="cPanel.selectTab(1)">Описание</a></li>
+                  <li ng-class="{active:cPanel.isSelected(2)}"><a href ng-click="cPanel.selectTab(2)">Персонажи</a></li>
+                </ul>
+                <div ng-show='cPanel.isSelected(1)'>
+                    <br>
+                    <p>{{ campaign.description }}</p>
+                </div>
+                <div ng-show='cPanel.isSelected(2)'>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <h2>Персонажи в кампании:</h2>
+                            <!--<div class="list-group">-->
+                            <div class="btn-group" role="group" aria-label="...">
+                              {% for char in chars %}
+                                {% if can_edit %}
+                                    <a href="{% url 'char_detail' char.id %}" class="btn btn-default my-btn">
+                                {{ char.name }} ({{ char.char_class }})</a>
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="glyphicon glyphicon-cog"></span>
+                                  </button>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="{% url 'rem_char_from_campaign' campaign.id char.id %}">Исключить</a></li>
+                                  </ul>
+                                </div>
+                                {% else %}
+                                    <a href="{% url 'char_detail' char.id %}" class="btn btn-default my-btn">
+                                {{ char.name }} ({{ char.char_class }})</a>
+                                {% endif %}
+                                <br><br>
+                              {% endfor %}
+                            </div>
+                            <!--</div>-->
+                        </div>
+                        <div class="col-sm-6">
+                            {% if can_edit %}
+                            <h2>Свободные персонажи:</h2>
+                            <div class="btn-group" role="group" aria-label="...">
+                              {% for char in available_chars %}
+                                    <a href="{% url 'char_detail' char.id %}" class="btn btn-default my-btn">
+                                {{ char.name }} ({{ char.char_class }})</a>
+                                <div class="btn-group">
+                                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="glyphicon glyphicon-cog"></span>
+                                  </button>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="{% url 'add_char_to_campaign' campaign.id char.id %}">Принять</a></li>
+                                  </ul>
+                                </div>
+                                <br><br>
+                              {% endfor %}
+                            </div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

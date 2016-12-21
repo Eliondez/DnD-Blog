@@ -19,6 +19,14 @@ body {
 	background-color: #ccc;
 }
 
+img.small-logo  {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	background-color: #ccc;
+	float: left;
+}
+
 .char-content {
 }
 
@@ -84,8 +92,8 @@ img.full-body {
     #font-family: 'Philosopher', sans-serif;
     #font-family: 'Marck Script', cursive;
     #font-family: 'Neucha', cursive;
-    font-family: 'Marmelad', sans-serif;
-    #font-family: 'Kurale', serif;
+    #font-family: 'Marmelad', sans-serif;
+    font-family: 'Kurale', serif;
 }
 
 .post-body h2,
@@ -152,4 +160,21 @@ img.full-body {
 .ach-content h2 {
   font-size: 20px;
   margin: 0;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+.my-btn {
+    min-width: 200px;
+}
+
+.campaign-title {
+    background: url(https://us.battle.net/forums/static/images/game-logos/game-logo-sc2.png);
+    background-position: center;
+    background-size: cover;
+    color: #eee;
+    border-radius: 10px;
+    height: 100px;
 }
