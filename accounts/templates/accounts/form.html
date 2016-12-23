@@ -3,6 +3,7 @@
 {% block title %}{{ char.name }}{% endblock %}
 
 {% block content %}
+{% load bootstrap3 %}
 <div class="row featurette">
     <div class='col-sm-4 col-sm-offset-4'>
         <h1>{{ title }}</h1>
@@ -10,7 +11,7 @@
 
         <form method="post" action="" enctype="multipart/form-data">
           {% csrf_token %}
-          {{ form.as_p }}
+          {% bootstrap_form form %}
           <button type="submit" class="btn btn-default">{{ btn_text }}</button>
         </form>
     </div>

@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.core.urlresolvers import reverse
 from django.http import HttpResponseRedirect
-from django.views.generic.edit import CreateView
+from django.views.generic.edit import CreateView, UpdateView
 from django.views.generic.base import ContextMixin
 from django.views.generic import ListView, TemplateView
 
@@ -19,79 +19,45 @@ class MainContext(ContextMixin):
         context['active_campaign_list'] = Campaign.objects.filter(started__isnull=False)
         return context
 
+
 class MainView(TemplateView, MainContext):
     template_name = 'base.html'
 
-def main_view(request):
-    campaigns = Campaign.objects.filter(started__isnull=False)
-    context = {
-        'active_campaign_list': campaigns,
-    }
-    return render(request, 'base.html', context)
 
-def campaign_detail(request, id=0):
-    campaigns = Campaign.objects.filter(started__isnull=False)
-    campaign = get_object_or_404(Campaign, id=id)
-    chars = campaign.character_set.all()
-    available_chars = Character.objects.filter(campaign__isnull=True)
-    can_edit = (request.user == campaign.master.user)
-    panel = request.GET.get('panel', '1')
-    context = {
-        'panel': panel,
-        'active_campaign_list': campaigns,
-        'campaign': campaign,
-        'chars': chars,
-        'available_chars': available_chars,
-        'can_edit': can_edit
-    }
-    return render(request, 'campaign/campaign_detail.html', context)
+class CampaignDetail(TemplateView, MainContext):
+    template_name = 'campaign/campaign_detail.html'
 
-def campaign_edit(request, id=0):
-    campaigns = Campaign.objects.filter(started__isnull=False)
-    campaign = get_object_or_404(Campaign, id=id)
-    if request.user != campaign.master.user:
-        return redirect('/')
-    title = 'Редактирование кампании'
-    button_text = 'Обновить'
-    if request.method == 'POST':
-        form = CampaignForm(request.POST, instance=campaign)
-        if form.is_valid():
-            # Create a new user object but avoid saving it yet
-            form.save()
+    def get_context_data(self, **kwargs):
+        context = super(CampaignDetail, self).get_context_data(**kwargs)
+        context['panel'] = self.request.GET.get('panel', '1')
+        context['campaign'] = get_object_or_404(Campaign, id=kwargs['id'])
+        context['chars'] = context['campaign'].character_set.all()
+        context['available_chars'] = Character.objects.filter(campaign__isnull=True)
+        context['can_edit'] = (self.request.user == context['campaign'].master.user)
+        return context
+
+
+class CampaignCreate(CreateView, MainContext):
+    model = Campaign
+    template_name = 'campaign/campaign_create.html'
+    success_url = '/' #reverse('home')
+    fields = ['title', 'rp_system', 'description']
+
+    def form_valid(self, form):
+        form.instance.master = self.request.user.profile
+        return super(CampaignCreate, self).form_valid(form)
+
+
+class CampaignEdit(UpdateView, MainContext):
+    model = Campaign
+    template_name = 'campaign/campaign_create.html'
+    pk_url_kwarg = 'id'
+    fields = ['title', 'rp_system', 'description']
+    def post(self, request, *args, **kwargs):
+        if request.user != Campaign.objects.get(id=self.kwargs['id']).master.user:
             return redirect('home')
-    else:
-        form = CampaignForm(instance=campaign)
-        context = {
-            'active_campaign_list': campaigns,
-            'form': form,
-            'title': title,
-            'btn_text': button_text,
-        }
-    return render(request, 'campaign/campaign_create.html', context)
+        return super(CampaignEdit, self).post(request, *args, **kwargs)
 
-def campaign_create(request):
-    campaigns = Campaign.objects.filter(started__isnull=False)
-    title = 'Создание новой кампании'
-    button_text = 'Создать'
-    if request.method == 'POST':
-        form = CampaignForm(request.POST)
-        if form.is_valid():
-            # Create a new user object but avoid saving it yet
-            campaign = form.save(commit=False)
-            # Set the chosen password
-            campaign.master = request.user.profile
-            campaign.save()
-            # Create the user profile
-            return redirect('home')
-    else:
-        form = CampaignForm()
-        context = {
-            'active_campaign_list': campaigns,
-            'form': form,
-            'title': title,
-            'btn_text': button_text,
-        }
-    return render(request, 'campaign/campaign_create.html', context)
 
 
 def campaign_start(request, id=0):
@@ -144,7 +110,7 @@ def rem_char_from_campaign(request, campaign_id=0, character_id=0):
 class CampaignStoryListView(ListView, MainContext):
     template_name = 'campaign/story_list.html'
     context_object_name = 'stories'
-    # paginate_by = 2
+    paginate_by = 2
     campaign = None
 
     def get(self, request, *args, **kwargs):
@@ -160,18 +126,13 @@ class CampaignStoryListView(ListView, MainContext):
         return Story.objects.filter(campaign=self.campaign).order_by('-ingamedate').select_related('campaign', 'campaign__master', 'campaign__master__user')
 
 
-class CampaignStoryDetailView(TemplateView):
+class CampaignStoryDetailView(TemplateView, MainContext):
     template_name = 'campaign/story_detail.html'
 
     def get_context_data(self, **kwargs):
         context = super(CampaignStoryDetailView, self).get_context_data(**kwargs)
-        try:
-            context['pn'] = self.request.GET['page']
-        except:
-            context['pn'] = 1
-
+        context['pn'] = self.request.GET.get('page', '1')
         context['story'] = get_object_or_404(Story, pk = kwargs['story_id'])
-        context['active_campaign_list'] = Campaign.objects.filter(started__isnull=False)
         return context
 
 

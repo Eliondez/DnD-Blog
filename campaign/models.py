@@ -12,9 +12,9 @@ class Campaign(models.Model):
         ('d5e', 'DnD 5e'),
     )
 
-    rp_system = models.CharField(max_length=5,
-                             choices = PR_SYSTEM_CHOICES,
-                             default='no',
+    rp_system = models.CharField(max_length=50,
+                             #choices = PR_SYSTEM_CHOICES,
+                             default='Нет',
                              verbose_name='Система')
 
     description = models.TextField(verbose_name='Описание кампании')

@@ -2,9 +2,7 @@ from django import forms
 from .models import Character
 
 class CharacterForm(forms.ModelForm):
-    name = forms.CharField(label='Имя персонажа', widget=forms.TextInput(attrs={'class': 'form-control'}))
-    char_class = forms.CharField(label='Класс персонажа', widget=forms.TextInput(attrs={'class': 'form-control'}))
-    description = forms.CharField(label='Описание', widget=forms.Textarea(attrs={'class': 'form-control'}))
+
     photo = forms.FileField(label='Маленькое фото', required=False)
     photo_full = forms.FileField(label='Большое фото', required=False)
     class Meta:
@@ -16,3 +14,8 @@ class CharacterForm(forms.ModelForm):
             'photo',
             'photo_full',
         ]
+        labels = {
+            'name': 'Имя персонажа',
+            'char_class': 'Класс персонажа',
+            'description': 'Описание',
+        }

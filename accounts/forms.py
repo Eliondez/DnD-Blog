@@ -9,8 +9,8 @@ from django.contrib.auth import (
 User = get_user_model()
 
 class UserLoginForm(forms.Form):
-    username = forms.CharField(label='Имя пользователя', widget=forms.TextInput(attrs={'class': 'form-control'}))
-    password = forms.CharField(label='Пароль', widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+    username = forms.CharField(label='Имя пользователя')
+    password = forms.CharField(label='Пароль', widget=forms.PasswordInput())
 
     def clean(self):
         username = self.cleaned_data.get('username')
@@ -20,16 +20,14 @@ class UserLoginForm(forms.Form):
             user = authenticate(username=username, password=password)
             # print('Проверяем юзверя', username, password)
             if not user:
-                raise forms.ValidationError('Что-то пошло не так. Засните и проснитесь заново')
+                raise forms.ValidationError('Логин или пароль не подходят.')
             if not user.is_active:
                 raise forms.ValidationError('Пользователь заблокирован')
         return super(UserLoginForm, self).clean()
 
 class UserRegisterForm(forms.ModelForm):
-    username = forms.CharField(label='Имя пользователя', widget=forms.TextInput(attrs={'class': 'form-control'}))
-    email = forms.CharField(label='Почтовый адрес', widget=forms.TextInput(attrs={'class': 'form-control'}))
-    password = forms.CharField(label='Пароль', widget=forms.PasswordInput(attrs={'class': 'form-control'}))
-    password2 = forms.CharField(label='Пароль ещё раз', widget=forms.PasswordInput(attrs={'class': 'form-control'}))
+    password = forms.CharField(label='Пароль', widget=forms.PasswordInput())
+    password2 = forms.CharField(label='Пароль ещё раз', widget=forms.PasswordInput())
     class Meta:
         model = User
         fields = [
@@ -38,6 +36,10 @@ class UserRegisterForm(forms.ModelForm):
             'password',
             'password2',
         ]
+        labels = {
+            'username': 'Имя пользователя',
+            'email': 'Почтовый адрес',
+        }
 
     def clean_password2(self):
         pw = self.cleaned_data.get('password')

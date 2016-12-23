@@ -1,9 +1,11 @@
-from django.shortcuts import render
 from django.shortcuts import render, get_object_or_404, redirect
 
 from .models import Character
 from .forms import CharacterForm
 from campaign.models import Campaign
+from campaign.views import MainContext
+
+
 
 def char_detail(request, id=0):
     campaigns = Campaign.objects.filter(started__isnull=False)

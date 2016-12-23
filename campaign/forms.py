@@ -2,15 +2,11 @@ from django import forms
 from .models import Campaign, Story
 
 class CampaignForm(forms.ModelForm):
-    title = forms.CharField(label='Название', widget=forms.TextInput(attrs={'class': 'form-control'}))
     PR_SYSTEM_CHOICES = (
         ('no', 'None'),
         ('gp', 'GURPS'),
         ('d5e', 'DnD 5e'),
     )
-    rp_system = forms.CharField(label='Ролевая система', widget=forms.Select(choices=PR_SYSTEM_CHOICES))
-    description = forms.CharField(label='Описание', widget=forms.Textarea(attrs={'class': 'form-control'}))
-
     class Meta:
         model = Campaign
         fields = [
@@ -18,15 +14,27 @@ class CampaignForm(forms.ModelForm):
             'rp_system',
             'description',
         ]
+        labels = {
+            'title': 'Название',
+            'rp_system': 'Ролевая система',
+            'description': 'Описание',
+        }
 
 class StoryForm(forms.ModelForm):
+
     class Meta:
+        YEARS = [i for i in range(1, 2300)]
         model = Story
         fields = [
             'title',
             'content',
             'ingamedate',
         ]
+        labels = {
+            'title': 'Название',
+            'content': 'Текст',
+            'ingamedate': 'Дата',
+        }
         widgets = {
-            'ingamedate': forms.SelectDateWidget(),
+            'ingamedate': forms.SelectDateWidget(years=YEARS),
         }
