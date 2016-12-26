@@ -32,7 +32,7 @@
                                     <span class="glyphicon glyphicon-cog"></span>
                                   </button>
                                   <ul class="dropdown-menu">
-                                    <li><a href="{% url 'rem_char_from_campaign' campaign.id char.id %}">Исключить</a></li>
+                                    <li><a href="{% url 'campaign:rem_char_from_campaign' campaign_id=campaign.id character_id=char.id %}">Исключить</a></li>
                                   </ul>
                                 </div>
                                 {% else %}
@@ -56,7 +56,7 @@
                                     <span class="glyphicon glyphicon-cog"></span>
                                   </button>
                                   <ul class="dropdown-menu">
-                                    <li><a href="{% url 'add_char_to_campaign' campaign.id char.id %}">Принять</a></li>
+                                    <li><a href="{% url 'campaign:add_char_to_campaign' campaign_id=campaign.id character_id=char.id %}">Принять</a></li>
                                   </ul>
                                 </div>
                                 <br><br>

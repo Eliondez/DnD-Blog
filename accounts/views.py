@@ -38,7 +38,7 @@ def login_view(request):
             if not user:
                 return HttpResponse('Invalid login')
             login(request, user)
-            return redirect('/account')
+            return redirect('accounts:home')
         context = {
             'form': form,
             'title': title,
@@ -94,4 +94,4 @@ def register_view(request):
 
 def logout_view(request):
     logout(request)
-    return redirect('login')
+    return redirect('accounts:login')

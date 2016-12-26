@@ -12,10 +12,10 @@
         <img class="small-logo" src="{% static 'campaign/images/ph_small.jpg' %}">
         {% endif %}
         <h2>{{ char.name }}</h2>
-        <span class="char-class">{{ char.char_class }} {{ char.get_current_level }}</span>
+        <span class="char-class">{{ char.char_class }}</span>
         <h2>
         {% if char.campaign %}
-            Участвует в кампании <a href="{% url 'story_list' char.campaign.id %}">"{{ char.campaign.title }}"</a>
+            Участвует в кампании <a href="{% url 'campaign:story_list' char.campaign.id %}">"{{ char.campaign.title }}"</a>
         {% else %}
             Пока не участвует в кампании
             {% endif %}

@@ -6,14 +6,8 @@ from accounts.models import Profile
 class Campaign(models.Model):
     title = models.CharField(max_length=200, verbose_name='Название кампании')
     master = models.ForeignKey(Profile, null=True,blank=True)
-    PR_SYSTEM_CHOICES = (
-        ('no', 'None'),
-        ('gp', 'GURPS'),
-        ('d5e', 'DnD 5e'),
-    )
 
     rp_system = models.CharField(max_length=50,
-                             #choices = PR_SYSTEM_CHOICES,
                              default='Нет',
                              verbose_name='Система')
 
@@ -28,10 +22,10 @@ class Campaign(models.Model):
         return reverse('campaign_detail', kwargs={'id': self.id})
 
 class Story(models.Model):
-    title = models.CharField(max_length=200)
-    content = models.TextField()
-    ingamedate = models.DateField(blank=False)
-    posted = models.DateTimeField(auto_now_add=False, null=True)
+    title = models.CharField(max_length=200, verbose_name='Название')
+    content = models.TextField(verbose_name='Содержание')
+    ingamedate = models.DateField(blank=False, verbose_name='Внутриигровая дата')
+    posted = models.DateTimeField(auto_now_add=True, null=True)
     campaign = models.ForeignKey(Campaign, null=True)
 
     def get_next(self):

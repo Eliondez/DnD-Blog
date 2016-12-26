@@ -18,18 +18,19 @@ from django.contrib import admin
 from django.contrib.auth.decorators import login_required
 from . import views
 
+app_name = 'campaign'
 #campaign/
 urlpatterns = [
-    url(r'^(?P<campaign_id>\d+)/addchar/(?P<character_id>\d+)/', views.add_char_to_campaign, name='add_char_to_campaign'),
-    url(r'^(?P<campaign_id>\d+)/removechar/(?P<character_id>\d+)/', views.rem_char_from_campaign, name='rem_char_from_campaign'),
-    url(r'^(?P<campaign_id>\d+)/deletestory/(?P<story_id>\d+)/', views.DeleteStory.as_view(), name='delete_story'),
-    url(r'^(?P<campaign_id>\d+)/editstory/(?P<story_id>\d+)/', views.edit_story, name='edit_story'),
-    url(r'^(?P<campaign_id>\d+)/createstory/', views.create_story, name='create_story'),
+    url(r'^(?P<campaign_id>\d+)/addchar/(?P<character_id>\d+)/', login_required(views.AddCharToCampaignView.as_view()), name='add_char_to_campaign'),
+    url(r'^(?P<campaign_id>\d+)/removechar/(?P<character_id>\d+)/', login_required(views.LeaveCampaignView.as_view()), name='rem_char_from_campaign'),
+    url(r'^(?P<campaign_id>\d+)/deletestory/(?P<story_id>\d+)/', login_required(views.StoryDelete.as_view()), name='delete_story'),
+    url(r'^(?P<campaign_id>\d+)/editstory/(?P<story_id>\d+)/', login_required(views.StoryEdit.as_view()), name='edit_story'),
+    url(r'^(?P<campaign_id>\d+)/createstory/', login_required(views.StoryCreate.as_view()), name='create_story'),
     url(r'^(?P<campaign_id>\d+)/$', views.CampaignStoryListView.as_view(), name='story_list'),
-    # url(r'^(?P<id>\d+)/detail/', views.campaign_detail, name='campaign_detail'),
+
     url(r'^(?P<id>\d+)/detail/', views.CampaignDetail.as_view(), name='campaign_detail'),
-    url(r'^(?P<id>\d+)/end/', login_required(views.campaign_end), name='campaign_end'),
-    url(r'^(?P<id>\d+)/start/', login_required(views.campaign_start), name='campaign_start'),
+    url(r'^(?P<id>\d+)/end/', login_required(views.CampaignEnd.as_view()), name='campaign_end'),
+    url(r'^(?P<id>\d+)/start/', login_required(views.CampaignStart.as_view()), name='campaign_start'),
     url(r'^(?P<id>\d+)/edit/', login_required(views.CampaignEdit.as_view()), name='campaign_edit'),
     url(r'^create/', login_required(views.CampaignCreate.as_view()), name='campaign_create'),
     # url(r'^', include('campaign.urls')),

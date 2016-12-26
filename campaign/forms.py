@@ -15,7 +15,7 @@ class CampaignForm(forms.ModelForm):
             'description',
         ]
         labels = {
-            'title': 'Название',
+            'title': 'Назasdaвание',
             'rp_system': 'Ролевая система',
             'description': 'Описание',
         }

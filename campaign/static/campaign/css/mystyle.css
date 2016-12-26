@@ -43,7 +43,7 @@ img.small-logo  {
 }
 
 .panel {
-	border-radius: 10px;
+	#border-radius: 10px;
 }
 
 img.full-body {

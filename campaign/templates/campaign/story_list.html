@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
 {% load bootstrap3 %}
-    <div class="char-panel panel panel-default">
+    <div class="char-panel panel panel-primary">
+        <!--<div class="panel-heading">-->
+            <!--<span class="panel-title">{{ campaign.title }}</span>-->
+        <!--</div>-->
         <div class="panel-body">
             <div class="row">
                 <div class="col-sm-6">
@@ -9,10 +12,10 @@
                 </div>
                 <div class="col-sm-4">
                     <h4>Мастер - {{ campaign.master.user.username }}</h4>
-                    <h4>Начата {{ campaign.started|date }}</h4>
+                    <h4 class="text-muted">Начата {{ campaign.started|date }}</h4>
                 </div>
                 <div class="col-sm-2">
-                    <a class="btn btn-default pull-right" href="{% url 'campaign_detail' campaign.id %}" role="button">
+                    <a class="btn btn-default btn-sm pull-right" href="{% url 'campaign:campaign_detail' campaign.id %}" role="button">
                         <span class="glyphicon glyphicon-search"></span>
                     </a>
                 </div>
@@ -29,15 +32,40 @@
                 </div>
                 <div class="col-sm-2">
                     {% if request.user.profile == campaign.master %}
-                    <a class="btn btn-default pull-right" href="{% url 'edit_story' campaign.id story.id %}" role="button">
-                        <span class="glyphicon glyphicon-pencil"></span>
-                    </a>
+                    <div class="dropdown pull-right">
+                      <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        <span class="glyphicon glyphicon-option-vertical"></span>
+                      </button>
+                      <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="{% url 'campaign:edit_story' campaign.id story.id %}">Редактировать</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModal{{ story.id }}">Удалить</a></li>
+                      </ul>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal{{ story.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Удаление записи</h4>
+                          </div>
+                          <div class="modal-body">
+                            Вы уверены, что хотите удалить запись "{{ story.title }}"?
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                            <a href="{% url 'campaign:delete_story' campaign_id=campaign.id story_id=story.id %}" class="btn btn-danger">Удалить</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                     {% endif %}
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <p>{{ story.content }}</p>
+                    <p>{{ story.content|linebreaks }}</p>
                 </div>
             </div>
 

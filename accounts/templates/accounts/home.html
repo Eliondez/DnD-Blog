@@ -57,31 +57,31 @@
                             {% if campaign.started %}
                                 {{ campaign.started|date }}
                             {% else %}
-                                <a class="btn btn-default" href="{% url 'campaign_start' campaign.id %}" role="button">Начать</a>
+                                <a class="btn btn-default" href="{% url 'campaign:campaign_start' campaign.id %}" role="button">Начать</a>
                             {% endif %}
                         </td>
                         <td>
                             {% if campaign.ended %}
                                 {{ campaign.ended|date }}
                             {% else %}
-                                <a class="btn btn-default" href="{% url 'campaign_end' campaign.id %}" role="button">Завершить</a>
+                                <a class="btn btn-default" href="{% url 'campaign:campaign_end' campaign.id %}" role="button">Завершить</a>
                             {% endif %}
                         </td>
                         <td>{{ campaign.character_set.all|length }}<td>
-                            <a class="btn btn-default" href="{% url 'create_story' campaign.id %}" role="button">
+                            <a class="btn btn-default" href="{% url 'campaign:create_story' campaign.id %}" role="button">
                                 <span class="glyphicon glyphicon-pencil"></span>
                             </a>
-                            <a class="btn btn-default" href="{% url 'story_list' campaign.id %}" role="button">
+                            <a class="btn btn-default" href="{% url 'campaign:story_list' campaign.id %}" role="button">
                                 <span class="glyphicon glyphicon-menu-hamburger"></span>
                             </a>
-                            <a class="btn btn-default" href="{% url 'campaign_detail' campaign.id %}" role="button">
+                            <a class="btn btn-default" href="{% url 'campaign:campaign_detail' campaign.id %}" role="button">
                                 <span class="glyphicon glyphicon-search"></span>
                             </a>
                         </td>
                     </tr>
                 {% endfor %}
                 </table>
-                <a class="btn btn-default" href="{% url 'campaign_create' %}" role="button">Начать новую</a>
+                <a class="btn btn-default" href="{% url 'campaign:campaign_create' %}" role="button">Начать новую</a>
             </div>
         </div>
     </div>

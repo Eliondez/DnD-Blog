@@ -1,8 +1,8 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.core.urlresolvers import reverse
 from django.http import HttpResponseRedirect
-from django.views.generic.edit import CreateView, UpdateView
-from django.views.generic.base import ContextMixin
+from django.views.generic.edit import CreateView, UpdateView, DeleteView
+from django.views.generic.base import ContextMixin, RedirectView
 from django.views.generic import ListView, TemplateView
 
 from datetime import date
@@ -55,44 +55,55 @@ class CampaignEdit(UpdateView, MainContext):
     fields = ['title', 'rp_system', 'description']
     def post(self, request, *args, **kwargs):
         if request.user != Campaign.objects.get(id=self.kwargs['id']).master.user:
-            return redirect('home')
+            return redirect('accounts:home')
         return super(CampaignEdit, self).post(request, *args, **kwargs)
 
 
-
-def campaign_start(request, id=0):
-    campaign = get_object_or_404(Campaign, id=id)
-    if request.user != campaign.master.user:
-        return redirect('/')
-    if campaign.started:
-        return redirect('/')
-    campaign.started = date.today()
-    campaign.save()
-    return redirect('home')
+class CampaignStart(RedirectView):
+    def get_redirect_url(self, *args, **kwargs):
+        campaign = get_object_or_404(Campaign, pk=kwargs['id'])
+        if self.request.user != campaign.master.user or campaign.started:
+            return redirect('accounts:home')
+        campaign.started = date.today()
+        campaign.save()
+        return reverse('accounts:home')
 
 
-def campaign_end(request, id=0):
-    campaign = get_object_or_404(Campaign, id=id)
-    if request.user != campaign.master.user:
-        return redirect('/')
-    if campaign.ended:
-        return redirect('/')
-    campaign.ended = date.today()
-    campaign.save()
-    return redirect('home')
+class CampaignEnd(RedirectView):
+    def get_redirect_url(self, *args, **kwargs):
+        campaign = get_object_or_404(Campaign, id=kwargs['id'])
+        if self.request.user != campaign.master.user or campaign.started:
+            return redirect('accounts:home')
+        campaign.ended = date.today()
+        campaign.save()
+        return reverse('accounts:home')
+
+class AddCharToCampaignView(RedirectView):
+    def get_redirect_url(self, *args, **kwargs):
+        campaign = get_object_or_404(Campaign, id=kwargs['campaign_id'])
+        char = get_object_or_404(Character, id=kwargs['character_id'])
+        if char.campaign:
+            return redirect('/')
+        if not self.request.user == campaign.master.user:
+            return redirect('/')
+        char.campaign = campaign
+        char.save()
+        my_url = reverse('campaign:campaign_detail', kwargs={'id': campaign.id}) + '?panel=2'
+        return my_url
 
 
-def add_char_to_campaign(request, campaign_id=0, character_id=0):
-    campaign = get_object_or_404(Campaign, id=campaign_id)
-    char = get_object_or_404(Character, id=character_id)
-    if char.campaign:
-        return redirect('/')
-    if request.user != campaign.master.user:
-        return redirect('/')
-    char.campaign = campaign
-    char.save()
-    url = reverse('campaign_detail', kwargs={'id': campaign.id}) + '?panel=2'
-    return HttpResponseRedirect(url)
+class LeaveCampaignView(RedirectView):
+    def get_redirect_url(self, *args, **kwargs):
+        campaign = get_object_or_404(Campaign, id=kwargs['campaign_id'])
+        char = get_object_or_404(Character, id=kwargs['character_id'])
+        if not char.campaign:
+            return redirect('/')
+        if not self.request.user == campaign.master.user or not self.request.user == char.owner.user:
+            return redirect('/')
+        char.campaign = None
+        char.save()
+        my_url = reverse('campaign:campaign_detail', kwargs={'id': campaign.id}) + '?panel=2'
+        return my_url
 
 
 def rem_char_from_campaign(request, campaign_id=0, character_id=0):
@@ -103,14 +114,14 @@ def rem_char_from_campaign(request, campaign_id=0, character_id=0):
     if char.campaign == campaign:
         char.campaign = None
         char.save()
-    url = reverse('campaign_detail', kwargs={'id': campaign.id}) + '?panel=2'
+    url = reverse('campaign:campaign_detail', kwargs={'id': campaign.id}) + '?panel=2'
     return HttpResponseRedirect(url)
 
 
 class CampaignStoryListView(ListView, MainContext):
     template_name = 'campaign/story_list.html'
     context_object_name = 'stories'
-    paginate_by = 2
+    #paginate_by = 2
     campaign = None
 
     def get(self, request, *args, **kwargs):
@@ -135,60 +146,43 @@ class CampaignStoryDetailView(TemplateView, MainContext):
         context['story'] = get_object_or_404(Story, pk = kwargs['story_id'])
         return context
 
-
-def create_story(request, campaign_id=0):
-    campaigns = Campaign.objects.filter(started__isnull=False)
-    title = 'Новая история'
-    button_text = 'Создать'
-    if request.method == 'POST':
-        form = StoryForm(request.POST)
-        if form.is_valid():
-            # Create a new user object but avoid saving it yet
-            story = form.save(commit=False)
-            # Set the chosen password
-            campaign = Campaign.objects.get(id=campaign_id)
-            story.campaign = campaign
-            story.save()
-            # Create the user profile
-            return redirect('story_list', campaign_id=campaign.id)
-    else:
-        form = StoryForm()
-        context = {
-            'active_campaign_list': campaigns,
-            'form': form,
-            'title': title,
-            'btn_text': button_text,
-        }
-    return render(request, 'campaign/story_create.html', context)
-
-def edit_story(request, campaign_id=0, story_id=0):
-    campaigns = Campaign.objects.filter(started__isnull=False)
-    story = get_object_or_404(Story, id=story_id)
-    campaign = get_object_or_404(Campaign, id=campaign_id)
-    title = 'Ректирование истории'
-    button_text = 'Обновить'
-    if request.method == 'POST':
-        form = StoryForm(request.POST, instance=story)
-        if form.is_valid():
-            form.save()
-            return redirect('story_list', campaign_id=campaign.id)
-    else:
-        form = StoryForm(instance=story)
-        context = {
-            'active_campaign_list': campaigns,
-            'form': form,
-            'title': title,
-            'btn_text': button_text,
-        }
-    return render(request, 'campaign/story_create.html', context)
-
-class CreateStory(CreateView):
-    template_name = 'campaign/story_create.html'
+class StoryCreate(CreateView, MainContext):
     model = Story
-    fields = ['title']
+    template_name = 'campaign/story_create.html'
+    fields = ['title', 'content', 'ingamedate']
 
-class DeleteStory(ListView):
-    pass
+    def form_valid(self, form):
+        campaign = get_object_or_404(Campaign, pk=self.kwargs['campaign_id'])
+        if campaign.master != self.request.user.profile:
+            print('wrong user')
+            return redirect('accounts:home')
+        form.instance.campaign = campaign
+        form.save()
+        return redirect('accounts:home')
 
-class EditStory(ListView):
-    pass
+class StoryEdit(UpdateView, MainContext):
+    model = Story
+    template_name = 'campaign/story_create.html'
+    fields = ['title', 'content', 'ingamedate']
+    pk_url_kwarg = 'story_id'
+
+    def post(self, request, *args, **kwargs):
+        if not request.user == Story.objects.get(id=self.kwargs['story_id']).campaign.master.user:
+            return redirect('accounts:home')
+        return redirect('campaign:story_list', campaign_id=self.kwargs['campaign_id'])
+
+class StoryDelete(DeleteView):
+    model = Story
+    pk_url_kwarg = 'story_id'
+
+    def get(self, *args, **kwargs):
+        return self.post(*args, **kwargs)
+
+    def get_object(self, queryset=None):
+        obj = super(StoryDelete, self).get_object()
+        if not obj.campaign.master == self.request.user.profile:
+            return redirect('accounts:home')
+        return obj
+
+    def get_success_url(self):
+        return reverse('campaign:story_list', kwargs={'campaign_id': self.kwargs['campaign_id']})
