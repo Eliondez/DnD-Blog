@@ -30,6 +30,22 @@ class Character(models.Model):
     campaign = models.ForeignKey(Campaign, null=True, blank=True)
     owner = models.ForeignKey(Profile, null=True, blank=True)
 
+    def save(self, *args, **kwargs):
+        try:
+            this_record = Character.objects.get(id = self.id)
+            if this_record.photo != self.photo:
+                this_record.photo.delete(save = False)
+            if this_record.photo_full != self.photo_full:
+                this_record.photo_full.delete(save = False)
+        except:
+            pass
+        super(Character, self).save(*args, **kwargs)
+
+    def delete(self, *args, **kwargs):
+        self.photo.delete(save = False)
+        self.photo_full.delete(save = False)
+        super(Character, self).delete(*args, **kwargs)
+
     def __str__(self):
         return self.name
 

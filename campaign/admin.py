@@ -7,6 +7,12 @@ class CampaignAdmin(admin.ModelAdmin):
     class Meta:
         model = Campaign
 
+class StoryAdmin(admin.ModelAdmin):
+    list_display = ('title', 'ingamedate', 'posted', 'campaign')
+    search_fields = ['title', 'content']
+    class Meta:
+        model = Story
+
 admin.site.register(Campaign, CampaignAdmin)
-admin.site.register(Story)
+admin.site.register(Story, StoryAdmin)
 

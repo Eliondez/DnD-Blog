@@ -52,11 +52,11 @@
           <!--<form class="navbar-form navbar-left">-->
           <!--</form>-->
           <ul class="nav navbar-nav navbar-right">
-            {% if request.user.is_authenticated %}
-                <li><a href="{% url "accounts:home" %}"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Профиль</a></li>
+            {% if user.is_authenticated %}
+                <li><a href="{% url "accounts:home" %}"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Профиль ({{ user.username }})</a></li>
             {% endif %}
             <li>
-            {% if request.user.is_authenticated %}
+            {% if user.is_authenticated %}
                 <a href="{% url "accounts:logout" %}">Выйти</a>
             {% else %}
                 <a href="{% url "accounts:login" %}">Войти</a>

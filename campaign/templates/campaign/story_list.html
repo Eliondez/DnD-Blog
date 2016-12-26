@@ -31,7 +31,7 @@
                     <h4>{{ story.ingamedate|date }}</h4>
                 </div>
                 <div class="col-sm-2">
-                    {% if request.user.profile == campaign.master %}
+                    {% if user == campaign.master.user %}
                     <div class="dropdown pull-right">
                       <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         <span class="glyphicon glyphicon-option-vertical"></span>

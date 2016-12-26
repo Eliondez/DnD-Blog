@@ -106,18 +106,6 @@ class LeaveCampaignView(RedirectView):
         return my_url
 
 
-def rem_char_from_campaign(request, campaign_id=0, character_id=0):
-    campaign = get_object_or_404(Campaign, id=campaign_id)
-    char = get_object_or_404(Character, id=character_id)
-    if request.user != campaign.master.user:
-        return redirect('/')
-    if char.campaign == campaign:
-        char.campaign = None
-        char.save()
-    url = reverse('campaign:campaign_detail', kwargs={'id': campaign.id}) + '?panel=2'
-    return HttpResponseRedirect(url)
-
-
 class CampaignStoryListView(ListView, MainContext):
     template_name = 'campaign/story_list.html'
     context_object_name = 'stories'
@@ -134,7 +122,7 @@ class CampaignStoryListView(ListView, MainContext):
         return context
 
     def get_queryset(self):
-        return Story.objects.filter(campaign=self.campaign).order_by('-ingamedate').select_related('campaign', 'campaign__master', 'campaign__master__user')
+        return Story.objects.filter(campaign=self.campaign).select_related('campaign', 'campaign__master', 'campaign__master__user')
 
 
 class CampaignStoryDetailView(TemplateView, MainContext):

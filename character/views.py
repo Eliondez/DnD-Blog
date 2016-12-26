@@ -30,18 +30,21 @@ def char_edit(request, id=0):
     button_text = 'Обновить'
     if request.method == 'POST':
         form = CharacterForm(request.POST, request.FILES, instance=char)
+        print(char.photo)
         if form.is_valid():
             # Create a new user object but avoid saving it yet
+            #print('photo - ', request.FILES['photo'])
+            #print('Large_photo - ', request.FILES['photo_full'])
             form.save()
-            return redirect('home')
-    else:
-        form = CharacterForm(instance=char)
-        context = {
-            'active_campaign_list': campaigns,
-            'form': form,
-            'title': title,
-            'btn_text': button_text,
-        }
+            return redirect('accounts:home')
+
+    form = CharacterForm(instance=char)
+    context = {
+        'active_campaign_list': campaigns,
+        'form': form,
+        'title': title,
+        'btn_text': button_text,
+    }
     return render(request, 'character/char_create.html', context)
 
 def char_delete(request, id=0):
@@ -49,7 +52,7 @@ def char_delete(request, id=0):
     if request.user != char.owner.user:
         return redirect('/')
     char.delete()
-    return redirect('home')
+    return redirect('accounts:home')
 
 def char_create(request):
     campaigns = Campaign.objects.filter(started__isnull=False)
@@ -65,7 +68,7 @@ def char_create(request):
             char.exp = 0
             char.save()
             # Create the user profile
-            return redirect('home')
+            return redirect('accounts:home')
     else:
         form = CharacterForm()
         context = {

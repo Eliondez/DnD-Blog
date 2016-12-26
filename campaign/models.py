@@ -22,6 +22,9 @@ class Campaign(models.Model):
         return reverse('campaign_detail', kwargs={'id': self.id})
 
 class Story(models.Model):
+    class Meta:
+        ordering = ['-ingamedate', '-posted']
+
     title = models.CharField(max_length=200, verbose_name='Название')
     content = models.TextField(verbose_name='Содержание')
     ingamedate = models.DateField(blank=False, verbose_name='Внутриигровая дата')

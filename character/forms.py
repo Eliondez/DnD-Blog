@@ -19,3 +19,6 @@ class CharacterForm(forms.ModelForm):
             'char_class': 'Класс персонажа',
             'description': 'Описание',
         }
+        widgets = {
+            'photo': forms.FileInput(),
+        }
