@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'campaign',
     'bolders',
     'debug_toolbar',
+    'easy_thumbnails'
 ]
 
 MIDDLEWARE = [
@@ -73,6 +74,14 @@ MIDDLEWARE = [
 #     'debug_toolbar.panels.logging.LoggingPanel',
 #     'debug_toolbar.panels.redirects.RedirectsPanel',
 # ]
+
+THUMBNAIL_SUBDIR = 'thumbs'
+THUMBNAIL_ALIASES = {
+    'character': {
+        'small': {'size': (100,100)},
+    },
+}
+
 
 ROOT_URLCONF = 'dndblog.urls'
 

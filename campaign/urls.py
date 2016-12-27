@@ -23,8 +23,9 @@ app_name = 'campaign'
 urlpatterns = [
     url(r'^(?P<campaign_id>\d+)/addchar/(?P<character_id>\d+)/', login_required(views.AddCharToCampaignView.as_view()), name='add_char_to_campaign'),
     url(r'^(?P<campaign_id>\d+)/removechar/(?P<character_id>\d+)/', login_required(views.LeaveCampaignView.as_view()), name='rem_char_from_campaign'),
-    url(r'^(?P<campaign_id>\d+)/deletestory/(?P<story_id>\d+)/', login_required(views.StoryDelete.as_view()), name='delete_story'),
-    url(r'^(?P<campaign_id>\d+)/editstory/(?P<story_id>\d+)/', login_required(views.StoryEdit.as_view()), name='edit_story'),
+    url(r'^(?P<campaign_id>\d+)/(?P<story_id>\d+)/delete/', login_required(views.StoryDelete.as_view()), name='delete_story'),
+    url(r'^(?P<campaign_id>\d+)/(?P<story_id>\d+)/edit/', login_required(views.StoryEdit.as_view()), name='edit_story'),
+    url(r'^(?P<campaign_id>\d+)/(?P<story_id>\d+)/', views.CampaignStoryDetailView.as_view(), name='detail_story'),
     url(r'^(?P<campaign_id>\d+)/createstory/', login_required(views.StoryCreate.as_view()), name='create_story'),
     url(r'^(?P<campaign_id>\d+)/$', views.CampaignStoryListView.as_view(), name='story_list'),
 

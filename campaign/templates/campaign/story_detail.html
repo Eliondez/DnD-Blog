@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load bootstrap3 %}
+
+<div class="char-panel panel panel-default">
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+                <h2>{{ story.title }}</h2>
+                <h4>{{ story.ingamedate|date }}</h4>
+            </div>
+            <div class="col-sm-2">
+                {% if user == campaign.master.user %}
+                <div class="dropdown pull-right">
+                  <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span class="glyphicon glyphicon-option-vertical"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="{% url 'campaign:edit_story' campaign.id story.id %}">Редактировать</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#myModal{{ story.id }}">Удалить</a></li>
+                  </ul>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal{{ story.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Удаление записи</h4>
+                      </div>
+                      <div class="modal-body">
+                        Вы уверены, что хотите удалить запись "{{ story.title }}"?
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                        <a href="{% url 'campaign:delete_story' campaign_id=campaign.id story_id=story.id %}" class="btn btn-danger">Удалить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <p>{{ story.content|linebreaks }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
+
+
+

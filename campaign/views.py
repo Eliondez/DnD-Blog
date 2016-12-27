@@ -1,17 +1,13 @@
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import get_object_or_404, redirect
 from django.core.urlresolvers import reverse
-from django.http import HttpResponseRedirect
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic.base import ContextMixin, RedirectView
-from django.views.generic import ListView, TemplateView
-
+from django.views.generic import ListView, TemplateView, DetailView
 from datetime import date
 
 from character.models import Character
 from .models import Story, Campaign
 
-
-from .forms import CampaignForm, StoryForm
 
 class MainContext(ContextMixin):
     def get_context_data(self, **kwargs):
@@ -133,6 +129,9 @@ class CampaignStoryDetailView(TemplateView, MainContext):
         context['pn'] = self.request.GET.get('page', '1')
         context['story'] = get_object_or_404(Story, pk = kwargs['story_id'])
         return context
+
+
+
 
 class StoryCreate(CreateView, MainContext):
     model = Story

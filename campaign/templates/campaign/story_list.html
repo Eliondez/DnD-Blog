@@ -24,10 +24,11 @@
     </div>
 {% for story in stories %}
     <div class="char-panel panel panel-default">
+
         <div class="panel-body">
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2">
-                    <h2>{{ story.title }}</h2>
+                    <a href="{% url 'campaign:detail_story' campaign_id=campaign.id story_id=story.id %}"><h2>{{ story.title }}</h2></a>
                     <h4>{{ story.ingamedate|date }}</h4>
                 </div>
                 <div class="col-sm-2">
@@ -65,11 +66,11 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <p>{{ story.content|linebreaks }}</p>
+                    <p>{{ story.content|linebreaks|truncatechars:300 }}</p>
+                    <a class="btn btn-default" href="{% url 'campaign:detail_story' campaign_id=campaign.id story_id=story.id %}">Читать</a>
                 </div>
+
             </div>
-
-
         </div>
     </div>
 {% endfor %}
