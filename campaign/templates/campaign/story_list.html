@@ -1,40 +1,34 @@
 {% extends 'base.html' %}
+
+{% block menuitem %}
+    <li>
+      <a href="{% url 'campaign:campaign_detail' campaign.id %}">{{ campaign.title }} <span class="glyphicon glyphicon-search"></span></a>
+    </li>
+{% endblock menuitem %}
+
 {% block content %}
 {% load bootstrap3 %}
-    <div class="char-panel panel panel-primary">
-        <!--<div class="panel-heading">-->
-            <!--<span class="panel-title">{{ campaign.title }}</span>-->
-        <!--</div>-->
-        <div class="panel-body">
-            <div class="row">
-                <div class="col-sm-6">
-                    <h2>{{ campaign.title }}</h2>
-                </div>
-                <div class="col-sm-4">
-                    <h4>Мастер - {{ campaign.master.user.username }}</h4>
-                    <h4 class="text-muted">Начата {{ campaign.started|date }}</h4>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-default btn-sm pull-right" href="{% url 'campaign:campaign_detail' campaign.id %}" role="button">
-                        <span class="glyphicon glyphicon-search"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+{% load bbcode_tags %}
+
 {% for story in stories %}
     <div class="char-panel panel panel-default">
-
-        <div class="panel-body">
+        <div class="panel-body story">
             <div class="row">
-                <div class="col-sm-8 col-sm-offset-2">
-                    <a href="{% url 'campaign:detail_story' campaign_id=campaign.id story_id=story.id %}"><h2>{{ story.title }}</h2></a>
-                    <h4>{{ story.ingamedate|date }}</h4>
+                <div class="col-xs-10 text-left">
+                    <a class="tag" href="{% url 'campaign:detail_story' campaign_id=campaign.id story_id=story.id %}"><h2>{{ story.title }}</h2></a>
+                    <span class="glyphicon glyphicon-calendar"></span>
+                    <span class="date">{{ story.ingamedate|date }}</span>
+                    {% for tagged_item in story.tagged_items.all %}
+                    {% if forloop.first %}
+                    <span class="glyphicon glyphicon-tag"></span>
+                    {% endif %}
+                        <span><a class="tag" href="{% url 'campaign:story_list' campaign_id=campaign.id %}?tag={{ tagged_item.tag|urlencode }}">#{{ tagged_item.tag|lower }}</a></span>{% if not forloop.last %}, {% endif %}
+                    {% endfor %}
                 </div>
-                <div class="col-sm-2">
+                <div class="col-xs-2">
                     {% if user == campaign.master.user %}
                     <div class="dropdown pull-right">
-                      <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" aria-hidden="true">
                         <span class="glyphicon glyphicon-option-vertical"></span>
                       </button>
                       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -66,8 +60,9 @@
             </div>
             <div class="row">
                 <div class="col-sm-12">
-                    <p>{{ story.content|linebreaks|truncatechars:300 }}</p>
-                    <a class="btn btn-default" href="{% url 'campaign:detail_story' campaign_id=campaign.id story_id=story.id %}">Читать</a>
+                    <hr>
+                    <p>{{ story.content|bbcode|truncatechars_html:300|safe }}</p>
+                    <p><a class="btn btn-default" href="{% url 'campaign:detail_story' campaign_id=campaign.id story_id=story.id %}">Читать</a></p>
                 </div>
 
             </div>

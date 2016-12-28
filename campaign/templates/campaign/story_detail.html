@@ -1,22 +1,37 @@
 {% extends 'base.html' %}
+
+{% block menuitem %}
+    <li>
+      <a href="{% url 'campaign:story_list' campaign_id=story.campaign.id %}">{{ story.campaign.title }} <span class="glyphicon glyphicon-th-list"></span></a>
+    </li>
+{% endblock menuitem %}
+
 {% block content %}
 {% load bootstrap3 %}
-
-<div class="char-panel panel panel-default">
-    <div class="panel-body">
+{% load bbcode_tags %}
+<div class="panel panel-default">
+    <div class="panel-body story">
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
-                <h2>{{ story.title }}</h2>
-                <h4>{{ story.ingamedate|date }}</h4>
+            <div class="col-xs-10 text-left">
+                <h2>{{ story.title }}<small> (<a class="tag" href="{% url 'campaign:story_list' story.campaign.id %}">{{ story.campaign.title }}</a>)</small></h2>
+                <span class="glyphicon glyphicon-calendar"></span>
+                <span class="date">{{ story.ingamedate|date }}  </span>
+                {% for tagged_item in story.tagged_items.all %}
+                    {% if forloop.first %}
+                    <span class="glyphicon glyphicon-tag"> </span>
+                    {% endif %}
+                        <a class="tag" href="{% url 'campaign:story_list' campaign_id=story.campaign.id %}?tag={{ tagged_item.tag|urlencode }}">#{{ tagged_item.tag|lower }}</a>
+                        {% if not forloop.last %}, {% endif %}
+                {% endfor %}
             </div>
-            <div class="col-sm-2">
-                {% if user == campaign.master.user %}
+            <div class="col-xs-2">
+                {% if user == story.campaign.master.user %}
                 <div class="dropdown pull-right">
-                  <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  <button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" aria-hidden="true">
                     <span class="glyphicon glyphicon-option-vertical"></span>
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="{% url 'campaign:edit_story' campaign.id story.id %}">Редактировать</a></li>
+                    <li><a href="{% url 'campaign:edit_story' story.campaign.id story.id %}">Редактировать</a></li>
                     <li><a href="#" data-toggle="modal" data-target="#myModal{{ story.id }}">Удалить</a></li>
                   </ul>
                 </div>
@@ -34,7 +49,7 @@
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
-                        <a href="{% url 'campaign:delete_story' campaign_id=campaign.id story_id=story.id %}" class="btn btn-danger">Удалить</a>
+                        <a href="{% url 'campaign:delete_story' campaign_id=story.campaign.id story_id=story.id %}" class="btn btn-danger">Удалить</a>
                       </div>
                     </div>
                   </div>
@@ -44,12 +59,31 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
-                <p>{{ story.content|linebreaks }}</p>
+                <hr>
+                <p>{{ story.content|bbcode|safe }}</p>
             </div>
         </div>
     </div>
 </div>
-
+<div id="disqus_thread"></div>
+<script>
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = {{ request.build_absolute_uri }};  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = {{ story.id }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//d20-roleblog-com.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endblock content %}
 
 

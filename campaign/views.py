@@ -118,11 +118,20 @@ class CampaignStoryListView(ListView, MainContext):
         return context
 
     def get_queryset(self):
-        return Story.objects.filter(campaign=self.campaign).select_related('campaign', 'campaign__master', 'campaign__master__user')
+        stories = Story.objects.filter(campaign=self.campaign).select_related('campaign', 'campaign__master', 'campaign__master__user').prefetch_related('tagged_items__tag')
+        try:
+            stories = stories.filter(tags__name = self.request.GET['tag'])
+        except:
+            pass
+        return stories
 
 
 class CampaignStoryDetailView(TemplateView, MainContext):
     template_name = 'campaign/story_detail.html'
+
+    def get_queryset(self):
+        story = Story.objects.get(id=self.kwargs['story_id']).select_related('campaign', 'campaign__master', 'campaign__master__user').prefetch_related('tagged_items__tag')
+        return story
 
     def get_context_data(self, **kwargs):
         context = super(CampaignStoryDetailView, self).get_context_data(**kwargs)
@@ -131,12 +140,10 @@ class CampaignStoryDetailView(TemplateView, MainContext):
         return context
 
 
-
-
 class StoryCreate(CreateView, MainContext):
     model = Story
     template_name = 'campaign/story_create.html'
-    fields = ['title', 'content', 'ingamedate']
+    fields = ['title', 'content', 'ingamedate', 'tags']
 
     def form_valid(self, form):
         campaign = get_object_or_404(Campaign, pk=self.kwargs['campaign_id'])
@@ -150,13 +157,14 @@ class StoryCreate(CreateView, MainContext):
 class StoryEdit(UpdateView, MainContext):
     model = Story
     template_name = 'campaign/story_create.html'
-    fields = ['title', 'content', 'ingamedate']
+    fields = ['title', 'content', 'ingamedate', 'tags']
     pk_url_kwarg = 'story_id'
 
     def post(self, request, *args, **kwargs):
         if not request.user == Story.objects.get(id=self.kwargs['story_id']).campaign.master.user:
             return redirect('accounts:home')
-        return redirect('campaign:story_list', campaign_id=self.kwargs['campaign_id'])
+        # return redirect('campaign:story_list', campaign_id=self.kwargs['campaign_id'])
+        return super(StoryEdit, self).post(request, *args, **kwargs)
 
 class StoryDelete(DeleteView):
     model = Story

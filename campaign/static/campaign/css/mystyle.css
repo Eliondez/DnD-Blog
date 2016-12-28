@@ -178,3 +178,20 @@ footer {
     border-radius: 10px;
     height: 100px;
 }
+
+a.tag
+{
+    color: #595;
+}
+a.tag:hover {
+    color: #171;
+    text-decoration: underline;
+}
+
+.story img {
+    float: right;
+    max-width: 100px;
+    margin: 10px;
+}
+
+

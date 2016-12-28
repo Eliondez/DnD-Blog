@@ -41,13 +41,16 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Кампании<span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Кампании<span class="caret"></span></a>
               <ul class="dropdown-menu">
                 {% for campaign in active_campaign_list %}
                   <li><a href="{% url 'campaign:story_list' campaign.id %}">{{ campaign.title }}</a></li>
                 {% endfor %}
               </ul>
             </li>
+            {% block menuitem %}
+            {% endblock menuitem %}
           </ul>
           <!--<form class="navbar-form navbar-left">-->
           <!--</form>-->

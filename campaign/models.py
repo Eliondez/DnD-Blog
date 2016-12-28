@@ -1,7 +1,8 @@
 from django.db import models
-from django.conf import settings
 from django.core.urlresolvers import reverse
 from accounts.models import Profile
+from taggit.managers import TaggableManager
+from precise_bbcode.fields import BBCodeTextField
 
 class Campaign(models.Model):
     title = models.CharField(max_length=200, verbose_name='Название кампании')
@@ -19,7 +20,7 @@ class Campaign(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return reverse('campaign_detail', kwargs={'id': self.id})
+        return reverse('campaign:campaign_detail', kwargs={'id': self.id})
 
 class Story(models.Model):
     class Meta:
@@ -27,9 +28,11 @@ class Story(models.Model):
 
     title = models.CharField(max_length=200, verbose_name='Название')
     content = models.TextField(verbose_name='Содержание')
+    #content_bb = BBCodeTextField(verbose_name='Содержание')
     ingamedate = models.DateField(blank=False, verbose_name='Внутриигровая дата')
-    posted = models.DateTimeField(auto_now_add=True, null=True)
+    posted = models.DateTimeField(auto_now_add=True, null=True, help_text='Формат ГГГГ-ММ-ДД')
     campaign = models.ForeignKey(Campaign, null=True)
+    tags = TaggableManager(blank=True, verbose_name='Теги')
 
     def get_next(self):
         next = Story.objects.filter(id__gt=self.id)
@@ -47,4 +50,4 @@ class Story(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        return reverse('story_detail', kwargs={'id': self.id})
+        return reverse('campaign:detail_story', kwargs={'campaign_id': self.campaign.id, 'story_id': self.id})

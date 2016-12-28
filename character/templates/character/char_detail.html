@@ -5,28 +5,28 @@
 {% block content %}
 {% load thumbnail %}
 <div class="panel panel-default">
-    <div class="panel-body">
+    <div class="panel-body text-left">
         {% if char.photo %}
-        <img class="small-logo" src="{{ char.photo.url }}">
+        <img class="small-logo pull-right" src="{{ char.photo.url }}">
         {% else %}
         {% load staticfiles %}
         <img class="small-logo" src="{% static 'campaign/images/ph_small.jpg' %}">
         {% endif %}
-        <h2>{{ char.name }}</h2>
-        <span class="char-class">{{ char.char_class }}</span>
-        <h2>
+        <h2>{{ char.name }} <small>{{ char.char_class }}</small></h2>
+
+
         {% if char.campaign %}
-            Участвует в кампании <a href="{% url 'campaign:story_list' char.campaign.id %}">"{{ char.campaign.title }}"</a>
+            <p>Участвует в кампании <a href="{% url 'campaign:story_list' char.campaign.id %}">"{{ char.campaign.title }}"</a></p>
         {% else %}
-            Пока не участвует в кампании
+            <p>Пока не участвует в кампании</p>
             {% endif %}
-        </h2>
+
         <div>
             <div class="char-menu" ng-controller="CharPanelController as cPanel">
                 <ul class="nav nav-tabs" ng-init='cPanel.selectTab({{ panel }})'>
-                  <li ng-class="{active:cPanel.isSelected(1)}"><a href ng-click="cPanel.selectTab(1)">Описание</a></li>
-                  <li ng-class="{active:cPanel.isSelected(2)}"><a href ng-click="cPanel.selectTab(2)">Характеристики</a></li>
-                  <li ng-class="{active:cPanel.isSelected(3)}"><a href ng-click="cPanel.selectTab(3)">Фото</a></li>
+                  <li ng-class="{active:cPanel.isSelected(1)}"><a href ng-click="cPanel.selectTab(1)"><span title="Описание" class="glyphicon glyphicon-user"></span></a></li>
+                  <li ng-class="{active:cPanel.isSelected(2)}"><a href ng-click="cPanel.selectTab(2)"><span title="Характеристики" class="glyphicon glyphicon-list-alt"></span></a></li>
+                  <li ng-class="{active:cPanel.isSelected(3)}"><a href ng-click="cPanel.selectTab(3)"><span title="Фото" class="glyphicon glyphicon-picture"></span></a></li>
                 </ul>
                 <div ng-show='cPanel.isSelected(1)'>
                     <br>

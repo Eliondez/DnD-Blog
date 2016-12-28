@@ -46,7 +46,9 @@ INSTALLED_APPS = [
     'campaign',
     'bolders',
     'debug_toolbar',
-    'easy_thumbnails'
+    'taggit',
+    'easy_thumbnails',
+    'precise_bbcode',
 ]
 
 MIDDLEWARE = [
@@ -81,6 +83,8 @@ THUMBNAIL_ALIASES = {
         'small': {'size': (100,100)},
     },
 }
+
+TAGGIT_CASE_INSENSITIVE = True
 
 
 ROOT_URLCONF = 'dndblog.urls'
