@@ -194,4 +194,7 @@ a.tag:hover {
     margin: 10px;
 }
 
+.fl {
+    display: flex;
+}
 

@@ -3,7 +3,17 @@
 {% block content %}
 {% load bootstrap3 %}
 <div class="row featurette">
-    <div class='col-md-6 col-md-offset-3'>
+    <div class='col-md-4'>
+        <h2 class="text-right">Форматирование:</h2>
+        <p class="text-right">[b]жирный[/b] - <b>жирный</b><br>
+        [i]курсив[/i] - <i>курсив</i><br>
+        [u]подчёркнутый[/u] - <u>подчёркнутый</u><br>
+        [s]зачёркнутый[/s] - <s>зачёркнутый</s><br>
+        [url]http://yandex.ru[/url] - <a href="http://yandex.ru">http://yandex.ru</a><br>
+        [img]http://xyz.com/logo.png[/img] - картинка<br>
+        </p>
+    </div>
+    <div class='col-md-7'>
         <form method="post" action="">
             {% csrf_token %}
             {% bootstrap_form_errors form %}
@@ -18,5 +28,6 @@
             {% endbuttons %}
         </form>
     </div>
+
 </div>
 {% endblock %}

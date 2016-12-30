@@ -109,15 +109,18 @@ class CampaignStoryListView(ListView, MainContext):
     campaign = None
 
     def get(self, request, *args, **kwargs):
+        print('get')
         self.campaign = Campaign.objects.get(pk = self.kwargs['campaign_id'])
         return super(CampaignStoryListView, self).get(request, *args, **kwargs)
 
     def get_context_data(self, **kwargs):
+        print('get_context_data')
         context = super(CampaignStoryListView, self).get_context_data(**kwargs)
         context['campaign'] = self.campaign
         return context
 
     def get_queryset(self):
+        print('get_queryset')
         stories = Story.objects.filter(campaign=self.campaign).select_related('campaign', 'campaign__master', 'campaign__master__user').prefetch_related('tagged_items__tag')
         try:
             stories = stories.filter(tags__name = self.request.GET['tag'])
@@ -129,14 +132,10 @@ class CampaignStoryListView(ListView, MainContext):
 class CampaignStoryDetailView(TemplateView, MainContext):
     template_name = 'campaign/story_detail.html'
 
-    def get_queryset(self):
-        story = Story.objects.get(id=self.kwargs['story_id']).select_related('campaign', 'campaign__master', 'campaign__master__user').prefetch_related('tagged_items__tag')
-        return story
-
     def get_context_data(self, **kwargs):
         context = super(CampaignStoryDetailView, self).get_context_data(**kwargs)
         context['pn'] = self.request.GET.get('page', '1')
-        context['story'] = get_object_or_404(Story, pk = kwargs['story_id'])
+        context['story'] = get_object_or_404(Story.objects.select_related('campaign', 'campaign__master', 'campaign__master__user').prefetch_related('tagged_items__tag'), id=kwargs['story_id'])
         return context
 
 
