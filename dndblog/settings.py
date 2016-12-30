@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'stories',
     'accounts',
     'campaign',
-    'bolders',
     'debug_toolbar',
     'taggit',
     'easy_thumbnails',
@@ -126,7 +125,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.10/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
 
@@ -144,14 +143,17 @@ LOGIN_REDIRECT_URL = reverse_lazy('accounts:home')
 LOGIN_URL = reverse_lazy('accounts:login')
 LOGOUT_URL = reverse_lazy('accounts:logout')
 
-MEDIA_URL = '/media/'
 
-STATIC_URL = '/static/'
-
+TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]
 
 STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static')
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_URL = '/static/'
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
+
+SITE_ID = 1

@@ -105,22 +105,19 @@ class LeaveCampaignView(RedirectView):
 class CampaignStoryListView(ListView, MainContext):
     template_name = 'campaign/story_list.html'
     context_object_name = 'stories'
-    #paginate_by = 2
+    paginate_by = 2
     campaign = None
 
     def get(self, request, *args, **kwargs):
-        print('get')
         self.campaign = Campaign.objects.get(pk = self.kwargs['campaign_id'])
         return super(CampaignStoryListView, self).get(request, *args, **kwargs)
 
     def get_context_data(self, **kwargs):
-        print('get_context_data')
         context = super(CampaignStoryListView, self).get_context_data(**kwargs)
         context['campaign'] = self.campaign
         return context
 
     def get_queryset(self):
-        print('get_queryset')
         stories = Story.objects.filter(campaign=self.campaign).select_related('campaign', 'campaign__master', 'campaign__master__user').prefetch_related('tagged_items__tag')
         try:
             stories = stories.filter(tags__name = self.request.GET['tag'])
