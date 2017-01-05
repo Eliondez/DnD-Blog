@@ -1,0 +1,53 @@
+<div class="file-upload-form">
+  <div class="form">
+    <form id="imagepool_form" action="{% url 'imagepool:upload_file' %}"
+    method="post" enctype="multipart/form-data" target="imagepool_output">
+      {% csrf_token %}
+      <div class="form-field">
+
+        <div class="control">      
+        <input class="inputfile" type="file" id="file_to_upload"
+        name="file_to_upload">
+        <label for="file_to_upload" class="label">
+                   <span class="glyphicon glyphicon-cloud-upload"></span>
+        </label>
+        </div>
+      </div>
+      <!--<button type="submit" class="btn btn-warning">Выгрузить</button>-->
+    </form>
+    
+  </div>
+  <ul class="image-selector" href="{% url 'imagepool:index' %}">
+    <li class="prev">
+      <a href=""><span class="glyphicon glyphicon-menu-left"></span></a>
+    </li>
+    <li class="image-itm">
+      <a class='insert' href="#"><div class="image-itm-body" style="background-image: url(/media/imagepool/2016/12/push5.png)"></div></a>
+      <a class='delete' href=""><div class="image-itm-del">
+        <span class="glyphicon glyphicon-trash"></span>
+      </div></a>
+    </li>
+    <li class="image-itm">
+      <a class='insert' href="#"><div class="image-itm-body" style="background-image: url(/media/imagepool/2016/12/push2.png)"></div></a>
+      <a class='delete' href=""><div class="image-itm-del">
+        <span class="glyphicon glyphicon-trash"></span>
+      </div></a>
+    </li>
+    <li class="image-itm">
+      <a class='insert' href="#"><div class="image-itm-body" style="background-image: url(/media/imagepool/2016/12/push5.png)"></div></a>
+      <a class='delete' href=""><div class="image-itm-del">
+        <span class="glyphicon glyphicon-trash"></span>
+      </div></a>
+    </li>
+    <li class="image-itm">
+      <a class='insert' href="#"><div class="image-itm-body" style="background-image: url(/media/imagepool/2016/12/push2.png)"></div></a>
+      <a class='delete' href=""><div class="image-itm-del">
+        <span class="glyphicon glyphicon-trash"></span>
+      </div></a>
+    </li>
+    <li class="next">
+      <a href=""><span class="glyphicon glyphicon-menu-right"></span></a>
+    </li>
+  </ul>
+</div>
+<iframe id="imagepool_output" name="imagepool_output"></iframe>

@@ -198,3 +198,26 @@ a.tag:hover {
     display: flex;
 }
 
+td.image img {
+    width: 75px;
+    height: 75px;
+}
+
+#imagepool_output {
+    display: none;
+}
+
+.panel-btn {
+    height: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.panel-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.panel-btn span {
+    line-height: 50px;
+    font-size: 25px;
+}

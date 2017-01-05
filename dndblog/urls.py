@@ -17,7 +17,6 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
-#from bolders import views
 from character.views import char_edit, char_create, char_detail, char_delete
 from campaign import views
 from accounts.views import login_view, register_view, logout_view, home_view
@@ -30,7 +29,7 @@ urlpatterns = [
     url(r'^character/create/', char_create, name='char_create'),
 
     url(r'^campaign/', include('campaign.urls')),
-    #url(r'^bolders/', include('bolders.urls')),
+    url(r'^imagepool/', include('imagepool.urls')),
     url(r'^admin/', admin.site.urls),
     url(r'^account/', include('accounts.urls')),
     url(r'^$', views.MainView.as_view(), name='mainview'),

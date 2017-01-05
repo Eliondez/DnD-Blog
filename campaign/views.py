@@ -2,7 +2,9 @@ from django.shortcuts import get_object_or_404, redirect
 from django.core.urlresolvers import reverse
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic.base import ContextMixin, RedirectView
-from django.views.generic import ListView, TemplateView, DetailView
+from django.views.generic import ListView, TemplateView, DetailView, View
+from django.utils import formats
+from django.http import JsonResponse
 from datetime import date
 
 from character.models import Character
@@ -49,20 +51,41 @@ class CampaignEdit(UpdateView, MainContext):
     template_name = 'campaign/campaign_create.html'
     pk_url_kwarg = 'id'
     fields = ['title', 'rp_system', 'description']
+
+    def get(self, request, *args, **kwargs):
+        if request.user != Campaign.objects.get(id=self.kwargs['id']).master.user:
+            return redirect('accounts:home')
+        return super(CampaignEdit, self).get(request, *args, **kwargs)
+
     def post(self, request, *args, **kwargs):
         if request.user != Campaign.objects.get(id=self.kwargs['id']).master.user:
             return redirect('accounts:home')
         return super(CampaignEdit, self).post(request, *args, **kwargs)
 
 
-class CampaignStart(RedirectView):
-    def get_redirect_url(self, *args, **kwargs):
+# class CampaignStart(RedirectView):
+#     def get_redirect_url(self, *args, **kwargs):
+#         campaign = get_object_or_404(Campaign, pk=kwargs['id'])
+#         if self.request.user != campaign.master.user or campaign.started:
+#             return redirect('accounts:home')
+#         campaign.started = date.today()
+#         campaign.save()
+#         return reverse('accounts:home')
+
+class CampaignStart(View):
+    def post(self, *args, **kwargs):
         campaign = get_object_or_404(Campaign, pk=kwargs['id'])
         if self.request.user != campaign.master.user or campaign.started:
-            return redirect('accounts:home')
+            return JsonResponse({
+            'status': 'fail',
+            })
+        print(self.request.user.username)
         campaign.started = date.today()
         campaign.save()
-        return reverse('accounts:home')
+        return JsonResponse({
+            'status': 'ok',
+            'date': formats.date_format(date.today(), "DATE_FORMAT")
+        })
 
 
 class CampaignEnd(RedirectView):
@@ -73,6 +96,29 @@ class CampaignEnd(RedirectView):
         campaign.ended = date.today()
         campaign.save()
         return reverse('accounts:home')
+
+class CampaignDelay(View):
+    def post(self, *args, **kwargs):
+        campaign = get_object_or_404(Campaign, pk=kwargs['id'])
+        if self.request.user != campaign.master.user:
+            print('wrong user')
+            return JsonResponse({}, status=500)
+        if not campaign.ended:
+            print('end camp')
+            campaign.ended = date.today()
+            campaign.save()
+            return JsonResponse({
+            'status': 'delayed',
+            'date': formats.date_format(date.today(), "DATE_FORMAT")
+            })
+        if campaign.ended:
+            print('resume camp')
+            campaign.ended = None
+            campaign.save()
+            return JsonResponse({
+            'status': 'resumed',
+            })
+
 
 class AddCharToCampaignView(RedirectView):
     def get_redirect_url(self, *args, **kwargs):
@@ -177,3 +223,28 @@ class StoryDelete(DeleteView):
 
     def get_success_url(self):
         return reverse('campaign:story_list', kwargs={'campaign_id': self.kwargs['campaign_id']})
+
+class AjaxTest(View):
+    def get(self, *args, **kwargs):
+        print(self.request.method)
+        return JsonResponse({
+            'yay?': 'yay!!!',
+        })
+
+    def post(self, *args, **kwargs):
+        print(self.request.method)
+        return JsonResponse({
+            'nya?': 'NYA!!!',
+        })
+
+    def update(self, *args, **kwargs):
+        print(self.request.method)
+        return JsonResponse({
+            'nya?': 'NYA!!!',
+        })
+
+    def delete(self, *args, **kwargs):
+        print(self.request.method)
+        return JsonResponse({
+            'nya?': 'NYA!!!',
+        })

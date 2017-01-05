@@ -1,0 +1,87 @@
+.file-upload-form {
+    margin: auto;
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    background-color: #d3394c;
+    color: #f1e5e6;
+    display: inline-block;
+    font-size: 2.25rem;
+    padding: 10px;
+    width: 320px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.inputfile + label:hover {
+    background-color: #722040;
+}
+
+.image-selector {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    height: 90px;
+}
+
+.image-selector a {
+    color: black;
+    font-size: 15px;
+}
+
+.image-selector .image-itm {
+    float: left;
+    width: 70px;
+    background-color: #ccc;
+    height: 90px;
+}
+
+.image-selector .image-itm-body:hover,
+.image-selector .image-itm-del:hover,
+.image-selector li:first-child:hover,
+.image-selector li:last-child:hover
+{
+    background-color: #ddd;
+}
+
+.image-selector .image-itm-body {
+    height: 70px;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-selector .image-itm-del {
+    height: 20px;
+}
+.image-selector .image-itm-del span{
+    line-height: 20px;
+}
+
+.image-selector li:first-child span,
+.image-selector li:last-child span {
+    line-height: 90px;
+}
+
+.image-selector li:first-child,
+.image-selector li:last-child {
+    background-color: #aaa;
+    float: left;
+    width: 20px;
+}
+
+.image-selector li:first-child {
+    border-radius: 5px 0 0 5px;
+}
+
+.image-selector li:last-child {
+    border-radius: 0 5px 5px 0;
+}

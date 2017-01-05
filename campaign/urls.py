@@ -29,8 +29,11 @@ urlpatterns = [
     url(r'^(?P<campaign_id>\d+)/createstory/', login_required(views.StoryCreate.as_view()), name='create_story'),
     url(r'^(?P<campaign_id>\d+)/$', views.CampaignStoryListView.as_view(), name='story_list'),
 
+    url(r'^ajax/$', views.AjaxTest.as_view(), name='ajax'),
+
     url(r'^(?P<id>\d+)/detail/', views.CampaignDetail.as_view(), name='campaign_detail'),
     url(r'^(?P<id>\d+)/end/', login_required(views.CampaignEnd.as_view()), name='campaign_end'),
+    url(r'^(?P<id>\d+)/delay/', login_required(views.CampaignDelay.as_view()), name='campaign_delay'),
     url(r'^(?P<id>\d+)/start/', login_required(views.CampaignStart.as_view()), name='campaign_start'),
     url(r'^(?P<id>\d+)/edit/', login_required(views.CampaignEdit.as_view()), name='campaign_edit'),
     url(r'^create/', login_required(views.CampaignCreate.as_view()), name='campaign_create'),

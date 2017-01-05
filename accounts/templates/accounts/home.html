@@ -77,24 +77,28 @@
                         <th class="text-center">Опции</th>
                     </tr>
                 {% for campaign in campaign_list %}
-                    <tr>
-                        <td>{{ campaign.title }}</td>
-                        <td>{{ campaign.rp_system }}</td>
-                        <td>
+                    <tr id="camp_id_{{campaign.id}}">
+                        <td id="camp_title">{{ campaign.title }}</td>
+                        <td id="camp_system">{{ campaign.rp_system }}</td>
+                        <td id="camp_started">
                             {% if campaign.started %}
                                 {{ campaign.started|date }}
                             {% else %}
                                 <a class="btn btn-default" href="{% url 'campaign:campaign_start' campaign.id %}" role="button">Начать</a>
                             {% endif %}
                         </td>
-                        <td>
-                            {% if campaign.ended %}
-                                {{ campaign.ended|date }}
-                            {% else %}
-                                <a class="btn btn-default" href="{% url 'campaign:campaign_end' campaign.id %}" role="button">Завершить</a>
-                            {% endif %}
+                        <td id="camp_ended">
+                            <p class="end-date">{{ campaign.ended|date }}</p>
+                            <a class="btn btn-default" href="{% url 'campaign:campaign_delay' campaign.id %}" role="button">
+                                {% if campaign.ended %}
+                                    Возобновить
+                                {% else %}
+                                    Остановить
+                                {% endif %}
+                            </a>
                         </td>
-                        <td>{{ campaign.character_set.all|length }}<td>
+                        <td id="camp_chars">{{ campaign.character_set.all|length }}</td>
+                        <td>
                             <a class="btn btn-default" href="{% url 'campaign:create_story' campaign.id %}" role="button">
                                 <span class="glyphicon glyphicon-pencil"></span>
                             </a>
@@ -112,5 +116,10 @@
             </div>
         </div>
     </div>
+</div>
+<div class="row">
+    {% for campaign in campaign_list %}
+        {% include 'campaign/campaign_item.html' %}
+    {% endfor %}
 </div>
 {% endblock %}

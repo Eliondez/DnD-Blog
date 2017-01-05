@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'stories',
     'accounts',
     'campaign',
+    'imagepool',
     'debug_toolbar',
     'taggit',
     'easy_thumbnails',
@@ -76,7 +77,7 @@ ROOT_URLCONF = 'dndblog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -144,7 +145,6 @@ LOGIN_URL = reverse_lazy('accounts:login')
 LOGOUT_URL = reverse_lazy('accounts:logout')
 
 
-TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static'),
 ]

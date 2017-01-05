@@ -13,9 +13,17 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Kurale|Lobster|Marck+Script|Marmelad|Neucha|Philosopher" rel="stylesheet">
     {% load staticfiles %}
     <link rel="stylesheet" href="{% static 'campaign/css/mystyle.css' %}">
+    <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
+    {% block additional_css %}
+    {% endblock additional_css %}
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="{% static 'campaign/js/new.js' %}"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    {% block additional_js %}
+    {% endblock additional_js %}
+
     <script src="{% static 'campaign/js/angular.min.js' %}"></script>
     <script src="{% static 'campaign/js/app.js' %}"></script>
 
@@ -56,13 +64,13 @@
           <!--</form>-->
           <ul class="nav navbar-nav navbar-right">
             {% if user.is_authenticated %}
-                <li><a href="{% url "accounts:home" %}"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Профиль ({{ user.username }})</a></li>
+                <li><a href="{% url 'accounts:home' %}"><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> Профиль ({{ user.username }})</a></li>
             {% endif %}
             <li>
             {% if user.is_authenticated %}
-                <a href="{% url "accounts:logout" %}">Выйти</a>
+                <a href="{% url 'accounts:logout' %}">Выйти</a>
             {% else %}
-                <a href="{% url "accounts:login" %}">Войти</a>
+                <a href="{% url 'accounts:login' %}">Войти</a>
             {% endif %}
             </li>
           </ul>
@@ -78,7 +86,7 @@
       {% block content %}
       <!-- START THE FEATURETTES -->
       <div class="row featurette">
-        <div class="col-md-12">
+        <div class="shake-slow col-md-12">
           <h2 class="featurette-heading">Отслеживание кампаний. <span class="text-muted">Мини-блог.</span></h2>
           <p class="lead">Здесь собрано несколько кампаний по <a href="https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D1%82%D0%BE%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0">НРИ</a>. В дальнейшем список будет пополняться. Для
           каждой кампании доступна такая информация как: краткое описание, время начала и завершения, список персонажей.</p>
@@ -86,7 +94,7 @@
       </div>
 
       <div class="row featurette">
-        <div class="col-md-12">
+        <div class="shake-slow col-md-12">
           <h2 class="featurette-heading">Персонажи<span class="text-muted">, учавствующие в кампаниях.</span></h2>
           <p class="lead">Доступен список персонажей по каждой кампании. Также можно ознакомиться с описанием каждого
           персонажа, его основными характеристиками, снаряжением, наградами и квестами.</p>
@@ -94,7 +102,7 @@
       </div>
 
       <div class="row featurette">
-        <div class="col-md-12">
+        <div class="shake-slow col-md-12">
           <h2 class="featurette-heading">Ачивки! <span class="text-muted">Куда же без них. (В разработке)</span></h2>
           <p class="lead">Список ачивок постоянно пополняется. Наличие ачивки не означает, что она у кого-то есть.
           При наведении мыши на каждую ачивку можно получить подробную информацию о том, за что её можно получить.</p>
@@ -108,12 +116,10 @@
 
       <footer>
         <p class="pull-right"><a href="#">Наверх</a></p>
-        <p>&copy; 2016 Elion, Inc.</p>
+        <p>&copy; {% now "Y" %} Elion, Inc.</p>
       </footer>
     </div><!-- /.container -->
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
   </body>
 </html>

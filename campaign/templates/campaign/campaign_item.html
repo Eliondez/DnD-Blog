@@ -1,0 +1,30 @@
+<div class='col-md-4'>
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-xs-12 text-left">
+                    <a class="tag" href="{% url 'campaign:campaign_detail' campaign.id %}"><h2>{{ campaign }}</h2></a>
+                </div>
+                <div class="col-xs-12 text-left">
+                    <span class="glyphicon glyphicon-tags"></span>
+                    <span> {{ campaign.rp_system }} </span>
+                    <span class="glyphicon glyphicon-user"></span>
+                    <span> {{ campaign.character_set.all|length }}</span>
+                    <br>
+                    <span class="glyphicon glyphicon-calendar"></span>
+                    <span>{{ campaign.started|date }} - {{ campaign.ended|date }}</span>
+                </div>
+                <a class="tag" href="{% url 'campaign:story_list' campaign.id %}">
+                <div class="panel-btn col-xs-6">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </div>
+                </a>
+                <a class="tag" href="{% url 'campaign:create_story' campaign.id %}">
+                <div class="panel-btn col-xs-6">
+                    <span class="glyphicon glyphicon-pencil"></span>
+                </div>
+                </a>
+             </div>
+        </div>
+    </div>
+</div>
