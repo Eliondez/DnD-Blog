@@ -1,0 +1,53 @@
+<div class='col-md-4'>
+    <div class="panel panel-default">
+        <div class="camp-item panel-body">
+            <div class="row">
+                <div class="col-xs-12 text-left">
+                    <a class="tag" href="{% url 'char_detail' char.id %}"><h2>{{ char.name }}</h2></a>
+                </div>
+                <div class="col-xs-12 text-left">
+                    <span class="glyphicon glyphicon-user"></span>
+                    <span>{{ char.char_class }}</span>
+                    <br>
+                    {% if char.campaign %}
+                        <span class="glyphicon glyphicon-film"></span> {{ char.campaign.title }}
+                        <a class="tag" href="{% url 'campaign:rem_char_from_campaign' campaign_id=char.campaign.id character_id=char.id %}">выйти</a>
+                    {% else %}
+                        Без кампании
+                    {% endif %}
+                    <br>
+                </div>
+                <a class="tag" href="{% url 'char_edit' char.id %}">
+                    <div class="panel-btn col-xs-6">
+                        <span class="glyphicon glyphicon-cog"></span>
+                    </div>
+                </a>
+                </a>
+                <a data-toggle="modal" data-target="#myModal{{ char.id }}" class="tag" href="#" role="button">
+                    <div class="panel-btn col-xs-6">
+                        <span class="glyphicon glyphicon-trash"></span>
+                    </div>
+                </a>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal{{ char.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Удаление персонажа</h4>
+                      </div>
+                      <div class="modal-body">
+                        Вы уверены, что хотите удалить персонажа "{{ char.name }}"?
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                        <a href="{% url 'char_delete' char.id %}" class="btn btn-danger">Удалить</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+

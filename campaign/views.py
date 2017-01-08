@@ -9,12 +9,15 @@ from datetime import date
 
 from character.models import Character
 from .models import Story, Campaign
+import logging
 
+logger = logging.getLogger(__name__)
 
 class MainContext(ContextMixin):
     def get_context_data(self, **kwargs):
         context = super(MainContext, self).get_context_data(**kwargs)
         context['active_campaign_list'] = Campaign.objects.filter(started__isnull=False)
+        logger.warning('asdaddqwdqwdqwd')
         return context
 
 
@@ -63,15 +66,6 @@ class CampaignEdit(UpdateView, MainContext):
         return super(CampaignEdit, self).post(request, *args, **kwargs)
 
 
-# class CampaignStart(RedirectView):
-#     def get_redirect_url(self, *args, **kwargs):
-#         campaign = get_object_or_404(Campaign, pk=kwargs['id'])
-#         if self.request.user != campaign.master.user or campaign.started:
-#             return redirect('accounts:home')
-#         campaign.started = date.today()
-#         campaign.save()
-#         return reverse('accounts:home')
-
 class CampaignStart(View):
     def post(self, *args, **kwargs):
         campaign = get_object_or_404(Campaign, pk=kwargs['id'])
@@ -101,10 +95,8 @@ class CampaignDelay(View):
     def post(self, *args, **kwargs):
         campaign = get_object_or_404(Campaign, pk=kwargs['id'])
         if self.request.user != campaign.master.user:
-            print('wrong user')
             return JsonResponse({}, status=500)
         if not campaign.ended:
-            print('end camp')
             campaign.ended = date.today()
             campaign.save()
             return JsonResponse({
@@ -112,7 +104,6 @@ class CampaignDelay(View):
             'date': formats.date_format(date.today(), "DATE_FORMAT")
             })
         if campaign.ended:
-            print('resume camp')
             campaign.ended = None
             campaign.save()
             return JsonResponse({
@@ -151,7 +142,7 @@ class LeaveCampaignView(RedirectView):
 class CampaignStoryListView(ListView, MainContext):
     template_name = 'campaign/story_list.html'
     context_object_name = 'stories'
-    paginate_by = 2
+    paginate_by = 5
     campaign = None
 
     def get(self, request, *args, **kwargs):

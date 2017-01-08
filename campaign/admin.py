@@ -10,6 +10,10 @@ class CampaignAdmin(admin.ModelAdmin):
 class StoryAdmin(admin.ModelAdmin):
     list_display = ('title', 'ingamedate', 'posted', 'campaign')
     search_fields = ['title', 'content']
+    list_editable = ['ingamedate']
+    list_filter = ['campaign']
+    actions_on_bottom = True
+    #fields = (('title','ingamedate'), 'content', ('tags', 'campaign'))
     class Meta:
         model = Story
 

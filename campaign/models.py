@@ -28,7 +28,6 @@ class Story(models.Model):
 
     title = models.CharField(max_length=200, verbose_name='Название')
     content = models.TextField(verbose_name='Содержание')
-    #content_bb = BBCodeTextField(verbose_name='Содержание')
     ingamedate = models.DateField(blank=False, verbose_name='Внутриигровая дата')
     posted = models.DateTimeField(auto_now_add=True, null=True, help_text='Формат ГГГГ-ММ-ДД')
     campaign = models.ForeignKey(Campaign, null=True)

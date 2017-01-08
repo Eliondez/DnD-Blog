@@ -5,116 +5,19 @@
 {% block content %}
 <div class="row featurette">
     <div class='col-sm-12'>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <h2>Персонажи</h2>
-                <table class="table table-bordered text-center">
-                    <tr>
-                        <th class="text-center">Имя</th>
-                        <th class="text-center">Класс</th>
-                        <th class="text-center">Кампания</th>
-                        <th class="text-center">Опции</th>
-                    </tr>
-                {% for char in char_list %}
-                    <tr>
-                        <td>{{ char.name }}</td>
-                        <td>{{ char.char_class }}</td>
-                        <td>
-                            {% if char.campaign %}
-                                {{ char.campaign.title }}
-                                <a class="btn btn-default" href="{% url 'campaign:rem_char_from_campaign' campaign_id=char.campaign.id character_id=char.id %}">Выйти</a>
-                            {% else %}
-                                Без кампании
-                            {% endif %}
-                        </td>
-                        <td>
-                            <a class="btn btn-default" href="{% url 'char_detail' char.id %}" role="button">
-                                <span class="glyphicon glyphicon-search"></span></a>
-                            <a class="btn btn-default" href="{% url 'char_edit' char.id %}" role="button">
-                                <span class="glyphicon glyphicon-cog"></span></a>
-                            <a data-toggle="modal" data-target="#myModal{{ char.id }}" class="btn btn-default" href="#" role="button">
-                                <span class="glyphicon glyphicon-trash"></span>
-                            </a>
-                            <!-- Modal -->
-                            <div class="modal fade" id="myModal{{ char.id }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                              <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                  <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                    <h4 class="modal-title" id="myModalLabel">Удаление персонажа</h4>
-                                  </div>
-                                  <div class="modal-body">
-                                    Вы уверены, что хотите удалить персонажа "{{ char.name }}"?
-                                  </div>
-                                  <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
-                                    <a href="{% url 'char_delete' char.id %}" class="btn btn-danger">Удалить</a>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-
-
-                        </td>
-                    </tr>
-                {% endfor %}
-                </table>
-                <a class="btn btn-default" href="{% url 'char_create' %}" role="button">Добавить персонажа</a>
-            </div>
+        <h2 class="text-left">Персонажи
+        <small><a class="text-right" href="{% url 'char_create' %}"><span class="glyphicon glyphicon-plus"></span></a></small>
+        </h2>
+        <div class="row">
+            {% for char in char_list %}
+                {% include 'character/char_item.html' %}
+            {% endfor %}
         </div>
     </div>
     <div class='col-sm-12'>
-        <div class="panel panel-default">
-            <div class="panel-body">
-                <h2>Кампании</h2>
-                <table class="table table-bordered">
-                    <tr>
-                        <th class="text-center">Название</th>
-                        <th class="text-center">Система</th>
-                        <th class="text-center">Начата</th>
-                        <th class="text-center">Закончена</th>
-                        <th class="text-center">Игроки</th>
-                        <th class="text-center">Опции</th>
-                    </tr>
-                {% for campaign in campaign_list %}
-                    <tr id="camp_id_{{campaign.id}}">
-                        <td id="camp_title">{{ campaign.title }}</td>
-                        <td id="camp_system">{{ campaign.rp_system }}</td>
-                        <td id="camp_started">
-                            {% if campaign.started %}
-                                {{ campaign.started|date }}
-                            {% else %}
-                                <a class="btn btn-default" href="{% url 'campaign:campaign_start' campaign.id %}" role="button">Начать</a>
-                            {% endif %}
-                        </td>
-                        <td id="camp_ended">
-                            <p class="end-date">{{ campaign.ended|date }}</p>
-                            <a class="btn btn-default" href="{% url 'campaign:campaign_delay' campaign.id %}" role="button">
-                                {% if campaign.ended %}
-                                    Возобновить
-                                {% else %}
-                                    Остановить
-                                {% endif %}
-                            </a>
-                        </td>
-                        <td id="camp_chars">{{ campaign.character_set.all|length }}</td>
-                        <td>
-                            <a class="btn btn-default" href="{% url 'campaign:create_story' campaign.id %}" role="button">
-                                <span class="glyphicon glyphicon-pencil"></span>
-                            </a>
-                            <a class="btn btn-default" href="{% url 'campaign:story_list' campaign.id %}" role="button">
-                                <span class="glyphicon glyphicon-menu-hamburger"></span>
-                            </a>
-                            <a class="btn btn-default" href="{% url 'campaign:campaign_detail' campaign.id %}" role="button">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </a>
-                        </td>
-                    </tr>
-                {% endfor %}
-                </table>
-                <a class="btn btn-default" href="{% url 'campaign:campaign_create' %}" role="button">Начать новую</a>
-            </div>
-        </div>
+        <h2 class="text-left">Кампании
+        <small><a class="text-right" href="{% url 'campaign:campaign_create' %}"><span class="glyphicon glyphicon-plus"></span></a></small>
+        </h2>
     </div>
 </div>
 <div class="row">
@@ -122,4 +25,5 @@
         {% include 'campaign/campaign_item.html' %}
     {% endfor %}
 </div>
+
 {% endblock %}

@@ -1,6 +1,6 @@
 body {
 	background: url(../images/bg.png);
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 .char-name {
@@ -220,4 +220,12 @@ td.image img {
 .panel-btn span {
     line-height: 50px;
     font-size: 25px;
+}
+
+.camp-item {
+    height: 200px;
+}
+
+#map {
+    height: 300px;
 }
