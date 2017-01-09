@@ -10,7 +10,7 @@
         <img class="small-logo pull-right" src="{{ char.photo.url }}">
         {% else %}
         {% load staticfiles %}
-        <img class="small-logo" src="{% static 'campaign/images/ph_small.jpg' %}">
+        <img class="small-logo pull-right" src="{% static 'campaign/images/ph_small.jpg' %}">
         {% endif %}
         <h2>{{ char.name }} <small>{{ char.char_class }}</small></h2>
 
@@ -24,17 +24,86 @@
         <div>
             <div class="char-menu" ng-controller="CharPanelController as cPanel">
                 <ul class="nav nav-tabs" ng-init='cPanel.selectTab({{ panel }})'>
-                  <li ng-class="{active:cPanel.isSelected(1)}"><a href ng-click="cPanel.selectTab(1)"><span title="Описание" class="glyphicon glyphicon-user"></span></a></li>
-                  <li ng-class="{active:cPanel.isSelected(2)}"><a href ng-click="cPanel.selectTab(2)"><span title="Характеристики" class="glyphicon glyphicon-list-alt"></span></a></li>
-                  <li ng-class="{active:cPanel.isSelected(3)}"><a href ng-click="cPanel.selectTab(3)"><span title="Фото" class="glyphicon glyphicon-picture"></span></a></li>
+                  <li ng-class="{active:cPanel.isSelected(1)}"><a href ng-click="cPanel.selectTab(1)">
+                      <span title="Описание" class="glyphicon glyphicon-user"></span>
+                      <span class="tabs-label"> Описание</span>
+                  </a></li>
+                  <li ng-class="{active:cPanel.isSelected(2)}"><a href ng-click="cPanel.selectTab(2)">
+                      <span title="Характеристики" class="glyphicon glyphicon-list-alt"></span>
+                      <span class="tabs-label"> Характеристики</span>
+                  </a></li>
+                  <li ng-class="{active:cPanel.isSelected(3)}"><a href ng-click="cPanel.selectTab(3)">
+                      <span title="Фото" class="glyphicon glyphicon-picture"></span>
+                      <span class="tabs-label"> Фото</span>
+                  </a></li>
                 </ul>
                 <div ng-show='cPanel.isSelected(1)'>
                     <br>
-                    <p>{{ char.description }}</p>
+                    <p>{{ char.description|linebreaks }}</p>
                 </div>
                 <div ng-show='cPanel.isSelected(2)'>
                     <br>
-                    <p>Здесь будут жить характеристики персонажа. Следите за обновлениями.</p>
+                    <p>{{ char.public_stats|linebreaks }}</p>
+                    {% if owner or master %}
+                    <hr>
+                    <h3>Закрытая секция
+                        <small>
+                        <a data-toggle="modal" data-target="#privateModal" class="tag" role="button">
+                        <span class="glyphicon glyphicon-pencil"></span></a>
+                        </small>
+                        <br>
+                        <small> видно Мастеру и хозяину персонажа</small>
+                    </h3>
+                    <div id="private-text">{{ char.private_stats|linebreaks }}</div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="privateModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Редактирование приватной информации</h4>
+                          </div>
+                          <div class="modal-body">
+                              <textarea class="form-control" cols="10" rows="10">{{ char.private_stats }}</textarea>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                            <button data-text-target="private-text" href="{% url 'update_private_info' char.id %}" type="button" class="btn btn-success" data-dismiss="modal">Сохранить</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {% endif %}
+                    {% if master %}
+                    <hr>
+                    <h3>Записки мастера
+                        <small>
+                        <a data-toggle="modal" data-target="#dmsModal" class="tag" role="button">
+                        <span class="glyphicon glyphicon-pencil"></span></a>
+                        </small>
+                        <br><small>видно только Вам</small>
+                    </h3>
+                    <div id="master-text">{{ char.masters_notes|linebreaks }}</div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="dmsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Редактирование заметок Мастера</h4>
+                          </div>
+                          <div class="modal-body">
+                              <textarea class="form-control" cols="10" rows="10">{{ char.masters_notes }}</textarea>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                            <button data-text-target="master-text" href="{% url 'update_dm_notes' char.id %}" type="button" class="btn btn-success" data-dismiss="modal">Сохранить</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    {% endif %}
                 </div>
                 <div ng-show='cPanel.isSelected(3)'>
                     {% if char.photo_full %}
@@ -66,3 +135,7 @@ s.setAttribute('data-timestamp', +new Date());
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 {% endblock %}
+
+{% block additional_js %}
+<script src="{% static 'campaign/js/char_detail.js' %}"></script>
+{% endblock additional_js %}

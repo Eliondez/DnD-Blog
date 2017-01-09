@@ -1,4 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
+from django.views.generic import ListView, TemplateView, DetailView, View
+from django.http import JsonResponse
 
 from .models import Character
 from .forms import CharacterForm
@@ -7,19 +9,55 @@ from campaign.views import MainContext
 
 
 
-def char_detail(request, id=0):
-    campaigns = Campaign.objects.filter(started__isnull=False)
-    char = get_object_or_404(Character, id=id)
-    #chars = Character.objects.all()
-    panel = request.GET.get('panel', '1')
-    print(panel)
-    context = {
-        'active_campaign_list': campaigns,
-        'panel': panel,
-        'char': char,
-        #'section': 'chars'
-    }
-    return render(request, 'character/char_detail.html', context)
+class CharacterDetail(TemplateView, MainContext):
+    template_name = 'character/char_detail.html'
+
+    def get_context_data(self, **kwargs):
+        context = super(CharacterDetail, self).get_context_data(**kwargs)
+        context['panel'] = self.request.GET.get('panel', '1')
+        context['char'] = get_object_or_404(Character, id=kwargs['id'])
+        context['available_chars'] = Character.objects.filter(campaign__isnull=True)
+        context['owner'] = (self.request.user == context['char'].owner.user)
+        context['master'] = (self.request.user == context['char'].campaign.master.user)
+        return context
+#
+# def char_detail(request, id=0):
+#     campaigns = Campaign.objects.filter(started__isnull=False)
+#     #chars = Character.objects.all()
+#     panel = request.GET.get('panel', '1')
+#     context = {
+#         'active_campaign_list': campaigns,
+#         'panel': panel,
+#         'char': char,
+#     }
+#     return render(request, 'character/char_detail.html', context)
+
+
+class UpdatePrivateStats(View):
+    def post(self, *args, **kwargs):
+        char = get_object_or_404(Character, pk=kwargs['id'])
+        usr = self.request.user
+        if usr != char.owner.user or usr != char.campaign.master.user:
+            return JsonResponse({}, status=500)
+        char.private_stats = self.request.POST['text']
+        char.save()
+        return JsonResponse({
+            'id': char.id,
+            'text': char.private_stats,
+        })
+
+class UpdateDMNotes(View):
+    def post(self, *args, **kwargs):
+        char = get_object_or_404(Character, pk=kwargs['id'])
+        usr = self.request.user
+        if usr != char.campaign.master.user:
+            return JsonResponse({}, status=500)
+        char.masters_notes = self.request.POST['text']
+        char.save()
+        return JsonResponse({
+            'id': char.id,
+            'text': char.masters_notes,
+        })
 
 def char_edit(request, id=0):
     campaigns = Campaign.objects.filter(started__isnull=False)
@@ -30,11 +68,7 @@ def char_edit(request, id=0):
     button_text = 'Обновить'
     if request.method == 'POST':
         form = CharacterForm(request.POST, request.FILES, instance=char)
-        print(char.photo)
         if form.is_valid():
-            # Create a new user object but avoid saving it yet
-            #print('photo - ', request.FILES['photo'])
-            #print('Large_photo - ', request.FILES['photo_full'])
             form.save()
             return redirect('accounts:home')
 
@@ -61,9 +95,7 @@ def char_create(request):
     if request.method == 'POST':
         form = CharacterForm(request.POST, request.FILES)
         if form.is_valid():
-            # Create a new user object but avoid saving it yet
             char = form.save(commit=False)
-            # Set the chosen password
             char.owner = request.user.profile
             char.exp = 0
             char.save()

@@ -14,8 +14,6 @@
     {% load staticfiles %}
     <link rel="stylesheet" href="{% static 'campaign/css/mystyle.css' %}">
     <link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
-    <!--google maps css-->
-    <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
     {% block additional_css %}
     {% endblock additional_css %}
     <!-- Latest compiled and minified JavaScript -->
@@ -23,12 +21,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="{% static 'campaign/js/new.js' %}"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    {% block additional_js %}
-    {% endblock additional_js %}
-
-    <script src="{% static 'campaign/js/angular.min.js' %}"></script>
-    <script src="{% static 'campaign/js/app.js' %}"></script>
-
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -117,23 +109,15 @@
       <!-- FOOTER -->
 
       <footer>
-        <!--<div id="map"></div>-->
         <p class="pull-right"><a href="#">Наверх</a></p>
         <p>&copy; {% now "Y" %} Elion, Inc.</p>
       </footer>
     </div><!-- /.container -->
-    <script>
-      function initMap() {
-        // Create a map object and specify the DOM element for display.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: -34.397, lng: 150.644},
-          scrollwheel: false,
-          zoom: 8
-        });
-      }
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxfRQYYxr36OK3gKibK9GSPntj3-fJemo&callback=initMap"
-    async defer></script>
+
+    {% block additional_js %}
+    {% endblock additional_js %}
+    <script src="{% static 'campaign/js/angular.min.js' %}"></script>
+    <script src="{% static 'campaign/js/app.js' %}"></script>
 
   </body>
 </html>

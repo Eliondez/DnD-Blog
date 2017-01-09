@@ -5,6 +5,7 @@ from django.views.generic.base import ContextMixin, RedirectView
 from django.views.generic import ListView, TemplateView, DetailView, View
 from django.utils import formats
 from django.http import JsonResponse
+from django.db.models import Count
 from datetime import date
 
 from character.models import Character
@@ -16,7 +17,8 @@ logger = logging.getLogger(__name__)
 class MainContext(ContextMixin):
     def get_context_data(self, **kwargs):
         context = super(MainContext, self).get_context_data(**kwargs)
-        context['active_campaign_list'] = Campaign.objects.filter(started__isnull=False)
+        #context['active_campaign_list'] = Campaign.objects.filter(started__isnull=False)
+        context['active_campaign_list'] = Campaign.objects.annotate(Count('story')).filter(story__count__gt = 0)
         logger.warning('asdaddqwdqwdqwd')
         return context
 

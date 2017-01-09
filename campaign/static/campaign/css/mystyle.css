@@ -229,3 +229,13 @@ td.image img {
 #map {
     height: 300px;
 }
+
+.tabs-label {
+    display: none;
+}
+
+@media screen and (min-width: 550px) {
+    .tabs-label {
+        display: inline;
+    }
+}

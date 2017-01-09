@@ -17,15 +17,17 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
-from character.views import char_edit, char_create, char_detail, char_delete
+from character.views import char_edit, char_create, char_delete, CharacterDetail, UpdatePrivateStats, UpdateDMNotes
 from campaign import views
 from accounts.views import login_view, register_view, logout_view, home_view
 
 #app_name = 'base'
 urlpatterns = [
+    url(r'^character/(?P<id>\d+)/update_private/$', UpdatePrivateStats.as_view(), name='update_private_info'),
+    url(r'^character/(?P<id>\d+)/update_dm_notes/$', UpdateDMNotes.as_view(), name='update_dm_notes'),
     url(r'^character/(?P<id>\d+)/edit/$', char_edit, name='char_edit'),
     url(r'^character/(?P<id>\d+)/delete/$', char_delete, name='char_delete'),
-    url(r'^character/(?P<id>\d+)/$', char_detail, name='char_detail'),
+    url(r'^character/(?P<id>\d+)/$', CharacterDetail.as_view(), name='char_detail'),
     url(r'^character/create/', char_create, name='char_create'),
 
     url(r'^campaign/', include('campaign.urls')),

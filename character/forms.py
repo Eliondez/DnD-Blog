@@ -11,6 +11,8 @@ class CharacterForm(forms.ModelForm):
             'name',
             'char_class',
             'description',
+            'public_stats',
+            'private_stats',
             'photo',
             'photo_full',
         ]
@@ -18,6 +20,8 @@ class CharacterForm(forms.ModelForm):
             'name': 'Имя персонажа',
             'char_class': 'Класс персонажа',
             'description': 'Описание',
+            'public_stats': 'Открытые характеристики',
+            'private_stats': 'Скрытые характеристики',
         }
         widgets = {
             'photo': forms.FileInput(),

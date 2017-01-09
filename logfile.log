@@ -2138,3 +2138,1491 @@ WARNING 2017-01-07 13:16:19,993 basehttp 10432 12584 "GET /maps/documentation/ja
 WARNING 2017-01-07 13:16:19,993 basehttp 10432 12584 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
 WARNING 2017-01-07 13:16:20,306 basehttp 10432 13252 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
 WARNING 2017-01-07 13:16:20,306 basehttp 10432 13252 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 10:58:49,376 views 5728 7624 asdaddqwdqwdqwd
+INFO 2017-01-09 10:58:49,727 basehttp 5728 7624 "GET / HTTP/1.1" 200 16717
+INFO 2017-01-09 10:58:49,727 basehttp 5728 7624 "GET / HTTP/1.1" 200 16717
+INFO 2017-01-09 10:58:49,789 basehttp 5728 3396 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 10:58:49,790 basehttp 5728 4488 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3559
+INFO 2017-01-09 10:58:49,789 basehttp 5728 3396 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 10:58:49,790 basehttp 5728 4488 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3559
+WARNING 2017-01-09 10:58:49,834 base 5728 8048 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 10:58:49,834 base 5728 8048 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 10:58:49,836 basehttp 5728 8048 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 10:58:49,836 basehttp 5728 8048 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 10:58:50,154 basehttp 5728 6124 "GET /static/campaign/js/app.js HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,154 basehttp 5728 7144 "GET /static/campaign/js/angular.min.js HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,154 basehttp 5728 5308 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,154 basehttp 5728 5220 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,154 basehttp 5728 6124 "GET /static/campaign/js/app.js HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,155 basehttp 5728 7680 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,154 basehttp 5728 7144 "GET /static/campaign/js/angular.min.js HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,154 basehttp 5728 5308 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,156 basehttp 5728 6068 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,154 basehttp 5728 5220 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,155 basehttp 5728 7680 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,156 basehttp 5728 6068 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,709 basehttp 5728 7164 "GET /static/campaign/images/bg.png HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,710 basehttp 5728 7108 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,709 basehttp 5728 7164 "GET /static/campaign/images/bg.png HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,710 basehttp 5728 7108 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,743 basehttp 5728 3472 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-09 10:58:50,743 basehttp 5728 3472 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2017-01-09 10:58:51,192 base 5728 7068 Not Found: /favicon.ico
+WARNING 2017-01-09 10:58:51,192 base 5728 7068 Not Found: /favicon.ico
+WARNING 2017-01-09 10:58:51,192 basehttp 5728 7068 "GET /favicon.ico HTTP/1.1" 404 13301
+WARNING 2017-01-09 10:58:51,192 basehttp 5728 7068 "GET /favicon.ico HTTP/1.1" 404 13301
+WARNING 2017-01-09 10:59:10,331 views 5728 7296 asdaddqwdqwdqwd
+INFO 2017-01-09 10:59:10,625 basehttp 5728 7296 "GET /campaign/3/ HTTP/1.1" 200 34454
+INFO 2017-01-09 10:59:10,625 basehttp 5728 7296 "GET /campaign/3/ HTTP/1.1" 200 34454
+WARNING 2017-01-09 10:59:10,713 base 5728 7600 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 10:59:10,713 base 5728 7600 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 10:59:10,716 basehttp 5728 7600 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 10:59:10,716 basehttp 5728 7600 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 10:59:11,059 basehttp 5728 3896 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 200 133474
+INFO 2017-01-09 10:59:11,059 basehttp 5728 3896 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 200 133474
+WARNING 2017-01-09 10:59:17,236 views 5728 4656 asdaddqwdqwdqwd
+INFO 2017-01-09 10:59:17,400 basehttp 5728 4656 "GET /campaign/3/?page=2 HTTP/1.1" 200 28683
+INFO 2017-01-09 10:59:17,400 basehttp 5728 4656 "GET /campaign/3/?page=2 HTTP/1.1" 200 28683
+WARNING 2017-01-09 10:59:17,761 base 5728 7012 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 10:59:17,761 base 5728 7012 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 10:59:17,762 basehttp 5728 7012 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 10:59:17,762 basehttp 5728 7012 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 10:59:27,427 views 5728 8008 asdaddqwdqwdqwd
+INFO 2017-01-09 10:59:27,601 basehttp 5728 8008 "GET /campaign/3/detail/ HTTP/1.1" 200 20032
+INFO 2017-01-09 10:59:27,601 basehttp 5728 8008 "GET /campaign/3/detail/ HTTP/1.1" 200 20032
+INFO 2017-01-09 10:59:27,621 basehttp 5728 4608 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 10:59:27,621 basehttp 5728 4608 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 10:59:27,626 basehttp 5728 3732 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 10:59:27,626 basehttp 5728 3732 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+WARNING 2017-01-09 10:59:27,690 base 5728 8056 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 10:59:27,690 base 5728 8056 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 10:59:27,691 basehttp 5728 8056 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 10:59:27,691 basehttp 5728 8056 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 11:00:32,057 basehttp 5728 8156 "GET /character/6/ HTTP/1.1" 200 17303
+INFO 2017-01-09 11:00:32,057 basehttp 5728 8156 "GET /character/6/ HTTP/1.1" 200 17303
+INFO 2017-01-09 11:00:32,171 basehttp 5728 7900 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 11:00:32,171 basehttp 5728 7900 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 11:00:32,408 basehttp 5728 1464 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 11:00:32,408 basehttp 5728 1464 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+WARNING 2017-01-09 11:00:32,434 base 5728 5636 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:00:32,434 base 5728 5636 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:00:32,435 basehttp 5728 5636 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:00:32,435 basehttp 5728 5636 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 11:00:32,456 basehttp 5728 5196 "GET /media/rogue_face.png HTTP/1.1" 200 199179
+INFO 2017-01-09 11:00:32,456 basehttp 5728 5196 "GET /media/rogue_face.png HTTP/1.1" 200 199179
+INFO 2017-01-09 11:00:32,771 basehttp 5728 7076 "GET /media/rogue.jpg HTTP/1.1" 200 61139
+INFO 2017-01-09 11:00:32,771 basehttp 5728 7076 "GET /media/rogue.jpg HTTP/1.1" 200 61139
+WARNING 2017-01-09 11:00:46,278 views 5728 7556 asdaddqwdqwdqwd
+INFO 2017-01-09 11:00:46,465 basehttp 5728 7556 "GET /campaign/3/ HTTP/1.1" 200 34454
+INFO 2017-01-09 11:00:46,465 basehttp 5728 7556 "GET /campaign/3/ HTTP/1.1" 200 34454
+WARNING 2017-01-09 11:00:46,562 base 5728 5268 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:00:46,562 base 5728 5268 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:00:46,568 basehttp 5728 5268 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:00:46,568 basehttp 5728 5268 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 11:00:46,803 basehttp 5728 7392 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+INFO 2017-01-09 11:00:46,803 basehttp 5728 7392 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+WARNING 2017-01-09 11:00:51,197 views 5728 6032 asdaddqwdqwdqwd
+INFO 2017-01-09 11:00:51,346 basehttp 5728 6032 "GET /campaign/3/detail/ HTTP/1.1" 200 20032
+INFO 2017-01-09 11:00:51,346 basehttp 5728 6032 "GET /campaign/3/detail/ HTTP/1.1" 200 20032
+WARNING 2017-01-09 11:00:51,720 base 5728 5376 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:00:51,720 base 5728 5376 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:00:51,721 basehttp 5728 5376 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:00:51,721 basehttp 5728 5376 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 11:00:55,036 basehttp 5728 4648 "GET /character/5/ HTTP/1.1" 200 17326
+INFO 2017-01-09 11:00:55,036 basehttp 5728 4648 "GET /character/5/ HTTP/1.1" 200 17326
+WARNING 2017-01-09 11:00:55,416 base 5728 6480 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:00:55,416 base 5728 6480 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:00:55,417 basehttp 5728 6480 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:00:55,417 basehttp 5728 6480 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 11:00:55,630 basehttp 5728 7028 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 11:00:55,630 basehttp 5728 7028 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 11:00:55,634 basehttp 5728 7336 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 11:00:55,634 basehttp 5728 7336 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+WARNING 2017-01-09 11:00:57,832 base 5728 5944 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:00:57,832 base 5728 5944 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:00:57,833 basehttp 5728 5944 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:00:57,833 basehttp 5728 5944 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:00:58,105 basehttp 5728 3968 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 11:00:58,105 basehttp 5728 3968 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 11:04:13,537 basehttp 5728 3252 "GET /character/5/ HTTP/1.1" 200 17669
+INFO 2017-01-09 11:04:13,537 basehttp 5728 3252 "GET /character/5/ HTTP/1.1" 200 17669
+INFO 2017-01-09 11:04:13,671 basehttp 5728 3216 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3559
+INFO 2017-01-09 11:04:13,671 basehttp 5728 3216 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3559
+INFO 2017-01-09 11:04:13,922 basehttp 5728 4308 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 11:04:13,922 basehttp 5728 4308 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 11:04:13,934 basehttp 5728 4196 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 11:04:13,934 basehttp 5728 4196 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 11:04:13,946 basehttp 5728 6608 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 11:04:13,946 basehttp 5728 6608 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+WARNING 2017-01-09 11:04:13,959 base 5728 7476 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:04:13,959 base 5728 7476 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:04:13,960 basehttp 5728 7476 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:04:13,960 basehttp 5728 7476 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 11:04:13,964 basehttp 5728 6836 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 11:04:13,964 basehttp 5728 6836 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 11:04:16,302 basehttp 5728 1320 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 11:04:16,302 basehttp 5728 1320 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 11:04:16,352 basehttp 5728 5464 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 11:04:16,352 basehttp 5728 5464 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 11:04:16,354 basehttp 5728 7268 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 11:04:16,354 basehttp 5728 7268 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 11:04:16,356 basehttp 5728 5592 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 11:04:16,356 basehttp 5728 5592 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 11:04:16,357 basehttp 5728 2992 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 11:04:16,357 basehttp 5728 2992 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 11:04:16,364 basehttp 5728 7008 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 11:04:16,364 basehttp 5728 7008 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 11:04:16,606 basehttp 5728 6488 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 11:04:16,606 basehttp 5728 6488 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+WARNING 2017-01-09 11:04:16,657 basehttp 5728 6636 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 11:04:16,657 basehttp 5728 6636 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 11:04:16,659 basehttp 5728 2032 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 11:04:16,659 basehttp 5728 2032 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 11:04:31,612 basehttp 5728 7992 "GET /character/5/ HTTP/1.1" 200 17672
+INFO 2017-01-09 11:04:31,612 basehttp 5728 7992 "GET /character/5/ HTTP/1.1" 200 17672
+WARNING 2017-01-09 11:04:31,811 base 5728 7212 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:04:31,811 base 5728 7212 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:04:31,813 basehttp 5728 7212 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:04:31,813 basehttp 5728 7212 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:04:32,185 basehttp 5728 5808 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 11:04:32,185 basehttp 5728 5808 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 11:06:29,882 basehttp 5728 7388 "GET /character/5/ HTTP/1.1" 200 17672
+INFO 2017-01-09 11:06:29,882 basehttp 5728 7388 "GET /character/5/ HTTP/1.1" 200 17672
+INFO 2017-01-09 11:06:30,025 basehttp 5728 3924 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3597
+INFO 2017-01-09 11:06:30,025 basehttp 5728 3924 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3597
+INFO 2017-01-09 11:06:30,248 basehttp 5728 5716 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 11:06:30,249 basehttp 5728 7584 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 11:06:30,248 basehttp 5728 5716 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 11:06:30,249 basehttp 5728 7584 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 11:06:30,256 basehttp 5728 7136 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 11:06:30,256 basehttp 5728 7136 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 11:06:30,266 basehttp 5728 5588 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 11:06:30,266 basehttp 5728 5588 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+WARNING 2017-01-09 11:06:30,284 base 5728 3268 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:06:30,284 base 5728 3268 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:06:30,285 basehttp 5728 3268 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:06:30,285 basehttp 5728 3268 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 11:06:30,591 basehttp 5728 1792 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 11:06:30,591 basehttp 5728 1792 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 11:06:30,847 basehttp 5728 4620 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 11:06:30,847 basehttp 5728 4620 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 11:06:30,949 basehttp 5728 6172 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 11:06:30,949 basehttp 5728 6172 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 11:06:30,952 basehttp 5728 7336 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 11:06:30,952 basehttp 5728 7336 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 11:06:30,958 basehttp 5728 2576 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 11:06:30,958 basehttp 5728 2576 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 11:06:30,963 basehttp 5728 5864 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 11:06:30,963 basehttp 5728 5864 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 11:06:30,968 basehttp 5728 6512 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 11:06:30,968 basehttp 5728 6512 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+WARNING 2017-01-09 11:06:31,155 basehttp 5728 7748 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 11:06:31,155 basehttp 5728 7748 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 11:06:31,254 basehttp 5728 7780 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 11:06:31,254 basehttp 5728 7780 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 11:08:18,493 basehttp 5728 5368 "GET /character/5/ HTTP/1.1" 200 17672
+INFO 2017-01-09 11:08:18,493 basehttp 5728 5368 "GET /character/5/ HTTP/1.1" 200 17672
+INFO 2017-01-09 11:08:18,649 basehttp 5728 3952 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3690
+INFO 2017-01-09 11:08:18,649 basehttp 5728 3952 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3690
+INFO 2017-01-09 11:08:18,859 basehttp 5728 5552 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 11:08:18,859 basehttp 5728 5280 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 11:08:18,864 basehttp 5728 6400 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 11:08:18,859 basehttp 5728 5552 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 11:08:18,859 basehttp 5728 5280 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 11:08:18,864 basehttp 5728 6400 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 11:08:18,880 basehttp 5728 6840 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 11:08:18,880 basehttp 5728 6840 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+WARNING 2017-01-09 11:08:18,898 base 5728 4944 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:08:18,898 base 5728 4944 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:08:18,898 basehttp 5728 4944 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:08:18,898 basehttp 5728 4944 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 11:08:21,398 basehttp 5728 5356 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 11:08:21,398 basehttp 5728 5356 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 11:08:21,655 basehttp 5728 7680 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 11:08:21,655 basehttp 5728 7680 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 11:08:21,713 basehttp 5728 8124 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 11:08:21,713 basehttp 5728 8124 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 11:08:21,719 basehttp 5728 7908 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 11:08:21,719 basehttp 5728 7908 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 11:08:21,721 basehttp 5728 5216 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 11:08:21,721 basehttp 5728 5216 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 11:08:21,722 basehttp 5728 7476 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 11:08:21,722 basehttp 5728 7476 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 11:08:21,726 basehttp 5728 7288 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 11:08:21,726 basehttp 5728 7288 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+WARNING 2017-01-09 11:08:21,961 basehttp 5728 7984 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 11:08:21,961 basehttp 5728 7984 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 11:08:22,019 basehttp 5728 1508 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 11:08:22,019 basehttp 5728 1508 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 11:11:34,256 basehttp 5728 4924 "GET /character/5/ HTTP/1.1" 200 17672
+INFO 2017-01-09 11:11:34,256 basehttp 5728 4924 "GET /character/5/ HTTP/1.1" 200 17672
+INFO 2017-01-09 11:11:34,359 basehttp 5728 404 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 11:11:34,359 basehttp 5728 404 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 11:11:34,619 basehttp 5728 4256 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 11:11:34,619 basehttp 5728 4256 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+WARNING 2017-01-09 11:11:34,649 base 5728 7968 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:11:34,649 base 5728 7968 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:11:34,650 basehttp 5728 7968 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:11:34,650 basehttp 5728 7968 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:11:34,903 basehttp 5728 6172 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 11:11:34,903 basehttp 5728 6172 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 11:53:09,904 basehttp 6104 7144 "GET /account/ HTTP/1.1" 200 25224
+INFO 2017-01-09 11:53:09,904 basehttp 6104 7144 "GET /account/ HTTP/1.1" 200 25224
+INFO 2017-01-09 11:53:09,948 basehttp 6104 3776 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 11:53:09,948 basehttp 6104 3776 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 11:53:10,274 basehttp 6104 8348 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 11:53:10,274 basehttp 6104 8348 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+WARNING 2017-01-09 11:53:10,292 base 6104 8036 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:53:10,292 base 6104 8036 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:53:10,293 basehttp 6104 8036 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:53:10,293 basehttp 6104 8036 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 11:53:16,046 basehttp 6104 2748 "GET /character/create/ HTTP/1.1" 200 16405
+INFO 2017-01-09 11:53:16,046 basehttp 6104 2748 "GET /character/create/ HTTP/1.1" 200 16405
+WARNING 2017-01-09 11:53:16,262 base 6104 1644 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:53:16,262 base 6104 1644 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:53:16,263 basehttp 6104 1644 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:53:16,263 basehttp 6104 1644 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 11:55:04,806 basehttp 8280 5308 "GET /character/create/ HTTP/1.1" 200 17023
+INFO 2017-01-09 11:55:04,806 basehttp 8280 5308 "GET /character/create/ HTTP/1.1" 200 17023
+WARNING 2017-01-09 11:55:04,881 base 8280 9120 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:55:04,881 base 8280 9120 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 11:55:04,882 basehttp 8280 9120 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 11:55:04,882 basehttp 8280 9120 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 12:01:54,697 basehttp 8280 5308 "POST /character/create/ HTTP/1.1" 302 0
+INFO 2017-01-09 12:01:54,697 basehttp 8280 5308 "POST /character/create/ HTTP/1.1" 302 0
+INFO 2017-01-09 12:01:54,931 basehttp 8280 8244 "GET /account/ HTTP/1.1" 200 27579
+INFO 2017-01-09 12:01:54,931 basehttp 8280 8244 "GET /account/ HTTP/1.1" 200 27579
+INFO 2017-01-09 12:01:55,004 basehttp 8280 8540 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 12:01:55,004 basehttp 8280 8540 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 12:01:55,273 basehttp 8280 9064 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 12:01:55,273 basehttp 8280 9064 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+WARNING 2017-01-09 12:01:55,294 base 8280 4500 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:01:55,294 base 8280 4500 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:01:55,295 basehttp 8280 4500 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 12:01:55,295 basehttp 8280 4500 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 12:02:04,318 views 8280 6172 asdaddqwdqwdqwd
+INFO 2017-01-09 12:02:04,464 basehttp 8280 6172 "GET /campaign/7/detail/ HTTP/1.1" 200 18125
+INFO 2017-01-09 12:02:04,464 basehttp 8280 6172 "GET /campaign/7/detail/ HTTP/1.1" 200 18125
+WARNING 2017-01-09 12:02:04,821 base 8280 8608 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:02:04,821 base 8280 8608 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:02:04,822 basehttp 8280 8608 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 12:02:04,822 basehttp 8280 8608 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 12:03:09,738 basehttp 8280 8456 "GET /campaign/7/addchar/8/ HTTP/1.1" 302 0
+INFO 2017-01-09 12:03:09,738 basehttp 8280 8456 "GET /campaign/7/addchar/8/ HTTP/1.1" 302 0
+WARNING 2017-01-09 12:03:09,804 views 8280 7832 asdaddqwdqwdqwd
+INFO 2017-01-09 12:03:09,936 basehttp 8280 7832 "GET /campaign/7/detail/?panel=2 HTTP/1.1" 200 18206
+INFO 2017-01-09 12:03:09,936 basehttp 8280 7832 "GET /campaign/7/detail/?panel=2 HTTP/1.1" 200 18206
+WARNING 2017-01-09 12:03:10,116 base 8280 8904 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:03:10,116 base 8280 8904 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:03:10,117 basehttp 8280 8904 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 12:03:10,117 basehttp 8280 8904 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 12:03:12,089 basehttp 8280 2100 "GET /character/8/ HTTP/1.1" 200 17552
+INFO 2017-01-09 12:03:12,089 basehttp 8280 2100 "GET /character/8/ HTTP/1.1" 200 17552
+WARNING 2017-01-09 12:03:12,466 base 8280 8628 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:03:12,466 base 8280 8628 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:03:12,467 basehttp 8280 8628 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 12:03:12,467 basehttp 8280 8628 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 12:03:12,687 basehttp 8280 5808 "GET /static/campaign/images/ph_small.jpg HTTP/1.1" 200 1581
+INFO 2017-01-09 12:03:12,687 basehttp 8280 5808 "GET /static/campaign/images/ph_small.jpg HTTP/1.1" 200 1581
+INFO 2017-01-09 12:03:18,931 basehttp 8280 3724 "GET /account/ HTTP/1.1" 200 27699
+INFO 2017-01-09 12:03:18,931 basehttp 8280 3724 "GET /account/ HTTP/1.1" 200 27699
+WARNING 2017-01-09 12:03:19,115 base 8280 8744 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:03:19,115 base 8280 8744 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:03:19,116 basehttp 8280 8744 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 12:03:19,116 basehttp 8280 8744 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 12:03:21,519 basehttp 8280 6272 "GET /character/6/ HTTP/1.1" 200 17648
+INFO 2017-01-09 12:03:21,519 basehttp 8280 6272 "GET /character/6/ HTTP/1.1" 200 17648
+WARNING 2017-01-09 12:03:21,625 base 8280 7908 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:03:21,625 base 8280 7908 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:03:21,626 basehttp 8280 7908 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 12:03:21,626 basehttp 8280 7908 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 12:03:49,434 basehttp 8280 8568 "GET /character/8/ HTTP/1.1" 200 17563
+INFO 2017-01-09 12:03:49,434 basehttp 8280 8568 "GET /character/8/ HTTP/1.1" 200 17563
+WARNING 2017-01-09 12:03:49,529 base 8280 1984 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:03:49,529 base 8280 1984 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 12:03:49,529 basehttp 8280 1984 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 12:03:49,529 basehttp 8280 1984 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+ERROR 2017-01-09 12:31:16,970 exception 3244 4568 Internal Server Error: /character/8/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 155, in get
+    context = self.get_context_data(**kwargs)
+  File "E:\Scr\Git\DnD-Campaign-Blog\character\views.py", line 15, in get_context_data
+    context = super(CharacterDetail, self).get_context_data(**kwargs)
+  File "E:\Scr\Git\DnD-Campaign-Blog\campaign\views.py", line 20, in get_context_data
+    context['active_campaign_list'] = Campaign.objects.filter(story_set__count__gt = 0)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\query.py", line 796, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\query.py", line 814, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1227, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1253, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1133, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1019, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1327, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'story_set' into field. Choices are: character, description, ended, id, master, master_id, rp_system, started, story, title
+ERROR 2017-01-09 12:31:16,970 exception 3244 4568 Internal Server Error: /character/8/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 155, in get
+    context = self.get_context_data(**kwargs)
+  File "E:\Scr\Git\DnD-Campaign-Blog\character\views.py", line 15, in get_context_data
+    context = super(CharacterDetail, self).get_context_data(**kwargs)
+  File "E:\Scr\Git\DnD-Campaign-Blog\campaign\views.py", line 20, in get_context_data
+    context['active_campaign_list'] = Campaign.objects.filter(story_set__count__gt = 0)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\query.py", line 796, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\query.py", line 814, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1227, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1253, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1133, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1019, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1327, in names_to_path
+    "Choices are: %s" % (name, ", ".join(available)))
+django.core.exceptions.FieldError: Cannot resolve keyword 'story_set' into field. Choices are: character, description, ended, id, master, master_id, rp_system, started, story, title
+ERROR 2017-01-09 12:31:17,380 basehttp 3244 4568 "GET /character/8/ HTTP/1.1" 500 134429
+ERROR 2017-01-09 12:31:17,380 basehttp 3244 4568 "GET /character/8/ HTTP/1.1" 500 134429
+ERROR 2017-01-09 12:31:43,018 exception 8224 8492 Internal Server Error: /character/8/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 155, in get
+    context = self.get_context_data(**kwargs)
+  File "E:\Scr\Git\DnD-Campaign-Blog\character\views.py", line 15, in get_context_data
+    context = super(CharacterDetail, self).get_context_data(**kwargs)
+  File "E:\Scr\Git\DnD-Campaign-Blog\campaign\views.py", line 20, in get_context_data
+    context['active_campaign_list'] = Campaign.objects.filter(story__count__gt = 0)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\query.py", line 796, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\query.py", line 814, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1227, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1253, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1176, in build_filter
+    raise FieldError('Related Field got invalid lookup: {}'.format(lookups[0]))
+django.core.exceptions.FieldError: Related Field got invalid lookup: count
+ERROR 2017-01-09 12:31:43,018 exception 8224 8492 Internal Server Error: /character/8/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 155, in get
+    context = self.get_context_data(**kwargs)
+  File "E:\Scr\Git\DnD-Campaign-Blog\character\views.py", line 15, in get_context_data
+    context = super(CharacterDetail, self).get_context_data(**kwargs)
+  File "E:\Scr\Git\DnD-Campaign-Blog\campaign\views.py", line 20, in get_context_data
+    context['active_campaign_list'] = Campaign.objects.filter(story__count__gt = 0)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\query.py", line 796, in filter
+    return self._filter_or_exclude(False, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\query.py", line 814, in _filter_or_exclude
+    clone.query.add_q(Q(*args, **kwargs))
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1227, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1253, in _add_q
+    allow_joins=allow_joins, split_subq=split_subq,
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\sql\query.py", line 1176, in build_filter
+    raise FieldError('Related Field got invalid lookup: {}'.format(lookups[0]))
+django.core.exceptions.FieldError: Related Field got invalid lookup: count
+ERROR 2017-01-09 12:31:43,331 basehttp 8224 8492 "GET /character/8/ HTTP/1.1" 500 126548
+ERROR 2017-01-09 12:31:43,331 basehttp 8224 8492 "GET /character/8/ HTTP/1.1" 500 126548
+WARNING 2017-01-09 13:20:20,139 views 5572 8504 asdaddqwdqwdqwd
+ERROR 2017-01-09 13:20:20,270 exception 5572 8504 Internal Server Error: /character/8/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 155, in get
+    context = self.get_context_data(**kwargs)
+  File "E:\Scr\Git\DnD-Campaign-Blog\character\views.py", line 19, in get_context_data
+    context['can_edit'] = (self.request.user == context['campaign'].master.user) or (self.request.user == context['char'].owner.user)
+KeyError: 'campaign'
+ERROR 2017-01-09 13:20:20,270 exception 5572 8504 Internal Server Error: /character/8/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 155, in get
+    context = self.get_context_data(**kwargs)
+  File "E:\Scr\Git\DnD-Campaign-Blog\character\views.py", line 19, in get_context_data
+    context['can_edit'] = (self.request.user == context['campaign'].master.user) or (self.request.user == context['char'].owner.user)
+KeyError: 'campaign'
+ERROR 2017-01-09 13:20:20,548 basehttp 5572 8504 "GET /character/8/ HTTP/1.1" 500 93125
+ERROR 2017-01-09 13:20:20,548 basehttp 5572 8504 "GET /character/8/ HTTP/1.1" 500 93125
+WARNING 2017-01-09 13:20:53,323 views 6096 8724 asdaddqwdqwdqwd
+INFO 2017-01-09 13:20:53,728 basehttp 6096 8724 "GET /character/8/ HTTP/1.1" 200 17487
+INFO 2017-01-09 13:20:53,728 basehttp 6096 8724 "GET /character/8/ HTTP/1.1" 200 17487
+INFO 2017-01-09 13:20:53,789 basehttp 6096 8920 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 13:20:53,789 basehttp 6096 8920 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 13:20:54,153 basehttp 6096 3960 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 13:20:54,153 basehttp 6096 3960 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+WARNING 2017-01-09 13:20:54,163 base 6096 5900 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:20:54,163 base 6096 5900 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:20:54,164 basehttp 6096 5900 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:20:54,164 basehttp 6096 5900 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:21:00,654 views 6096 8256 asdaddqwdqwdqwd
+INFO 2017-01-09 13:21:01,045 basehttp 6096 8256 "GET /campaign/3/ HTTP/1.1" 200 34374
+INFO 2017-01-09 13:21:01,045 basehttp 6096 8256 "GET /campaign/3/ HTTP/1.1" 200 34374
+WARNING 2017-01-09 13:21:01,126 base 6096 6904 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:21:01,126 base 6096 6904 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:21:01,128 basehttp 6096 6904 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:21:01,128 basehttp 6096 6904 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:21:01,470 basehttp 6096 7796 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+INFO 2017-01-09 13:21:01,470 basehttp 6096 7796 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+INFO 2017-01-09 13:21:07,906 basehttp 6096 5368 "GET /__debug__/render_panel/?store_id=0d52d2804d7e46d2a2e4960b224f7e2e&panel_id=SQLPanel HTTP/1.1" 200 65958
+INFO 2017-01-09 13:21:07,906 basehttp 6096 5368 "GET /__debug__/render_panel/?store_id=0d52d2804d7e46d2a2e4960b224f7e2e&panel_id=SQLPanel HTTP/1.1" 200 65958
+INFO 2017-01-09 13:21:08,236 basehttp 6096 7004 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1483953661434 HTTP/1.1" 200 353
+INFO 2017-01-09 13:21:08,236 basehttp 6096 7004 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1483953661434 HTTP/1.1" 200 353
+WARNING 2017-01-09 13:22:54,772 views 6096 3620 asdaddqwdqwdqwd
+INFO 2017-01-09 13:22:54,946 basehttp 6096 3620 "GET /campaign/3/ HTTP/1.1" 200 34373
+INFO 2017-01-09 13:22:54,946 basehttp 6096 3620 "GET /campaign/3/ HTTP/1.1" 200 34373
+WARNING 2017-01-09 13:22:55,085 base 6096 9080 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:22:55,085 base 6096 9080 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:22:55,086 basehttp 6096 9080 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:22:55,086 basehttp 6096 9080 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:22:57,787 basehttp 6096 5504 "GET /__debug__/render_panel/?store_id=299e5148895d411a932f396c05786bff&panel_id=SQLPanel HTTP/1.1" 200 47592
+INFO 2017-01-09 13:22:57,787 basehttp 6096 5504 "GET /__debug__/render_panel/?store_id=299e5148895d411a932f396c05786bff&panel_id=SQLPanel HTTP/1.1" 200 47592
+INFO 2017-01-09 13:22:58,099 basehttp 6096 8812 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1483953775710 HTTP/1.1" 200 353
+INFO 2017-01-09 13:22:58,099 basehttp 6096 8812 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1483953775710 HTTP/1.1" 200 353
+WARNING 2017-01-09 13:23:08,745 views 6096 8220 asdaddqwdqwdqwd
+INFO 2017-01-09 13:23:08,905 basehttp 6096 8220 "GET /campaign/3/detail/ HTTP/1.1" 200 19951
+INFO 2017-01-09 13:23:08,905 basehttp 6096 8220 "GET /campaign/3/detail/ HTTP/1.1" 200 19951
+WARNING 2017-01-09 13:23:09,037 base 6096 1464 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:23:09,037 base 6096 1464 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:23:09,038 basehttp 6096 1464 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:23:09,038 basehttp 6096 1464 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:23:13,468 basehttp 6096 1220 "GET /__debug__/render_panel/?store_id=d24380612ef44dc58a2fb69f70a5c96e&panel_id=SQLPanel HTTP/1.1" 200 35895
+INFO 2017-01-09 13:23:13,468 basehttp 6096 1220 "GET /__debug__/render_panel/?store_id=d24380612ef44dc58a2fb69f70a5c96e&panel_id=SQLPanel HTTP/1.1" 200 35895
+INFO 2017-01-09 13:23:13,780 basehttp 6096 3284 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1483953789485 HTTP/1.1" 200 353
+INFO 2017-01-09 13:23:13,780 basehttp 6096 3284 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1483953789485 HTTP/1.1" 200 353
+WARNING 2017-01-09 13:23:17,739 views 6096 1428 asdaddqwdqwdqwd
+INFO 2017-01-09 13:23:17,840 basehttp 6096 1428 "GET /character/5/ HTTP/1.1" 200 17594
+INFO 2017-01-09 13:23:17,840 basehttp 6096 1428 "GET /character/5/ HTTP/1.1" 200 17594
+WARNING 2017-01-09 13:23:18,223 base 6096 8284 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:23:18,223 base 6096 8284 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:23:18,224 basehttp 6096 8284 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:23:18,224 basehttp 6096 8284 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:23:20,353 basehttp 6096 9180 "GET /__debug__/render_panel/?store_id=28832038cf8c48e3bcec560da480d51b&panel_id=SQLPanel HTTP/1.1" 200 22194
+INFO 2017-01-09 13:23:20,353 basehttp 6096 9180 "GET /__debug__/render_panel/?store_id=28832038cf8c48e3bcec560da480d51b&panel_id=SQLPanel HTTP/1.1" 200 22194
+INFO 2017-01-09 13:23:20,716 basehttp 6096 7376 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1483953798465 HTTP/1.1" 200 353
+INFO 2017-01-09 13:23:20,716 basehttp 6096 7376 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1483953798465 HTTP/1.1" 200 353
+WARNING 2017-01-09 13:24:28,892 views 4920 924 asdaddqwdqwdqwd
+INFO 2017-01-09 13:24:29,135 basehttp 4920 924 "GET /character/5/ HTTP/1.1" 200 17595
+INFO 2017-01-09 13:24:29,135 basehttp 4920 924 "GET /character/5/ HTTP/1.1" 200 17595
+WARNING 2017-01-09 13:24:29,238 base 4920 3280 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:24:29,238 base 4920 3280 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:24:29,240 basehttp 4920 3280 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:24:29,240 basehttp 4920 3280 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:26:10,678 views 4920 1644 asdaddqwdqwdqwd
+INFO 2017-01-09 13:26:10,798 basehttp 4920 1644 "GET /character/5/ HTTP/1.1" 200 17621
+INFO 2017-01-09 13:26:10,798 basehttp 4920 1644 "GET /character/5/ HTTP/1.1" 200 17621
+WARNING 2017-01-09 13:26:10,976 base 4920 6988 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:26:10,976 base 4920 6988 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:26:10,977 basehttp 4920 6988 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:26:10,977 basehttp 4920 6988 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:26:27,100 basehttp 4920 8668 "GET /account/ HTTP/1.1" 200 27699
+INFO 2017-01-09 13:26:27,100 basehttp 4920 8668 "GET /account/ HTTP/1.1" 200 27699
+WARNING 2017-01-09 13:26:27,173 base 4920 5760 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:26:27,173 base 4920 5760 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:26:27,174 basehttp 4920 5760 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:26:27,174 basehttp 4920 5760 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:26:30,092 basehttp 4920 7068 "GET /character/5/edit/ HTTP/1.1" 200 17553
+INFO 2017-01-09 13:26:30,092 basehttp 4920 7068 "GET /character/5/edit/ HTTP/1.1" 200 17553
+WARNING 2017-01-09 13:26:30,265 base 4920 8608 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:26:30,265 base 4920 8608 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:26:30,265 basehttp 4920 8608 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:26:30,265 basehttp 4920 8608 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:26:56,233 basehttp 4920 7740 "POST /character/5/edit/ HTTP/1.1" 302 0
+INFO 2017-01-09 13:26:56,233 basehttp 4920 7740 "POST /character/5/edit/ HTTP/1.1" 302 0
+INFO 2017-01-09 13:26:56,397 basehttp 4920 9004 "GET /account/ HTTP/1.1" 200 27699
+INFO 2017-01-09 13:26:56,397 basehttp 4920 9004 "GET /account/ HTTP/1.1" 200 27699
+WARNING 2017-01-09 13:26:56,769 base 4920 8876 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:26:56,769 base 4920 8876 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:26:56,770 basehttp 4920 8876 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:26:56,770 basehttp 4920 8876 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:26:58,972 views 4920 8276 asdaddqwdqwdqwd
+INFO 2017-01-09 13:26:59,090 basehttp 4920 8276 "GET /character/5/ HTTP/1.1" 200 17715
+INFO 2017-01-09 13:26:59,090 basehttp 4920 8276 "GET /character/5/ HTTP/1.1" 200 17715
+WARNING 2017-01-09 13:26:59,475 base 4920 9080 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:26:59,475 base 4920 9080 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:26:59,475 basehttp 4920 9080 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:26:59,475 basehttp 4920 9080 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:27:10,791 views 4920 9180 asdaddqwdqwdqwd
+INFO 2017-01-09 13:27:10,908 basehttp 4920 9180 "GET /character/5/ HTTP/1.1" 200 17770
+INFO 2017-01-09 13:27:10,908 basehttp 4920 9180 "GET /character/5/ HTTP/1.1" 200 17770
+WARNING 2017-01-09 13:27:10,987 base 4920 7852 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:27:10,987 base 4920 7852 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:27:11,007 basehttp 4920 7852 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:27:11,007 basehttp 4920 7852 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:28:02,729 basehttp 4920 6840 "GET /character/8/edit/ HTTP/1.1" 200 17058
+INFO 2017-01-09 13:28:02,729 basehttp 4920 6840 "GET /character/8/edit/ HTTP/1.1" 200 17058
+WARNING 2017-01-09 13:28:02,916 base 4920 8412 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:28:02,916 base 4920 8412 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:28:02,917 basehttp 4920 8412 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:28:02,917 basehttp 4920 8412 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:28:13,313 basehttp 4920 9208 "POST /character/8/edit/ HTTP/1.1" 302 0
+INFO 2017-01-09 13:28:13,313 basehttp 4920 9208 "POST /character/8/edit/ HTTP/1.1" 302 0
+INFO 2017-01-09 13:28:13,773 basehttp 4920 5216 "GET /account/ HTTP/1.1" 200 27699
+INFO 2017-01-09 13:28:13,773 basehttp 4920 5216 "GET /account/ HTTP/1.1" 200 27699
+WARNING 2017-01-09 13:28:13,915 base 4920 3200 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:28:13,915 base 4920 3200 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:28:13,916 basehttp 4920 3200 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:28:13,916 basehttp 4920 3200 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:28:23,928 views 4920 8256 asdaddqwdqwdqwd
+INFO 2017-01-09 13:28:24,044 basehttp 4920 8256 "GET /character/5/ HTTP/1.1" 200 17395
+INFO 2017-01-09 13:28:24,044 basehttp 4920 8256 "GET /character/5/ HTTP/1.1" 200 17395
+INFO 2017-01-09 13:28:24,194 basehttp 4920 8628 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 13:28:24,194 basehttp 4920 8628 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 13:28:24,384 basehttp 4920 8880 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 13:28:24,384 basehttp 4920 8880 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+WARNING 2017-01-09 13:28:24,400 base 4920 8716 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:28:24,400 base 4920 8716 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:28:24,401 basehttp 4920 8716 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:28:24,401 basehttp 4920 8716 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:28:24,407 basehttp 4920 9156 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 13:28:24,407 basehttp 4920 9156 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 13:28:24,419 basehttp 4920 8852 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 13:28:24,419 basehttp 4920 8852 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 13:28:24,462 basehttp 4920 7708 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 13:28:24,462 basehttp 4920 7708 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 13:28:25,828 basehttp 4920 6128 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 13:28:25,828 basehttp 4920 6128 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 13:28:26,183 basehttp 4920 4656 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 13:28:26,183 basehttp 4920 4656 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 13:28:26,489 basehttp 4920 7968 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 13:28:26,489 basehttp 4920 2468 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 13:28:26,489 basehttp 4920 7968 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 13:28:26,489 basehttp 4920 2468 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 13:28:26,500 basehttp 4920 4008 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 13:28:26,500 basehttp 4920 4008 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 13:28:26,519 basehttp 4920 8308 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 13:28:26,519 basehttp 4920 8308 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 13:28:26,595 basehttp 4920 5364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 13:28:26,595 basehttp 4920 5364 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 13:28:26,611 basehttp 4920 8984 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 13:28:26,611 basehttp 4920 8984 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+WARNING 2017-01-09 13:29:05,338 views 4920 8940 asdaddqwdqwdqwd
+INFO 2017-01-09 13:29:05,590 basehttp 4920 8940 "GET /campaign/3/ HTTP/1.1" 200 34373
+INFO 2017-01-09 13:29:05,590 basehttp 4920 8940 "GET /campaign/3/ HTTP/1.1" 200 34373
+WARNING 2017-01-09 13:29:05,656 base 4920 8164 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:29:05,656 base 4920 8164 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:29:05,657 basehttp 4920 8164 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:29:05,657 basehttp 4920 8164 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:29:07,973 views 4920 316 asdaddqwdqwdqwd
+INFO 2017-01-09 13:29:08,112 basehttp 4920 316 "GET /campaign/3/detail/ HTTP/1.1" 200 19951
+INFO 2017-01-09 13:29:08,112 basehttp 4920 316 "GET /campaign/3/detail/ HTTP/1.1" 200 19951
+WARNING 2017-01-09 13:29:08,266 base 4920 6988 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:29:08,266 base 4920 6988 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:29:08,267 basehttp 4920 6988 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:29:08,267 basehttp 4920 6988 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:29:35,419 views 4920 8944 asdaddqwdqwdqwd
+INFO 2017-01-09 13:29:35,542 basehttp 4920 8944 "GET /character/5/ HTTP/1.1" 200 17770
+INFO 2017-01-09 13:29:35,542 basehttp 4920 8944 "GET /character/5/ HTTP/1.1" 200 17770
+WARNING 2017-01-09 13:29:35,714 base 4920 9100 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:29:35,714 base 4920 9100 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:29:35,714 basehttp 4920 9100 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:29:35,714 basehttp 4920 9100 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:30:46,199 views 4920 852 asdaddqwdqwdqwd
+INFO 2017-01-09 13:30:46,317 basehttp 4920 852 "GET /character/5/ HTTP/1.1" 200 17819
+INFO 2017-01-09 13:30:46,317 basehttp 4920 852 "GET /character/5/ HTTP/1.1" 200 17819
+WARNING 2017-01-09 13:30:46,397 base 4920 6696 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:30:46,397 base 4920 6696 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:30:46,398 basehttp 4920 6696 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:30:46,398 basehttp 4920 6696 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:30:56,124 views 4920 3960 asdaddqwdqwdqwd
+INFO 2017-01-09 13:30:56,242 basehttp 4920 3960 "GET /character/5/?panel=2 HTTP/1.1" 200 17827
+INFO 2017-01-09 13:30:56,242 basehttp 4920 3960 "GET /character/5/?panel=2 HTTP/1.1" 200 17827
+WARNING 2017-01-09 13:30:56,465 base 4920 7968 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:30:56,465 base 4920 7968 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:30:56,466 basehttp 4920 7968 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:30:56,466 basehttp 4920 7968 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:31:45,272 views 4920 7024 asdaddqwdqwdqwd
+INFO 2017-01-09 13:31:45,419 basehttp 4920 7024 "GET /character/5/?panel=2 HTTP/1.1" 200 17858
+INFO 2017-01-09 13:31:45,419 basehttp 4920 7024 "GET /character/5/?panel=2 HTTP/1.1" 200 17858
+WARNING 2017-01-09 13:31:45,502 base 4920 8756 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:31:45,502 base 4920 8756 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:31:45,503 basehttp 4920 8756 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:31:45,503 basehttp 4920 8756 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:37:58,696 views 4920 8400 asdaddqwdqwdqwd
+INFO 2017-01-09 13:37:58,820 basehttp 4920 8400 "GET /character/5/?panel=2 HTTP/1.1" 200 19308
+INFO 2017-01-09 13:37:58,820 basehttp 4920 8400 "GET /character/5/?panel=2 HTTP/1.1" 200 19308
+INFO 2017-01-09 13:37:58,854 basehttp 4920 7520 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 13:37:58,854 basehttp 4920 7520 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 13:37:58,878 basehttp 4920 8236 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 13:37:58,878 basehttp 4920 8236 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+WARNING 2017-01-09 13:37:58,901 base 4920 7004 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:37:58,901 base 4920 7004 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:37:58,902 basehttp 4920 7004 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:37:58,902 basehttp 4920 7004 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:39:51,614 views 4920 3776 asdaddqwdqwdqwd
+INFO 2017-01-09 13:39:51,788 basehttp 4920 3776 "GET /campaign/3/ HTTP/1.1" 200 34373
+INFO 2017-01-09 13:39:51,788 basehttp 4920 3776 "GET /campaign/3/ HTTP/1.1" 200 34373
+WARNING 2017-01-09 13:39:51,851 base 4920 9152 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:39:51,851 base 4920 9152 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:39:51,852 basehttp 4920 9152 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:39:51,852 basehttp 4920 9152 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:39:51,865 basehttp 4920 6868 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+INFO 2017-01-09 13:39:51,865 basehttp 4920 6868 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+WARNING 2017-01-09 13:39:53,255 views 4920 6204 asdaddqwdqwdqwd
+INFO 2017-01-09 13:39:53,390 basehttp 4920 6204 "GET /campaign/3/detail/ HTTP/1.1" 200 19951
+INFO 2017-01-09 13:39:53,390 basehttp 4920 6204 "GET /campaign/3/detail/ HTTP/1.1" 200 19951
+WARNING 2017-01-09 13:39:53,477 base 4920 8280 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:39:53,477 base 4920 8280 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:39:53,478 basehttp 4920 8280 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:39:53,478 basehttp 4920 8280 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:40:02,435 basehttp 4920 9056 "GET /account/ HTTP/1.1" 200 27699
+INFO 2017-01-09 13:40:02,435 basehttp 4920 9056 "GET /account/ HTTP/1.1" 200 27699
+WARNING 2017-01-09 13:40:02,497 base 4920 2044 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:40:02,497 base 4920 2044 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:40:02,499 basehttp 4920 2044 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:40:02,499 basehttp 4920 2044 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+INFO 2017-01-09 13:40:04,266 basehttp 4920 8736 "GET /character/6/edit/ HTTP/1.1" 200 17522
+INFO 2017-01-09 13:40:04,266 basehttp 4920 8736 "GET /character/6/edit/ HTTP/1.1" 200 17522
+WARNING 2017-01-09 13:40:04,644 base 4920 8508 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:40:04,644 base 4920 8508 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:40:04,645 basehttp 4920 8508 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:40:04,645 basehttp 4920 8508 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:40:06,739 base 4920 7420 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:40:06,739 base 4920 7420 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:40:06,739 basehttp 4920 7420 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:40:06,739 basehttp 4920 7420 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:41:36,601 views 4920 7412 asdaddqwdqwdqwd
+INFO 2017-01-09 13:41:36,723 basehttp 4920 7412 "GET /character/5/?panel=2 HTTP/1.1" 200 19443
+INFO 2017-01-09 13:41:36,723 basehttp 4920 7412 "GET /character/5/?panel=2 HTTP/1.1" 200 19443
+WARNING 2017-01-09 13:41:36,794 base 4920 5216 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:41:36,794 base 4920 5216 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:41:36,795 basehttp 4920 5216 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:41:36,795 basehttp 4920 5216 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:41:59,815 views 4920 6004 asdaddqwdqwdqwd
+INFO 2017-01-09 13:41:59,935 basehttp 4920 6004 "GET /character/5/?panel=2 HTTP/1.1" 200 19603
+INFO 2017-01-09 13:41:59,935 basehttp 4920 6004 "GET /character/5/?panel=2 HTTP/1.1" 200 19603
+WARNING 2017-01-09 13:42:00,126 base 4920 9104 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:42:00,126 base 4920 9104 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:42:00,127 basehttp 4920 9104 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:42:00,127 basehttp 4920 9104 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:42:25,490 basehttp 4920 3984 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:42:25,490 basehttp 4920 3984 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:42:25,509 base 4920 8020 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:42:25,509 base 4920 8020 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:42:25,510 basehttp 4920 8020 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:42:25,510 basehttp 4920 8020 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:42:43,133 views 4920 8668 asdaddqwdqwdqwd
+INFO 2017-01-09 13:42:43,251 basehttp 4920 8668 "GET /character/5/?panel=2 HTTP/1.1" 200 19488
+INFO 2017-01-09 13:42:43,251 basehttp 4920 8668 "GET /character/5/?panel=2 HTTP/1.1" 200 19488
+WARNING 2017-01-09 13:42:43,458 base 4920 8036 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:42:43,458 base 4920 8036 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:42:43,459 basehttp 4920 8036 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:42:43,459 basehttp 4920 8036 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:42:43,994 basehttp 4920 1056 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:42:43,994 basehttp 4920 1056 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:43:28,090 views 4920 9108 asdaddqwdqwdqwd
+INFO 2017-01-09 13:43:28,209 basehttp 4920 9108 "GET /character/5/?panel=2 HTTP/1.1" 200 19495
+INFO 2017-01-09 13:43:28,209 basehttp 4920 9108 "GET /character/5/?panel=2 HTTP/1.1" 200 19495
+WARNING 2017-01-09 13:43:28,420 base 4920 6096 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:43:28,420 base 4920 6096 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:43:28,422 basehttp 4920 6096 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:43:28,422 basehttp 4920 6096 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:43:28,852 basehttp 4920 9056 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:43:28,852 basehttp 4920 9056 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:45:57,099 views 4920 9204 asdaddqwdqwdqwd
+INFO 2017-01-09 13:45:57,221 basehttp 4920 9204 "GET /character/5/?panel=2 HTTP/1.1" 200 19573
+INFO 2017-01-09 13:45:57,221 basehttp 4920 9204 "GET /character/5/?panel=2 HTTP/1.1" 200 19573
+WARNING 2017-01-09 13:45:57,413 base 4920 5036 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:45:57,413 base 4920 5036 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:45:57,417 basehttp 4920 5036 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:45:57,417 basehttp 4920 5036 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:45:57,899 basehttp 4920 2000 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:45:57,899 basehttp 4920 2000 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:46:12,682 views 4920 7864 asdaddqwdqwdqwd
+INFO 2017-01-09 13:46:12,803 basehttp 4920 7864 "GET /character/5/?panel=2 HTTP/1.1" 200 19492
+INFO 2017-01-09 13:46:12,803 basehttp 4920 7864 "GET /character/5/?panel=2 HTTP/1.1" 200 19492
+WARNING 2017-01-09 13:46:13,004 base 4920 8132 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:46:13,004 base 4920 8132 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:46:13,005 basehttp 4920 8132 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:46:13,005 basehttp 4920 8132 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:46:13,385 basehttp 4920 8452 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:46:13,385 basehttp 4920 8452 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 13:48:05,446 basehttp 4920 8392 "GET /character/6/edit/ HTTP/1.1" 200 17522
+INFO 2017-01-09 13:48:05,446 basehttp 4920 8392 "GET /character/6/edit/ HTTP/1.1" 200 17522
+WARNING 2017-01-09 13:48:05,655 base 4920 8080 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:48:05,655 base 4920 8080 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:48:05,656 basehttp 4920 8080 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:48:05,656 basehttp 4920 8080 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:48:06,094 basehttp 4920 7192 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:48:06,094 basehttp 4920 7192 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:48:07,691 views 4920 3820 asdaddqwdqwdqwd
+INFO 2017-01-09 13:48:07,811 basehttp 4920 3820 "GET /character/5/?panel=2 HTTP/1.1" 200 19415
+INFO 2017-01-09 13:48:07,811 basehttp 4920 3820 "GET /character/5/?panel=2 HTTP/1.1" 200 19415
+WARNING 2017-01-09 13:48:08,003 base 4920 7436 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:48:08,003 base 4920 7436 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:48:08,004 basehttp 4920 7436 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:48:08,004 basehttp 4920 7436 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:48:08,425 basehttp 4920 2128 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:48:08,425 basehttp 4920 2128 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:48:26,009 views 4920 7488 asdaddqwdqwdqwd
+INFO 2017-01-09 13:48:26,135 basehttp 4920 7488 "GET /character/5/?panel=2 HTTP/1.1" 200 19414
+INFO 2017-01-09 13:48:26,135 basehttp 4920 7488 "GET /character/5/?panel=2 HTTP/1.1" 200 19414
+WARNING 2017-01-09 13:48:26,337 base 4920 6260 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:48:26,337 base 4920 6260 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:48:26,337 basehttp 4920 6260 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:48:26,337 basehttp 4920 6260 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:48:26,764 basehttp 4920 7260 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:48:26,764 basehttp 4920 7260 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:48:36,667 views 4920 3724 asdaddqwdqwdqwd
+INFO 2017-01-09 13:48:36,785 basehttp 4920 3724 "GET /character/5/?panel=2 HTTP/1.1" 200 19413
+INFO 2017-01-09 13:48:36,785 basehttp 4920 3724 "GET /character/5/?panel=2 HTTP/1.1" 200 19413
+WARNING 2017-01-09 13:48:36,971 base 4920 8844 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:48:36,971 base 4920 8844 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:48:36,972 basehttp 4920 8844 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:48:36,972 basehttp 4920 8844 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:48:37,407 basehttp 4920 3756 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:48:37,407 basehttp 4920 3756 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:49:36,401 views 4920 8496 asdaddqwdqwdqwd
+INFO 2017-01-09 13:49:36,547 basehttp 4920 8496 "GET /character/5/?panel=2 HTTP/1.1" 200 19418
+INFO 2017-01-09 13:49:36,547 basehttp 4920 8496 "GET /character/5/?panel=2 HTTP/1.1" 200 19418
+WARNING 2017-01-09 13:49:36,713 base 4920 7452 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:49:36,713 base 4920 7452 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:49:36,714 basehttp 4920 7452 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:49:36,714 basehttp 4920 7452 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:49:37,259 basehttp 4920 7524 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:49:37,259 basehttp 4920 7524 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:50:38,811 views 4920 5760 asdaddqwdqwdqwd
+INFO 2017-01-09 13:50:38,931 basehttp 4920 5760 "GET /character/5/?panel=2 HTTP/1.1" 200 19356
+INFO 2017-01-09 13:50:38,931 basehttp 4920 5760 "GET /character/5/?panel=2 HTTP/1.1" 200 19356
+WARNING 2017-01-09 13:50:39,114 base 4920 7612 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:50:39,114 base 4920 7612 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:50:39,115 basehttp 4920 7612 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:50:39,115 basehttp 4920 7612 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:50:39,544 basehttp 4920 9148 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:50:39,544 basehttp 4920 9148 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:51:02,408 views 4920 7136 asdaddqwdqwdqwd
+INFO 2017-01-09 13:51:02,535 basehttp 4920 7136 "GET /character/5/?panel=2 HTTP/1.1" 200 19427
+INFO 2017-01-09 13:51:02,535 basehttp 4920 7136 "GET /character/5/?panel=2 HTTP/1.1" 200 19427
+WARNING 2017-01-09 13:51:02,728 base 4920 3244 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:51:02,728 base 4920 3244 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:51:02,739 basehttp 4920 3244 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:51:02,739 basehttp 4920 3244 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:51:03,283 basehttp 4920 8756 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:51:03,283 basehttp 4920 8756 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:52:24,441 views 4920 1748 asdaddqwdqwdqwd
+INFO 2017-01-09 13:52:24,559 basehttp 4920 1748 "GET /character/5/?panel=2 HTTP/1.1" 200 19399
+INFO 2017-01-09 13:52:24,559 basehttp 4920 1748 "GET /character/5/?panel=2 HTTP/1.1" 200 19399
+WARNING 2017-01-09 13:52:24,755 base 4920 8132 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:52:24,755 base 4920 8132 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:52:24,756 basehttp 4920 8132 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:52:24,756 basehttp 4920 8132 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13403
+WARNING 2017-01-09 13:52:25,362 basehttp 4920 6988 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:52:25,362 basehttp 4920 6988 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:55:36,540 views 4920 9100 asdaddqwdqwdqwd
+INFO 2017-01-09 13:55:36,657 basehttp 4920 9100 "GET /character/5/?panel=2 HTTP/1.1" 200 19401
+INFO 2017-01-09 13:55:36,657 basehttp 4920 9100 "GET /character/5/?panel=2 HTTP/1.1" 200 19401
+INFO 2017-01-09 13:55:36,789 basehttp 4920 5364 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 13:55:36,789 basehttp 4920 5364 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 13:55:37,041 basehttp 4920 5736 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 13:55:37,041 basehttp 4920 5736 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+WARNING 2017-01-09 13:55:37,065 base 4920 7080 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:55:37,065 base 4920 7080 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 13:55:37,066 basehttp 4920 7080 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+WARNING 2017-01-09 13:55:37,066 basehttp 4920 7080 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+WARNING 2017-01-09 13:55:37,311 basehttp 4920 8700 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 13:55:37,311 basehttp 4920 8700 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:01:45,084 views 4920 8008 asdaddqwdqwdqwd
+INFO 2017-01-09 14:01:45,243 basehttp 4920 8008 "GET /character/5/?panel=2 HTTP/1.1" 200 19418
+INFO 2017-01-09 14:01:45,243 basehttp 4920 8008 "GET /character/5/?panel=2 HTTP/1.1" 200 19418
+WARNING 2017-01-09 14:01:45,388 base 4920 5504 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:01:45,388 base 4920 5504 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:01:45,390 basehttp 4920 5504 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+WARNING 2017-01-09 14:01:45,390 basehttp 4920 5504 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+WARNING 2017-01-09 14:01:46,085 basehttp 4920 9136 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:01:46,085 basehttp 4920 9136 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:06:08,749 views 4920 9096 asdaddqwdqwdqwd
+INFO 2017-01-09 14:06:08,879 basehttp 4920 9096 "GET /character/5/?panel=2 HTTP/1.1" 200 19417
+INFO 2017-01-09 14:06:08,879 basehttp 4920 9096 "GET /character/5/?panel=2 HTTP/1.1" 200 19417
+WARNING 2017-01-09 14:06:09,076 base 4920 6880 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:06:09,076 base 4920 6880 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:06:09,077 basehttp 4920 6880 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+WARNING 2017-01-09 14:06:09,077 basehttp 4920 6880 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+WARNING 2017-01-09 14:06:09,805 basehttp 4920 2228 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:06:09,805 basehttp 4920 2228 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:06:49,674 views 4920 7276 asdaddqwdqwdqwd
+INFO 2017-01-09 14:06:49,792 basehttp 4920 7276 "GET /character/5/?panel=2 HTTP/1.1" 200 19474
+INFO 2017-01-09 14:06:49,792 basehttp 4920 7276 "GET /character/5/?panel=2 HTTP/1.1" 200 19474
+WARNING 2017-01-09 14:06:49,985 base 4920 8668 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:06:49,985 base 4920 8668 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:06:49,986 basehttp 4920 8668 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+WARNING 2017-01-09 14:06:49,986 basehttp 4920 8668 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+INFO 2017-01-09 14:06:50,131 basehttp 4920 8948 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1410
+INFO 2017-01-09 14:06:50,131 basehttp 4920 8948 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1410
+WARNING 2017-01-09 14:06:50,579 basehttp 4920 9124 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:06:50,579 basehttp 4920 9124 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:07:05,593 views 4920 4648 asdaddqwdqwdqwd
+INFO 2017-01-09 14:07:05,714 basehttp 4920 4648 "GET /character/5/?panel=2 HTTP/1.1" 200 19474
+INFO 2017-01-09 14:07:05,714 basehttp 4920 4648 "GET /character/5/?panel=2 HTTP/1.1" 200 19474
+INFO 2017-01-09 14:07:05,847 basehttp 4920 8892 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 14:07:05,847 basehttp 4920 8892 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 14:07:06,098 basehttp 4920 8864 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 14:07:06,098 basehttp 4920 6092 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 14:07:06,098 basehttp 4920 8864 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 14:07:06,098 basehttp 4920 6092 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+WARNING 2017-01-09 14:07:06,120 base 4920 8248 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:07:06,120 base 4920 8248 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:07:06,121 basehttp 4920 8248 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+WARNING 2017-01-09 14:07:06,121 basehttp 4920 8248 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+INFO 2017-01-09 14:07:08,083 basehttp 4920 8604 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1410
+INFO 2017-01-09 14:07:08,083 basehttp 4920 8604 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1410
+INFO 2017-01-09 14:07:08,392 basehttp 4920 7808 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 14:07:08,392 basehttp 4920 7808 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 14:07:08,639 basehttp 4920 5492 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 14:07:08,639 basehttp 4920 5492 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 14:07:08,698 basehttp 4920 8836 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 14:07:08,698 basehttp 4920 8836 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 14:07:08,945 basehttp 4920 1856 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 14:07:08,945 basehttp 4920 1856 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 14:07:09,239 basehttp 4920 9160 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 14:07:09,239 basehttp 4920 9160 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 14:07:09,240 basehttp 4920 4308 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 14:07:09,240 basehttp 4920 4308 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 14:07:09,246 basehttp 4920 8724 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+WARNING 2017-01-09 14:07:09,249 basehttp 4920 8220 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:07:09,246 basehttp 4920 8724 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+WARNING 2017-01-09 14:07:09,249 basehttp 4920 8220 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:07:09,251 basehttp 4920 8708 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 14:07:09,251 basehttp 4920 8708 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 14:07:09,260 basehttp 4920 8360 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 14:07:09,260 basehttp 4920 8360 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 14:07:09,544 basehttp 4920 2776 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 14:07:09,544 basehttp 4920 2776 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+WARNING 2017-01-09 14:07:54,665 views 4920 7176 asdaddqwdqwdqwd
+INFO 2017-01-09 14:07:54,784 basehttp 4920 7176 "GET /character/5/?panel=2 HTTP/1.1" 200 18979
+INFO 2017-01-09 14:07:54,784 basehttp 4920 7176 "GET /character/5/?panel=2 HTTP/1.1" 200 18979
+WARNING 2017-01-09 14:07:54,980 base 4920 8888 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:07:54,980 base 4920 8888 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:07:54,981 basehttp 4920 8888 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+WARNING 2017-01-09 14:07:54,981 basehttp 4920 8888 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+INFO 2017-01-09 14:07:55,124 basehttp 4920 1620 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:07:55,124 basehttp 4920 1620 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 14:07:55,571 basehttp 4920 9140 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:07:55,571 basehttp 4920 9140 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:08:03,597 views 4920 8696 asdaddqwdqwdqwd
+INFO 2017-01-09 14:08:03,718 basehttp 4920 8696 "GET /character/5/?panel=2 HTTP/1.1" 200 18979
+INFO 2017-01-09 14:08:03,718 basehttp 4920 8696 "GET /character/5/?panel=2 HTTP/1.1" 200 18979
+INFO 2017-01-09 14:08:03,851 basehttp 4920 8628 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 14:08:03,851 basehttp 4920 8628 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 14:08:04,076 basehttp 4920 3260 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 14:08:04,076 basehttp 4920 8444 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 14:08:04,076 basehttp 4920 3260 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 14:08:04,076 basehttp 4920 8444 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+WARNING 2017-01-09 14:08:04,098 base 4920 8868 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:08:04,098 base 4920 8868 Not Found: /maps/documentation/javascript/demos/demos.css
+WARNING 2017-01-09 14:08:04,098 basehttp 4920 8868 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+WARNING 2017-01-09 14:08:04,098 basehttp 4920 8868 "GET /maps/documentation/javascript/demos/demos.css HTTP/1.1" 404 13405
+INFO 2017-01-09 14:08:05,141 basehttp 4920 8504 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1410
+INFO 2017-01-09 14:08:05,141 basehttp 4920 8504 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1410
+INFO 2017-01-09 14:08:05,448 basehttp 4920 7908 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 14:08:05,448 basehttp 4920 7908 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 14:08:05,702 basehttp 4920 1876 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 14:08:05,702 basehttp 4920 1876 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 14:08:05,741 basehttp 4920 8872 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 14:08:05,742 basehttp 4920 8396 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 14:08:05,741 basehttp 4920 8872 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 14:08:05,743 basehttp 4920 8324 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 14:08:05,742 basehttp 4920 8396 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 14:08:05,743 basehttp 4920 4340 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 14:08:05,743 basehttp 4920 8324 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 14:08:05,743 basehttp 4920 4340 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 14:08:05,756 basehttp 4920 5376 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 14:08:05,756 basehttp 4920 5376 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 14:08:06,007 basehttp 4920 2576 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 14:08:06,007 basehttp 4920 2576 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+WARNING 2017-01-09 14:08:06,047 basehttp 4920 7380 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:08:06,047 basehttp 4920 7380 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:08:06,057 basehttp 4920 8468 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 14:08:06,057 basehttp 4920 8468 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 14:08:06,071 basehttp 4920 7772 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 14:08:06,071 basehttp 4920 7772 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+WARNING 2017-01-09 14:08:15,998 views 4920 9132 asdaddqwdqwdqwd
+INFO 2017-01-09 14:08:16,117 basehttp 4920 9132 "GET /character/5/?panel=2 HTTP/1.1" 200 18870
+INFO 2017-01-09 14:08:16,117 basehttp 4920 9132 "GET /character/5/?panel=2 HTTP/1.1" 200 18870
+WARNING 2017-01-09 14:08:16,876 basehttp 4920 5364 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:08:16,876 basehttp 4920 5364 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:09:57,884 views 4920 7772 asdaddqwdqwdqwd
+INFO 2017-01-09 14:09:58,003 basehttp 4920 7772 "GET /character/5/?panel=2 HTTP/1.1" 200 18870
+INFO 2017-01-09 14:09:58,003 basehttp 4920 7772 "GET /character/5/?panel=2 HTTP/1.1" 200 18870
+INFO 2017-01-09 14:09:58,134 basehttp 4920 8612 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 14:09:58,134 basehttp 4920 8612 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 14:09:58,356 basehttp 4920 7744 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 14:09:58,356 basehttp 4920 7204 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 14:09:58,356 basehttp 4920 7744 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 14:09:58,356 basehttp 4920 7204 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 14:09:59,488 basehttp 4920 6876 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1409
+INFO 2017-01-09 14:09:59,488 basehttp 4920 6876 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1409
+INFO 2017-01-09 14:09:59,797 basehttp 4920 1544 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 14:09:59,797 basehttp 4920 1544 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 14:10:00,046 basehttp 4920 7876 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 14:10:00,046 basehttp 4920 7876 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 14:10:00,102 basehttp 4920 7848 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 14:10:00,102 basehttp 4920 7848 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 14:10:00,358 basehttp 4920 9156 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 14:10:00,358 basehttp 4920 9156 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 14:10:00,374 basehttp 4920 8432 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 14:10:00,374 basehttp 4920 8432 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 14:10:00,375 basehttp 4920 4196 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 14:10:00,375 basehttp 4920 4196 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 14:10:00,379 basehttp 4920 9072 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 14:10:00,379 basehttp 4920 4904 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 14:10:00,379 basehttp 4920 9072 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 14:10:00,379 basehttp 4920 4904 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 14:10:00,406 basehttp 4920 4552 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 14:10:00,406 basehttp 4920 4552 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+WARNING 2017-01-09 14:10:00,663 basehttp 4920 7608 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:10:00,663 basehttp 4920 7608 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:10:00,679 basehttp 4920 8984 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 14:10:00,679 basehttp 4920 8984 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+WARNING 2017-01-09 14:11:15,968 views 4920 7796 asdaddqwdqwdqwd
+INFO 2017-01-09 14:11:16,089 basehttp 4920 7796 "GET /character/5/?panel=2 HTTP/1.1" 200 18907
+INFO 2017-01-09 14:11:16,089 basehttp 4920 7796 "GET /character/5/?panel=2 HTTP/1.1" 200 18907
+INFO 2017-01-09 14:11:16,220 basehttp 4920 7392 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1411
+INFO 2017-01-09 14:11:16,220 basehttp 4920 7392 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1411
+WARNING 2017-01-09 14:11:16,912 basehttp 4920 8840 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:11:16,912 basehttp 4920 8840 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:15:00,485 basehttp 8800 1620 "GET /character/8/delete/ HTTP/1.1" 302 0
+INFO 2017-01-09 14:15:00,485 basehttp 8800 1620 "GET /character/8/delete/ HTTP/1.1" 302 0
+INFO 2017-01-09 14:15:00,667 basehttp 8800 5480 "GET /account/ HTTP/1.1" 200 24621
+INFO 2017-01-09 14:15:00,667 basehttp 8800 5480 "GET /account/ HTTP/1.1" 200 24621
+WARNING 2017-01-09 14:25:25,207 views 5760 4648 asdaddqwdqwdqwd
+INFO 2017-01-09 14:25:25,446 basehttp 5760 4648 "GET /character/5/?panel=2 HTTP/1.1" 200 18934
+INFO 2017-01-09 14:25:25,446 basehttp 5760 4648 "GET /character/5/?panel=2 HTTP/1.1" 200 18934
+INFO 2017-01-09 14:25:25,497 basehttp 5760 8328 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 14:25:25,497 basehttp 5760 8328 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 14:25:25,802 basehttp 5760 8728 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:25:25,802 basehttp 5760 8728 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:25:26,054 basehttp 5760 2000 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:25:26,054 basehttp 5760 2000 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:25:26,108 basehttp 5760 7004 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:25:26,108 basehttp 5760 7004 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:25:26,361 basehttp 5760 4424 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:25:26,361 basehttp 5760 4424 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:25:26,416 basehttp 5760 4568 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+WARNING 2017-01-09 14:25:26,416 basehttp 5760 7008 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:25:26,416 basehttp 5760 4568 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+WARNING 2017-01-09 14:25:26,416 basehttp 5760 7008 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:25:26,457 basehttp 5760 7448 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-09 14:25:26,457 basehttp 5760 7448 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2017-01-09 14:27:57,055 views 5760 5940 asdaddqwdqwdqwd
+INFO 2017-01-09 14:27:57,179 basehttp 5760 5940 "GET /character/5/?panel=2 HTTP/1.1" 200 18934
+INFO 2017-01-09 14:27:57,179 basehttp 5760 5940 "GET /character/5/?panel=2 HTTP/1.1" 200 18934
+INFO 2017-01-09 14:27:57,305 basehttp 5760 7376 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 14:27:57,305 basehttp 5760 7376 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 14:27:57,540 basehttp 5760 3380 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1458
+INFO 2017-01-09 14:27:57,540 basehttp 5760 3380 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1458
+WARNING 2017-01-09 14:27:57,975 basehttp 5760 7468 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:27:57,975 basehttp 5760 7468 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:28:03,723 basehttp 5760 9052 "POST /character/5/update_private/ HTTP/1.1" 200 292
+INFO 2017-01-09 14:28:03,723 basehttp 5760 9052 "POST /character/5/update_private/ HTTP/1.1" 200 292
+WARNING 2017-01-09 14:29:43,396 views 1876 7440 asdaddqwdqwdqwd
+INFO 2017-01-09 14:29:43,642 basehttp 1876 7440 "GET /character/5/?panel=2 HTTP/1.1" 200 18934
+INFO 2017-01-09 14:29:43,642 basehttp 1876 7440 "GET /character/5/?panel=2 HTTP/1.1" 200 18934
+INFO 2017-01-09 14:29:43,694 basehttp 1876 9096 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:29:43,694 basehttp 1876 9096 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:29:44,004 basehttp 1876 7380 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1529
+INFO 2017-01-09 14:29:44,004 basehttp 1876 7380 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1529
+WARNING 2017-01-09 14:29:44,445 basehttp 1876 7724 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:29:44,445 basehttp 1876 7724 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:29:48,548 basehttp 1876 8864 "POST /character/5/update_private/ HTTP/1.1" 200 292
+INFO 2017-01-09 14:29:48,548 basehttp 1876 8864 "POST /character/5/update_private/ HTTP/1.1" 200 292
+INFO 2017-01-09 14:29:59,610 basehttp 1876 5248 "POST /character/5/update_private/ HTTP/1.1" 200 56
+INFO 2017-01-09 14:29:59,610 basehttp 1876 5248 "POST /character/5/update_private/ HTTP/1.1" 200 56
+WARNING 2017-01-09 14:30:01,298 views 1876 8948 asdaddqwdqwdqwd
+INFO 2017-01-09 14:30:01,422 basehttp 1876 8948 "GET /character/5/?panel=2 HTTP/1.1" 200 18798
+INFO 2017-01-09 14:30:01,422 basehttp 1876 8948 "GET /character/5/?panel=2 HTTP/1.1" 200 18798
+INFO 2017-01-09 14:30:01,780 basehttp 1876 7420 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:30:01,780 basehttp 1876 7420 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 14:30:02,201 basehttp 1876 8564 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:30:02,201 basehttp 1876 8564 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:31:35,530 basehttp 1876 3196 "POST /character/5/update_private/ HTTP/1.1" 200 85
+INFO 2017-01-09 14:31:35,530 basehttp 1876 3196 "POST /character/5/update_private/ HTTP/1.1" 200 85
+WARNING 2017-01-09 14:31:36,302 views 1876 7868 asdaddqwdqwdqwd
+INFO 2017-01-09 14:31:36,423 basehttp 1876 7868 "GET /character/5/?panel=2 HTTP/1.1" 200 18848
+INFO 2017-01-09 14:31:36,423 basehttp 1876 7868 "GET /character/5/?panel=2 HTTP/1.1" 200 18848
+INFO 2017-01-09 14:31:36,758 basehttp 1876 9048 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1561
+INFO 2017-01-09 14:31:36,758 basehttp 1876 9048 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1561
+WARNING 2017-01-09 14:31:37,226 basehttp 1876 5576 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:31:37,226 basehttp 1876 5576 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:32:02,656 views 1876 5728 asdaddqwdqwdqwd
+INFO 2017-01-09 14:32:02,781 basehttp 1876 5728 "GET /character/5/?panel=2 HTTP/1.1" 200 18848
+INFO 2017-01-09 14:32:02,781 basehttp 1876 5728 "GET /character/5/?panel=2 HTTP/1.1" 200 18848
+INFO 2017-01-09 14:32:02,907 basehttp 1876 8788 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1560
+INFO 2017-01-09 14:32:02,907 basehttp 1876 8788 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1560
+WARNING 2017-01-09 14:32:03,526 basehttp 1876 3244 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:32:03,526 basehttp 1876 3244 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:32:16,299 views 1876 4052 asdaddqwdqwdqwd
+INFO 2017-01-09 14:32:16,416 basehttp 1876 4052 "GET /character/5/?panel=2 HTTP/1.1" 200 18848
+INFO 2017-01-09 14:32:16,416 basehttp 1876 4052 "GET /character/5/?panel=2 HTTP/1.1" 200 18848
+INFO 2017-01-09 14:32:16,550 basehttp 1876 7768 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:32:16,550 basehttp 1876 7768 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 14:32:17,172 basehttp 1876 1164 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:32:17,172 basehttp 1876 1164 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:34:10,350 views 1876 3896 asdaddqwdqwdqwd
+INFO 2017-01-09 14:34:10,473 basehttp 1876 3896 "GET /character/5/?panel=2 HTTP/1.1" 200 18855
+INFO 2017-01-09 14:34:10,473 basehttp 1876 3896 "GET /character/5/?panel=2 HTTP/1.1" 200 18855
+INFO 2017-01-09 14:34:10,600 basehttp 1876 8888 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:34:10,600 basehttp 1876 8888 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 14:34:11,259 basehttp 1876 3960 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:34:11,259 basehttp 1876 3960 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:34:25,130 views 1876 8148 asdaddqwdqwdqwd
+INFO 2017-01-09 14:34:25,248 basehttp 1876 8148 "GET /character/5/?panel=2 HTTP/1.1" 200 18882
+INFO 2017-01-09 14:34:25,248 basehttp 1876 8148 "GET /character/5/?panel=2 HTTP/1.1" 200 18882
+INFO 2017-01-09 14:34:25,405 basehttp 1876 8940 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:34:25,405 basehttp 1876 8940 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 14:34:26,038 basehttp 1876 7588 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:34:26,038 basehttp 1876 7588 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:35:57,469 views 1876 5572 asdaddqwdqwdqwd
+INFO 2017-01-09 14:35:57,599 basehttp 1876 5572 "GET /character/5/?panel=2 HTTP/1.1" 200 18900
+INFO 2017-01-09 14:35:57,599 basehttp 1876 5572 "GET /character/5/?panel=2 HTTP/1.1" 200 18900
+INFO 2017-01-09 14:35:57,738 basehttp 1876 8224 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1324
+INFO 2017-01-09 14:35:57,738 basehttp 1876 8224 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1324
+WARNING 2017-01-09 14:35:58,484 basehttp 1876 7124 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:35:58,484 basehttp 1876 7124 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:36:03,782 basehttp 1876 4052 "POST /character/5/update_private/ HTTP/1.1" 200 33
+INFO 2017-01-09 14:36:03,782 basehttp 1876 4052 "POST /character/5/update_private/ HTTP/1.1" 200 33
+INFO 2017-01-09 14:36:30,042 basehttp 1876 7936 "POST /character/5/update_private/ HTTP/1.1" 200 41
+INFO 2017-01-09 14:36:30,042 basehttp 1876 7936 "POST /character/5/update_private/ HTTP/1.1" 200 41
+WARNING 2017-01-09 14:37:13,873 views 1876 2704 asdaddqwdqwdqwd
+INFO 2017-01-09 14:37:13,992 basehttp 1876 2704 "GET /character/5/?panel=2 HTTP/1.1" 200 18804
+INFO 2017-01-09 14:37:13,992 basehttp 1876 2704 "GET /character/5/?panel=2 HTTP/1.1" 200 18804
+INFO 2017-01-09 14:37:14,124 basehttp 1876 8120 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:37:14,124 basehttp 1876 8120 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 14:37:14,758 basehttp 1876 4256 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:37:14,758 basehttp 1876 4256 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:37:21,113 basehttp 1876 3268 "POST /character/5/update_private/ HTTP/1.1" 200 34
+INFO 2017-01-09 14:37:21,113 basehttp 1876 3268 "POST /character/5/update_private/ HTTP/1.1" 200 34
+INFO 2017-01-09 14:37:44,990 basehttp 1876 8288 "POST /character/5/update_private/ HTTP/1.1" 200 187
+INFO 2017-01-09 14:37:44,990 basehttp 1876 8288 "POST /character/5/update_private/ HTTP/1.1" 200 187
+WARNING 2017-01-09 14:39:03,293 views 1876 5760 asdaddqwdqwdqwd
+INFO 2017-01-09 14:39:03,413 basehttp 1876 5760 "GET /character/5/?panel=2 HTTP/1.1" 200 18910
+INFO 2017-01-09 14:39:03,413 basehttp 1876 5760 "GET /character/5/?panel=2 HTTP/1.1" 200 18910
+INFO 2017-01-09 14:39:03,544 basehttp 1876 9052 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:39:03,544 basehttp 1876 9052 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 14:39:04,243 basehttp 1876 8868 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:39:04,243 basehttp 1876 8868 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:51:09,729 basehttp 1876 8232 "POST /character/5/update_private/ HTTP/1.1" 200 336
+INFO 2017-01-09 14:51:09,729 basehttp 1876 8232 "POST /character/5/update_private/ HTTP/1.1" 200 336
+WARNING 2017-01-09 14:51:48,533 views 1876 924 asdaddqwdqwdqwd
+INFO 2017-01-09 14:51:48,663 basehttp 1876 924 "GET /character/5/?panel=2 HTTP/1.1" 200 19027
+INFO 2017-01-09 14:51:48,663 basehttp 1876 924 "GET /character/5/?panel=2 HTTP/1.1" 200 19027
+INFO 2017-01-09 14:51:48,784 basehttp 1876 7160 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:48,784 basehttp 1876 7160 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,041 basehttp 1876 6108 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,041 basehttp 1876 8336 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,041 basehttp 1876 6108 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,041 basehttp 1876 8336 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,164 basehttp 1876 7776 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,164 basehttp 1876 7776 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,347 basehttp 1876 7044 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,347 basehttp 1876 7044 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,469 basehttp 1876 1220 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,469 basehttp 1876 1220 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,655 basehttp 1876 5492 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,655 basehttp 1876 5492 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,774 basehttp 1876 4568 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,774 basehttp 1876 4568 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+WARNING 2017-01-09 14:51:49,876 basehttp 1876 8848 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:51:49,876 basehttp 1876 8848 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 14:51:49,918 basehttp 1876 9156 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-09 14:51:49,918 basehttp 1876 9156 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-09 14:52:04,632 basehttp 1876 6376 "POST /character/5/update_private/ HTTP/1.1" 200 337
+INFO 2017-01-09 14:52:04,632 basehttp 1876 6376 "POST /character/5/update_private/ HTTP/1.1" 200 337
+WARNING 2017-01-09 14:52:09,740 views 1876 6412 asdaddqwdqwdqwd
+INFO 2017-01-09 14:52:09,872 basehttp 1876 6412 "GET /character/5/?panel=2 HTTP/1.1" 200 19032
+INFO 2017-01-09 14:52:09,872 basehttp 1876 6412 "GET /character/5/?panel=2 HTTP/1.1" 200 19032
+WARNING 2017-01-09 14:52:11,025 basehttp 1876 2992 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 14:52:11,025 basehttp 1876 2992 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 16:08:44,790 basehttp 1876 8652 "GET /character/create/ HTTP/1.1" 200 16266
+INFO 2017-01-09 16:08:44,790 basehttp 1876 8652 "GET /character/create/ HTTP/1.1" 200 16266
+INFO 2017-01-09 16:08:44,992 basehttp 1876 4336 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:44,992 basehttp 1876 4336 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,120 basehttp 1876 4544 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,120 basehttp 1876 7592 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,120 basehttp 1876 4544 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,120 basehttp 1876 7592 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,211 basehttp 1876 7780 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,211 basehttp 1876 8768 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,211 basehttp 1876 7780 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,211 basehttp 1876 8768 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,225 basehttp 1876 9132 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,225 basehttp 1876 9132 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,453 basehttp 1876 6892 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,453 basehttp 1876 6892 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,513 basehttp 1876 7012 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:08:45,513 basehttp 1876 7012 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+ERROR 2017-01-09 16:08:53,042 basehttp 1876 3668 "POST /character/5/update_private/ HTTP/1.1" 500 2
+ERROR 2017-01-09 16:08:53,042 basehttp 1876 3668 "POST /character/5/update_private/ HTTP/1.1" 500 2
+ERROR 2017-01-09 16:09:01,448 basehttp 1876 8660 "POST /character/5/update_private/ HTTP/1.1" 500 2
+ERROR 2017-01-09 16:09:01,448 basehttp 1876 8660 "POST /character/5/update_private/ HTTP/1.1" 500 2
+WARNING 2017-01-09 16:28:35,974 views 1992 1508 asdaddqwdqwdqwd
+INFO 2017-01-09 16:28:36,408 basehttp 1992 1508 "GET /character/5/?panel=2 HTTP/1.1" 200 16871
+INFO 2017-01-09 16:28:36,408 basehttp 1992 1508 "GET /character/5/?panel=2 HTTP/1.1" 200 16871
+INFO 2017-01-09 16:28:36,446 basehttp 1992 4696 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:36,446 basehttp 1992 4696 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:36,747 basehttp 1992 5176 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:36,747 basehttp 1992 5176 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:36,819 basehttp 1992 7876 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:36,819 basehttp 1992 7876 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,457 basehttp 1992 6364 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1380
+INFO 2017-01-09 16:28:37,457 basehttp 1992 6364 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1380
+INFO 2017-01-09 16:28:37,689 basehttp 1992 7136 "GET /static/campaign/js/angular.min.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,689 basehttp 1992 7136 "GET /static/campaign/js/angular.min.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,691 basehttp 1992 6964 "GET /static/campaign/js/app.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,691 basehttp 1992 6964 "GET /static/campaign/js/app.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,692 basehttp 1992 268 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,692 basehttp 1992 268 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,692 basehttp 1992 5212 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,692 basehttp 1992 5212 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,692 basehttp 1992 7492 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,692 basehttp 1992 7492 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,773 basehttp 1992 7864 "GET /media/sorc_face.png HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:37,773 basehttp 1992 7864 "GET /media/sorc_face.png HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:38,002 basehttp 1992 5200 "GET /media/sorc_fullbody.jpg HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:38,002 basehttp 1992 5200 "GET /media/sorc_fullbody.jpg HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:38,008 basehttp 1992 1436 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:38,008 basehttp 1992 1436 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:38,027 basehttp 1992 6624 "GET /static/campaign/images/bg.png HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:38,027 basehttp 1992 6624 "GET /static/campaign/images/bg.png HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:38,064 basehttp 1992 6396 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:38,064 basehttp 1992 6396 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2017-01-09 16:28:39,787 base 1992 8156 Not Found: /favicon.ico
+WARNING 2017-01-09 16:28:39,787 base 1992 8156 Not Found: /favicon.ico
+WARNING 2017-01-09 16:28:39,788 basehttp 1992 8156 "GET /favicon.ico HTTP/1.1" 404 13476
+WARNING 2017-01-09 16:28:39,788 basehttp 1992 8156 "GET /favicon.ico HTTP/1.1" 404 13476
+INFO 2017-01-09 16:28:44,976 basehttp 1992 7620 "GET /account/login/ HTTP/1.1" 200 14878
+INFO 2017-01-09 16:28:44,976 basehttp 1992 7620 "GET /account/login/ HTTP/1.1" 200 14878
+INFO 2017-01-09 16:28:51,405 basehttp 1992 7628 "POST /account/login/ HTTP/1.1" 302 0
+INFO 2017-01-09 16:28:51,405 basehttp 1992 7628 "POST /account/login/ HTTP/1.1" 302 0
+INFO 2017-01-09 16:28:51,983 basehttp 1992 7176 "GET /account/ HTTP/1.1" 200 24621
+INFO 2017-01-09 16:28:51,983 basehttp 1992 7176 "GET /account/ HTTP/1.1" 200 24621
+WARNING 2017-01-09 16:28:55,488 views 1992 7180 asdaddqwdqwdqwd
+INFO 2017-01-09 16:28:55,604 basehttp 1992 7180 "GET /character/5/ HTTP/1.1" 200 19024
+INFO 2017-01-09 16:28:55,604 basehttp 1992 7180 "GET /character/5/ HTTP/1.1" 200 19024
+INFO 2017-01-09 16:28:55,972 basehttp 1992 7360 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:28:55,972 basehttp 1992 7360 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:29:04,124 basehttp 1992 7352 "POST /character/5/update_private/ HTTP/1.1" 200 341
+INFO 2017-01-09 16:29:04,124 basehttp 1992 7352 "POST /character/5/update_private/ HTTP/1.1" 200 341
+WARNING 2017-01-09 16:29:23,192 views 1992 7280 asdaddqwdqwdqwd
+INFO 2017-01-09 16:29:23,310 basehttp 1992 7280 "GET /character/5/ HTTP/1.1" 200 19035
+INFO 2017-01-09 16:29:23,310 basehttp 1992 7280 "GET /character/5/ HTTP/1.1" 200 19035
+INFO 2017-01-09 16:29:23,350 basehttp 1992 7140 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1380
+INFO 2017-01-09 16:29:23,350 basehttp 1992 7140 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1380
+INFO 2017-01-09 16:29:30,764 basehttp 1992 4708 "POST /character/5/update_private/ HTTP/1.1" 200 346
+INFO 2017-01-09 16:29:30,764 basehttp 1992 4708 "POST /character/5/update_private/ HTTP/1.1" 200 346
+WARNING 2017-01-09 16:29:50,735 basehttp 1992 3104 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:29:50,735 basehttp 1992 3104 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:33:19,917 views 1992 6904 asdaddqwdqwdqwd
+INFO 2017-01-09 16:33:20,036 basehttp 1992 6904 "GET /character/5/ HTTP/1.1" 200 19048
+INFO 2017-01-09 16:33:20,036 basehttp 1992 6904 "GET /character/5/ HTTP/1.1" 200 19048
+INFO 2017-01-09 16:33:20,211 basehttp 1992 6556 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:33:20,211 basehttp 1992 6556 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 16:33:21,065 basehttp 1992 3500 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:33:21,065 basehttp 1992 3500 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 16:33:49,720 basehttp 1992 4292 "POST /character/5/update_private/ HTTP/1.1" 200 348
+INFO 2017-01-09 16:33:49,720 basehttp 1992 4292 "POST /character/5/update_private/ HTTP/1.1" 200 348
+WARNING 2017-01-09 16:34:39,177 views 1992 7256 asdaddqwdqwdqwd
+INFO 2017-01-09 16:34:39,294 basehttp 1992 7256 "GET /character/5/ HTTP/1.1" 200 19055
+INFO 2017-01-09 16:34:39,294 basehttp 1992 7256 "GET /character/5/ HTTP/1.1" 200 19055
+INFO 2017-01-09 16:34:39,447 basehttp 1992 6844 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1382
+INFO 2017-01-09 16:34:39,447 basehttp 1992 6844 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1382
+WARNING 2017-01-09 16:34:40,060 basehttp 1992 6560 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:34:40,060 basehttp 1992 6560 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:35:56,380 views 1992 8108 asdaddqwdqwdqwd
+INFO 2017-01-09 16:35:56,497 basehttp 1992 8108 "GET /character/5/ HTTP/1.1" 200 19055
+INFO 2017-01-09 16:35:56,497 basehttp 1992 8108 "GET /character/5/ HTTP/1.1" 200 19055
+INFO 2017-01-09 16:35:56,655 basehttp 1992 2804 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1381
+INFO 2017-01-09 16:35:56,655 basehttp 1992 2804 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1381
+WARNING 2017-01-09 16:35:57,412 basehttp 1992 2840 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:35:57,412 basehttp 1992 2840 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 16:36:05,414 basehttp 1992 1260 "POST /character/5/update_private/ HTTP/1.1" 200 350
+INFO 2017-01-09 16:36:05,414 basehttp 1992 1260 "POST /character/5/update_private/ HTTP/1.1" 200 350
+WARNING 2017-01-09 16:36:10,301 views 1992 2800 asdaddqwdqwdqwd
+INFO 2017-01-09 16:36:10,421 basehttp 1992 2800 "GET /character/5/ HTTP/1.1" 200 19062
+INFO 2017-01-09 16:36:10,421 basehttp 1992 2800 "GET /character/5/ HTTP/1.1" 200 19062
+INFO 2017-01-09 16:36:10,769 basehttp 1992 444 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:36:10,769 basehttp 1992 444 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 16:36:11,147 basehttp 1992 8112 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:36:11,147 basehttp 1992 8112 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 16:41:55,296 basehttp 7724 7752 "GET /__debug__/render_panel/?store_id=8f863521b2804fe1bc20ea31f9925c99&panel_id=SQLPanel HTTP/1.1" 200 181
+INFO 2017-01-09 16:41:55,296 basehttp 7724 7752 "GET /__debug__/render_panel/?store_id=8f863521b2804fe1bc20ea31f9925c99&panel_id=SQLPanel HTTP/1.1" 200 181
+WARNING 2017-01-09 16:45:02,703 views 7272 3516 asdaddqwdqwdqwd
+INFO 2017-01-09 16:45:02,961 basehttp 7272 3516 "GET /character/5/ HTTP/1.1" 200 19267
+INFO 2017-01-09 16:45:02,961 basehttp 7272 3516 "GET /character/5/ HTTP/1.1" 200 19267
+INFO 2017-01-09 16:45:03,009 basehttp 7272 7572 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:45:03,009 basehttp 7272 7572 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 16:45:04,057 basehttp 7272 5048 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:45:04,057 basehttp 7272 5048 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:45:40,859 views 7272 3340 asdaddqwdqwdqwd
+INFO 2017-01-09 16:45:40,996 basehttp 7272 3340 "GET /character/5/ HTTP/1.1" 200 19345
+INFO 2017-01-09 16:45:40,996 basehttp 7272 3340 "GET /character/5/ HTTP/1.1" 200 19345
+WARNING 2017-01-09 16:45:41,860 basehttp 7272 1508 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:45:41,860 basehttp 7272 1508 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:46:09,402 views 7272 6152 asdaddqwdqwdqwd
+INFO 2017-01-09 16:46:09,551 basehttp 7272 6152 "GET /character/5/ HTTP/1.1" 200 19399
+INFO 2017-01-09 16:46:09,551 basehttp 7272 6152 "GET /character/5/ HTTP/1.1" 200 19399
+INFO 2017-01-09 16:46:09,653 basehttp 7272 4756 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:46:09,653 basehttp 7272 4756 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 16:46:10,657 basehttp 7272 5212 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:46:10,657 basehttp 7272 5212 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:46:35,483 views 7272 2800 asdaddqwdqwdqwd
+INFO 2017-01-09 16:46:35,631 basehttp 7272 2800 "GET /character/5/ HTTP/1.1" 200 19402
+INFO 2017-01-09 16:46:35,631 basehttp 7272 2800 "GET /character/5/ HTTP/1.1" 200 19402
+WARNING 2017-01-09 16:46:36,367 basehttp 7272 7084 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:46:36,367 basehttp 7272 7084 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:56:46,755 views 4428 7776 asdaddqwdqwdqwd
+INFO 2017-01-09 16:56:47,018 basehttp 4428 7776 "GET /character/5/ HTTP/1.1" 200 20999
+INFO 2017-01-09 16:56:47,018 basehttp 4428 7776 "GET /character/5/ HTTP/1.1" 200 20999
+INFO 2017-01-09 16:56:47,071 basehttp 4428 1056 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:56:47,071 basehttp 4428 1056 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 16:56:48,221 basehttp 4428 7888 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:56:48,221 basehttp 4428 7888 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:57:28,476 views 4428 7060 asdaddqwdqwdqwd
+INFO 2017-01-09 16:57:28,615 basehttp 4428 7060 "GET /character/5/ HTTP/1.1" 200 20949
+INFO 2017-01-09 16:57:28,615 basehttp 4428 7060 "GET /character/5/ HTTP/1.1" 200 20949
+INFO 2017-01-09 16:57:28,728 basehttp 4428 4996 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:57:28,728 basehttp 4428 4996 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:57:28,958 basehttp 4428 3372 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:57:28,958 basehttp 4428 3372 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:57:29,033 basehttp 4428 6168 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:57:29,033 basehttp 4428 6168 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:57:29,265 basehttp 4428 6464 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:57:29,265 basehttp 4428 6464 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 16:57:29,338 basehttp 4428 6976 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-09 16:57:29,338 basehttp 4428 6976 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+WARNING 2017-01-09 16:57:29,509 basehttp 4428 4448 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 16:57:29,509 basehttp 4428 4448 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 16:57:29,549 basehttp 4428 7716 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-09 16:57:29,549 basehttp 4428 7716 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2017-01-09 17:09:15,568 views 1340 6296 asdaddqwdqwdqwd
+INFO 2017-01-09 17:09:15,827 basehttp 1340 6296 "GET /character/5/ HTTP/1.1" 200 20949
+INFO 2017-01-09 17:09:15,827 basehttp 1340 6296 "GET /character/5/ HTTP/1.1" 200 20949
+INFO 2017-01-09 17:09:15,874 basehttp 1340 1604 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 17:09:15,874 basehttp 1340 1604 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 17:09:16,188 basehttp 1340 6176 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 17:09:16,188 basehttp 1340 6176 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 17:09:16,232 basehttp 1340 6172 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 17:09:16,232 basehttp 1340 6172 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 17:09:16,878 basehttp 1340 7332 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 17:09:16,878 basehttp 1340 7332 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 17:09:16,926 basehttp 1340 3520 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1431
+INFO 2017-01-09 17:09:16,927 basehttp 1340 3104 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 17:09:16,926 basehttp 1340 3520 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1431
+INFO 2017-01-09 17:09:16,927 basehttp 1340 3104 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 17:09:16,941 basehttp 1340 4268 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 17:09:16,941 basehttp 1340 4268 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 17:09:16,973 basehttp 1340 7520 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 17:09:16,973 basehttp 1340 7520 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 17:09:17,008 basehttp 1340 7568 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 17:09:17,008 basehttp 1340 7568 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 17:09:17,181 basehttp 1340 8188 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 17:09:17,181 basehttp 1340 8188 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 17:09:17,231 basehttp 1340 7756 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 17:09:17,231 basehttp 1340 7756 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 17:09:17,242 basehttp 1340 4808 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 17:09:17,242 basehttp 1340 4808 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 17:09:17,248 basehttp 1340 3764 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 17:09:17,248 basehttp 1340 3764 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+WARNING 2017-01-09 17:09:17,334 basehttp 1340 5376 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:09:17,334 basehttp 1340 5376 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 17:09:17,335 basehttp 1340 4768 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 17:09:17,335 basehttp 1340 4768 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 17:09:27,349 basehttp 1340 972 "POST /character/5/update_private/ HTTP/1.1" 200 246
+INFO 2017-01-09 17:09:27,349 basehttp 1340 972 "POST /character/5/update_private/ HTTP/1.1" 200 246
+INFO 2017-01-09 17:09:45,484 basehttp 1340 4060 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 246
+INFO 2017-01-09 17:09:45,484 basehttp 1340 4060 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 246
+INFO 2017-01-09 17:10:20,013 basehttp 1400 8020 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 246
+INFO 2017-01-09 17:10:20,013 basehttp 1400 8020 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 246
+INFO 2017-01-09 17:10:31,483 basehttp 1400 5960 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 246
+INFO 2017-01-09 17:10:31,483 basehttp 1400 5960 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 246
+INFO 2017-01-09 17:10:50,815 basehttp 1400 4960 "POST /character/5/update_private/ HTTP/1.1" 200 264
+INFO 2017-01-09 17:10:50,815 basehttp 1400 4960 "POST /character/5/update_private/ HTTP/1.1" 200 264
+INFO 2017-01-09 17:10:55,073 basehttp 1400 4408 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 264
+INFO 2017-01-09 17:10:55,073 basehttp 1400 4408 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 264
+WARNING 2017-01-09 17:11:57,297 views 1400 7676 asdaddqwdqwdqwd
+INFO 2017-01-09 17:11:57,555 basehttp 1400 7676 "GET /character/5/ HTTP/1.1" 200 21051
+INFO 2017-01-09 17:11:57,555 basehttp 1400 7676 "GET /character/5/ HTTP/1.1" 200 21051
+INFO 2017-01-09 17:11:57,706 basehttp 1400 6628 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1486
+INFO 2017-01-09 17:11:57,706 basehttp 1400 6628 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1486
+WARNING 2017-01-09 17:11:58,683 basehttp 1400 896 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:11:58,683 basehttp 1400 896 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 17:14:23,180 basehttp 1400 5592 "POST /character/5/update_private/ HTTP/1.1" 200 264
+INFO 2017-01-09 17:14:23,180 basehttp 1400 5592 "POST /character/5/update_private/ HTTP/1.1" 200 264
+INFO 2017-01-09 17:14:27,219 basehttp 1400 7148 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 264
+INFO 2017-01-09 17:14:27,219 basehttp 1400 7148 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 264
+INFO 2017-01-09 17:14:48,462 basehttp 1400 4360 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 264
+INFO 2017-01-09 17:14:48,462 basehttp 1400 4360 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 264
+WARNING 2017-01-09 17:16:19,751 views 1400 5448 asdaddqwdqwdqwd
+INFO 2017-01-09 17:16:19,894 basehttp 1400 5448 "GET /character/5/ HTTP/1.1" 200 21051
+INFO 2017-01-09 17:16:19,894 basehttp 1400 5448 "GET /character/5/ HTTP/1.1" 200 21051
+INFO 2017-01-09 17:16:20,003 basehttp 1400 6844 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1504
+INFO 2017-01-09 17:16:20,003 basehttp 1400 6844 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1504
+WARNING 2017-01-09 17:16:21,192 basehttp 1400 5076 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:16:21,192 basehttp 1400 5076 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 17:16:27,358 basehttp 1400 7464 "POST /character/5/update_private/ HTTP/1.1" 200 271
+INFO 2017-01-09 17:16:27,358 basehttp 1400 7464 "POST /character/5/update_private/ HTTP/1.1" 200 271
+INFO 2017-01-09 17:16:31,108 basehttp 1400 1412 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 274
+INFO 2017-01-09 17:16:31,108 basehttp 1400 1412 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 274
+WARNING 2017-01-09 17:17:24,475 views 1400 928 asdaddqwdqwdqwd
+INFO 2017-01-09 17:17:24,613 basehttp 1400 928 "GET /character/5/ HTTP/1.1" 200 21085
+INFO 2017-01-09 17:17:24,613 basehttp 1400 928 "GET /character/5/ HTTP/1.1" 200 21085
+INFO 2017-01-09 17:17:24,743 basehttp 1400 5960 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:17:24,743 basehttp 1400 5960 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 17:17:25,406 basehttp 1400 8080 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:17:25,406 basehttp 1400 8080 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:17:52,906 views 1400 4376 asdaddqwdqwdqwd
+INFO 2017-01-09 17:17:53,043 basehttp 1400 4376 "GET /character/5/ HTTP/1.1" 200 21081
+INFO 2017-01-09 17:17:53,043 basehttp 1400 4376 "GET /character/5/ HTTP/1.1" 200 21081
+INFO 2017-01-09 17:17:53,171 basehttp 1400 5360 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:17:53,171 basehttp 1400 5360 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 17:17:54,084 basehttp 1400 7628 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:17:54,084 basehttp 1400 7628 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 17:18:10,812 basehttp 1400 3568 "POST /character/5/update_private/ HTTP/1.1" 200 87
+INFO 2017-01-09 17:18:10,812 basehttp 1400 3568 "POST /character/5/update_private/ HTTP/1.1" 200 87
+INFO 2017-01-09 17:18:37,902 basehttp 1400 5720 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 264
+INFO 2017-01-09 17:18:37,902 basehttp 1400 5720 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 264
+WARNING 2017-01-09 17:18:40,391 views 1400 2224 asdaddqwdqwdqwd
+INFO 2017-01-09 17:18:40,478 basehttp 1400 2224 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-09 17:18:40,478 basehttp 1400 2224 "GET / HTTP/1.1" 200 16032
+WARNING 2017-01-09 17:18:41,616 basehttp 1400 1260 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:18:41,616 basehttp 1400 1260 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 17:18:44,168 basehttp 1400 1408 "GET /account/ HTTP/1.1" 200 24621
+INFO 2017-01-09 17:18:44,168 basehttp 1400 1408 "GET /account/ HTTP/1.1" 200 24621
+WARNING 2017-01-09 17:18:44,952 basehttp 1400 880 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:18:44,952 basehttp 1400 880 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:18:45,999 views 1400 7676 asdaddqwdqwdqwd
+INFO 2017-01-09 17:18:46,137 basehttp 1400 7676 "GET /character/5/ HTTP/1.1" 200 20911
+INFO 2017-01-09 17:18:46,137 basehttp 1400 7676 "GET /character/5/ HTTP/1.1" 200 20911
+INFO 2017-01-09 17:18:46,577 basehttp 1400 6628 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:18:46,577 basehttp 1400 6628 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-09 17:18:46,830 basehttp 1400 7604 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:18:46,830 basehttp 1400 7604 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:19:33,047 views 1400 7820 asdaddqwdqwdqwd
+INFO 2017-01-09 17:19:33,161 basehttp 1400 7820 "GET /character/5/ HTTP/1.1" 200 16884
+INFO 2017-01-09 17:19:33,161 basehttp 1400 7820 "GET /character/5/ HTTP/1.1" 200 16884
+INFO 2017-01-09 17:19:33,298 basehttp 1400 6536 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 17:19:33,298 basehttp 1400 6536 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-09 17:19:33,467 basehttp 1400 7612 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 17:19:33,468 basehttp 1400 6232 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 17:19:33,467 basehttp 1400 7612 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-09 17:19:33,468 basehttp 1400 6232 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-09 17:19:34,614 basehttp 1400 7336 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1504
+INFO 2017-01-09 17:19:34,614 basehttp 1400 7336 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1504
+INFO 2017-01-09 17:19:34,918 basehttp 1400 7900 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 17:19:34,918 basehttp 1400 7900 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-09 17:19:35,168 basehttp 1400 5748 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 17:19:35,168 basehttp 1400 5748 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-09 17:19:35,222 basehttp 1400 2780 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 17:19:35,222 basehttp 1400 2780 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-09 17:19:35,471 basehttp 1400 7640 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 17:19:35,471 basehttp 1400 7640 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-09 17:19:35,722 basehttp 1400 6952 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 17:19:35,722 basehttp 1400 6952 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-09 17:19:35,775 basehttp 1400 7444 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 17:19:35,775 basehttp 1400 7444 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-09 17:19:36,027 basehttp 1400 1124 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 17:19:36,027 basehttp 1400 1124 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-09 17:19:36,079 basehttp 1400 2152 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 17:19:36,079 basehttp 1400 2152 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-09 17:19:36,333 basehttp 1400 5784 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 17:19:36,333 basehttp 1400 5784 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-09 17:19:36,361 basehttp 1400 7136 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-09 17:19:36,361 basehttp 1400 7136 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+WARNING 2017-01-09 17:19:45,119 basehttp 1400 5768 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:19:45,119 basehttp 1400 5768 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:23:42,098 views 1400 3500 asdaddqwdqwdqwd
+INFO 2017-01-09 17:23:42,494 basehttp 1400 3500 "GET /campaign/3/ HTTP/1.1" 200 33771
+INFO 2017-01-09 17:23:42,494 basehttp 1400 3500 "GET /campaign/3/ HTTP/1.1" 200 33771
+INFO 2017-01-09 17:23:42,528 basehttp 1400 6968 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+INFO 2017-01-09 17:23:42,528 basehttp 1400 6968 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+WARNING 2017-01-09 17:23:43,703 basehttp 1400 1060 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:23:43,703 basehttp 1400 1060 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:23:46,077 views 1400 2224 asdaddqwdqwdqwd
+INFO 2017-01-09 17:23:46,224 basehttp 1400 2224 "GET /campaign/3/detail/ HTTP/1.1" 200 19348
+INFO 2017-01-09 17:23:46,224 basehttp 1400 2224 "GET /campaign/3/detail/ HTTP/1.1" 200 19348
+WARNING 2017-01-09 17:23:47,004 basehttp 1400 7604 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:23:47,004 basehttp 1400 7604 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 17:24:18,775 basehttp 1400 5484 "GET /campaign/3/edit HTTP/1.1" 301 0
+INFO 2017-01-09 17:24:18,775 basehttp 1400 5484 "GET /campaign/3/edit HTTP/1.1" 301 0
+WARNING 2017-01-09 17:24:18,841 views 1400 5868 asdaddqwdqwdqwd
+INFO 2017-01-09 17:24:18,897 basehttp 1400 5868 "GET /campaign/3/edit/ HTTP/1.1" 200 15298
+INFO 2017-01-09 17:24:18,897 basehttp 1400 5868 "GET /campaign/3/edit/ HTTP/1.1" 200 15298
+WARNING 2017-01-09 17:24:19,496 basehttp 1400 7556 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:24:19,496 basehttp 1400 7556 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:24:39,619 views 1400 8152 asdaddqwdqwdqwd
+INFO 2017-01-09 17:24:39,686 basehttp 1400 8152 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-09 17:24:39,686 basehttp 1400 8152 "GET / HTTP/1.1" 200 16032
+WARNING 2017-01-09 17:24:40,418 basehttp 1400 7148 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-09 17:24:40,418 basehttp 1400 7148 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-09 17:24:43,942 basehttp 1400 4356 "GET /account/ HTTP/1.1" 200 24621
+INFO 2017-01-09 17:24:43,942 basehttp 1400 4356 "GET /account/ HTTP/1.1" 200 24621
