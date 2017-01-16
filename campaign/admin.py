@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Campaign, Story
+from .models import Campaign, Story, CampaignMap
 
 class CampaignAdmin(admin.ModelAdmin):
     list_display = ('title', 'rp_system', 'description', 'started', 'ended')
@@ -13,10 +13,13 @@ class StoryAdmin(admin.ModelAdmin):
     list_editable = ['ingamedate']
     list_filter = ['campaign']
     actions_on_bottom = True
-    #fields = (('title','ingamedate'), 'content', ('tags', 'campaign'))
     class Meta:
         model = Story
 
+class CampaignMapAdmin(admin.ModelAdmin):
+    exclude = ('img_width', 'img_height')
+
 admin.site.register(Campaign, CampaignAdmin)
 admin.site.register(Story, StoryAdmin)
+admin.site.register(CampaignMap, CampaignMapAdmin)
 

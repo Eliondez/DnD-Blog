@@ -3626,3 +3626,1309 @@ WARNING 2017-01-09 17:24:40,418 basehttp 1400 7148 "GET /static/campaign/js/angu
 WARNING 2017-01-09 17:24:40,418 basehttp 1400 7148 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
 INFO 2017-01-09 17:24:43,942 basehttp 1400 4356 "GET /account/ HTTP/1.1" 200 24621
 INFO 2017-01-09 17:24:43,942 basehttp 1400 4356 "GET /account/ HTTP/1.1" 200 24621
+WARNING 2017-01-09 17:51:40,711 views 7964 3980 asdaddqwdqwdqwd
+INFO 2017-01-09 17:51:40,914 basehttp 7964 3980 "GET / HTTP/1.1" 200 16033
+INFO 2017-01-09 17:51:40,914 basehttp 7964 3980 "GET / HTTP/1.1" 200 16033
+WARNING 2017-01-09 17:51:40,958 views 7964 1860 asdaddqwdqwdqwd
+ERROR 2017-01-09 17:51:40,999 basehttp 7964 3980 "GET / HTTP/1.1" 500 59
+ERROR 2017-01-09 17:51:40,999 basehttp 7964 3980 "GET / HTTP/1.1" 500 59
+INFO 2017-01-09 17:51:41,026 basehttp 7964 1860 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-09 17:51:41,026 basehttp 7964 1860 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-09 17:51:41,039 basehttp 7964 7568 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,040 basehttp 7964 7820 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,039 basehttp 7964 7568 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,040 basehttp 7964 7820 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,164 basehttp 7964 4904 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,165 basehttp 7964 5304 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,164 basehttp 7964 4904 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,165 basehttp 7964 5304 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,464 basehttp 7964 7632 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,465 basehttp 7964 6904 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,464 basehttp 7964 7632 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,465 basehttp 7964 6904 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,769 basehttp 7964 5052 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:41,769 basehttp 7964 5052 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:43,193 basehttp 7964 7996 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:43,193 basehttp 7964 7996 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2017-01-09 17:51:43,876 base 7964 7664 Not Found: /favicon.ico
+WARNING 2017-01-09 17:51:43,876 base 7964 7664 Not Found: /favicon.ico
+WARNING 2017-01-09 17:51:43,876 basehttp 7964 7664 "GET /favicon.ico HTTP/1.1" 404 13646
+WARNING 2017-01-09 17:51:43,876 basehttp 7964 7664 "GET /favicon.ico HTTP/1.1" 404 13646
+INFO 2017-01-09 17:51:45,613 basehttp 7964 6560 "GET /account/ HTTP/1.1" 200 24621
+INFO 2017-01-09 17:51:45,613 basehttp 7964 6560 "GET /account/ HTTP/1.1" 200 24621
+WARNING 2017-01-09 17:51:48,588 views 7964 1480 asdaddqwdqwdqwd
+INFO 2017-01-09 17:51:48,730 basehttp 7964 1480 "GET /character/5/ HTTP/1.1" 200 20911
+INFO 2017-01-09 17:51:48,730 basehttp 7964 1480 "GET /character/5/ HTTP/1.1" 200 20911
+INFO 2017-01-09 17:51:48,839 basehttp 7964 6628 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:48,839 basehttp 7964 6628 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-09 17:51:58,471 basehttp 7964 5472 "POST /character/5/update_private/ HTTP/1.1" 200 45
+INFO 2017-01-09 17:51:58,471 basehttp 7964 5472 "POST /character/5/update_private/ HTTP/1.1" 200 45
+INFO 2017-01-09 17:52:04,482 basehttp 7964 448 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 55
+INFO 2017-01-09 17:52:04,482 basehttp 7964 448 "POST /character/5/update_dm_notes/ HTTP/1.1" 200 55
+WARNING 2017-01-10 10:17:26,072 views 5844 1800 asdaddqwdqwdqwd
+INFO 2017-01-10 10:17:26,261 basehttp 5844 1800 "GET / HTTP/1.1" 200 16033
+INFO 2017-01-10 10:17:26,261 basehttp 5844 1800 "GET / HTTP/1.1" 200 16033
+INFO 2017-01-10 10:17:26,283 basehttp 5844 1544 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:26,283 basehttp 5844 1544 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+WARNING 2017-01-10 10:17:26,581 views 5844 4656 asdaddqwdqwdqwd
+INFO 2017-01-10 10:17:26,653 basehttp 5844 4656 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-10 10:17:26,653 basehttp 5844 4656 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-10 10:17:26,670 basehttp 5844 6952 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:26,670 basehttp 5844 6952 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:26,781 basehttp 5844 4160 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:26,782 basehttp 5844 4760 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:26,782 basehttp 5844 6280 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:26,782 basehttp 5844 5864 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:26,781 basehttp 5844 4160 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:26,782 basehttp 5844 4760 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:26,782 basehttp 5844 6280 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:26,782 basehttp 5844 5864 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:27,115 basehttp 5844 6736 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:27,115 basehttp 5844 6736 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:27,366 basehttp 5844 4388 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:27,366 basehttp 5844 4388 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2017-01-10 10:17:27,610 base 5844 1500 Not Found: /favicon.ico
+WARNING 2017-01-10 10:17:27,610 base 5844 1500 Not Found: /favicon.ico
+WARNING 2017-01-10 10:17:27,611 basehttp 5844 1500 "GET /favicon.ico HTTP/1.1" 404 13646
+WARNING 2017-01-10 10:17:27,611 basehttp 5844 1500 "GET /favicon.ico HTTP/1.1" 404 13646
+WARNING 2017-01-10 10:17:30,014 views 5844 2480 asdaddqwdqwdqwd
+INFO 2017-01-10 10:17:30,315 basehttp 5844 2480 "GET /campaign/3/ HTTP/1.1" 200 33770
+INFO 2017-01-10 10:17:30,315 basehttp 5844 2480 "GET /campaign/3/ HTTP/1.1" 200 33770
+INFO 2017-01-10 10:17:30,405 basehttp 5844 1604 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:30,405 basehttp 5844 1604 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+INFO 2017-01-10 10:17:31,952 basehttp 5844 5884 "GET /account/ HTTP/1.1" 200 25043
+INFO 2017-01-10 10:17:31,952 basehttp 5844 5884 "GET /account/ HTTP/1.1" 200 25043
+INFO 2017-01-10 10:18:50,850 basehttp 5844 6916 "GET /account/ HTTP/1.1" 200 25053
+INFO 2017-01-10 10:18:50,850 basehttp 5844 6916 "GET /account/ HTTP/1.1" 200 25053
+INFO 2017-01-10 10:21:18,258 basehttp 5844 4012 "GET /account/ HTTP/1.1" 200 25764
+INFO 2017-01-10 10:21:18,258 basehttp 5844 4012 "GET /account/ HTTP/1.1" 200 25764
+INFO 2017-01-10 10:21:30,594 basehttp 5844 3940 "GET /account/ HTTP/1.1" 200 25764
+INFO 2017-01-10 10:21:30,594 basehttp 5844 3940 "GET /account/ HTTP/1.1" 200 25764
+WARNING 2017-01-10 10:21:35,479 views 5844 4580 asdaddqwdqwdqwd
+INFO 2017-01-10 10:21:35,626 basehttp 5844 4580 "GET /character/5/?panel=2 HTTP/1.1" 200 20801
+INFO 2017-01-10 10:21:35,626 basehttp 5844 4580 "GET /character/5/?panel=2 HTTP/1.1" 200 20801
+INFO 2017-01-10 10:21:35,703 basehttp 5844 6760 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+INFO 2017-01-10 10:21:35,703 basehttp 5844 6760 "GET /static/campaign/js/char_detail.js HTTP/1.1" 304 0
+WARNING 2017-01-10 10:21:40,625 views 5844 6740 asdaddqwdqwdqwd
+INFO 2017-01-10 10:21:40,767 basehttp 5844 6740 "GET /character/5/ HTTP/1.1" 200 20793
+INFO 2017-01-10 10:21:40,767 basehttp 5844 6740 "GET /character/5/ HTTP/1.1" 200 20793
+INFO 2017-01-10 10:22:03,950 basehttp 5844 5932 "GET /account/ HTTP/1.1" 200 25764
+INFO 2017-01-10 10:22:03,950 basehttp 5844 5932 "GET /account/ HTTP/1.1" 200 25764
+INFO 2017-01-10 10:23:35,181 basehttp 5844 1628 "GET /character/5/edit/ HTTP/1.1" 200 17028
+INFO 2017-01-10 10:23:35,181 basehttp 5844 1628 "GET /character/5/edit/ HTTP/1.1" 200 17028
+WARNING 2017-01-10 10:23:38,903 views 5844 5580 asdaddqwdqwdqwd
+INFO 2017-01-10 10:23:39,046 basehttp 5844 5580 "GET /character/5/ HTTP/1.1" 200 20793
+INFO 2017-01-10 10:23:39,046 basehttp 5844 5580 "GET /character/5/ HTTP/1.1" 200 20793
+INFO 2017-01-10 10:25:22,355 basehttp 5844 4040 "GET /account/ HTTP/1.1" 200 25768
+INFO 2017-01-10 10:25:22,355 basehttp 5844 4040 "GET /account/ HTTP/1.1" 200 25768
+INFO 2017-01-10 10:25:42,965 basehttp 5844 3180 "GET /account/ HTTP/1.1" 200 25772
+INFO 2017-01-10 10:25:42,965 basehttp 5844 3180 "GET /account/ HTTP/1.1" 200 25772
+WARNING 2017-01-10 10:30:41,019 views 5844 7600 asdaddqwdqwdqwd
+INFO 2017-01-10 10:30:41,192 basehttp 5844 7600 "GET /campaign/3/detail/ HTTP/1.1" 200 19348
+INFO 2017-01-10 10:30:41,192 basehttp 5844 7600 "GET /campaign/3/detail/ HTTP/1.1" 200 19348
+INFO 2017-01-10 10:33:59,062 basehttp 5844 8124 "GET /campaign/3/removechar/5/ HTTP/1.1" 302 0
+INFO 2017-01-10 10:33:59,062 basehttp 5844 8124 "GET /campaign/3/removechar/5/ HTTP/1.1" 302 0
+WARNING 2017-01-10 10:33:59,085 views 5844 7908 asdaddqwdqwdqwd
+INFO 2017-01-10 10:33:59,241 basehttp 5844 7908 "GET /campaign/3/detail/?panel=2 HTTP/1.1" 200 19283
+INFO 2017-01-10 10:33:59,241 basehttp 5844 7908 "GET /campaign/3/detail/?panel=2 HTTP/1.1" 200 19283
+INFO 2017-01-10 10:34:02,619 basehttp 5844 8148 "GET /campaign/3/addchar/5/ HTTP/1.1" 302 0
+INFO 2017-01-10 10:34:02,619 basehttp 5844 8148 "GET /campaign/3/addchar/5/ HTTP/1.1" 302 0
+WARNING 2017-01-10 10:34:02,624 views 5844 8160 asdaddqwdqwdqwd
+INFO 2017-01-10 10:34:02,773 basehttp 5844 8160 "GET /campaign/3/detail/?panel=2 HTTP/1.1" 200 19356
+INFO 2017-01-10 10:34:02,773 basehttp 5844 8160 "GET /campaign/3/detail/?panel=2 HTTP/1.1" 200 19356
+WARNING 2017-01-10 10:34:11,577 basehttp 5844 1536 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 10:34:11,577 basehttp 5844 1536 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:39:15,333 views 5844 2972 asdaddqwdqwdqwd
+INFO 2017-01-10 11:39:15,475 basehttp 5844 2972 "GET /campaign/3/detail/ HTTP/1.1" 200 19348
+INFO 2017-01-10 11:39:15,475 basehttp 5844 2972 "GET /campaign/3/detail/ HTTP/1.1" 200 19348
+WARNING 2017-01-10 11:40:00,377 views 5844 7664 asdaddqwdqwdqwd
+INFO 2017-01-10 11:40:00,512 basehttp 5844 7664 "GET /campaign/3/detail/ HTTP/1.1" 200 19378
+INFO 2017-01-10 11:40:00,512 basehttp 5844 7664 "GET /campaign/3/detail/ HTTP/1.1" 200 19378
+WARNING 2017-01-10 11:40:05,742 basehttp 5844 7328 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:40:05,742 basehttp 5844 7328 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:40:39,998 views 5844 7604 asdaddqwdqwdqwd
+INFO 2017-01-10 11:40:40,134 basehttp 5844 7604 "GET /campaign/3/detail/ HTTP/1.1" 200 19402
+INFO 2017-01-10 11:40:40,134 basehttp 5844 7604 "GET /campaign/3/detail/ HTTP/1.1" 200 19402
+WARNING 2017-01-10 11:40:40,890 basehttp 5844 7812 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:40:40,890 basehttp 5844 7812 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:42:40,770 views 5844 2284 asdaddqwdqwdqwd
+INFO 2017-01-10 11:42:40,899 basehttp 5844 2284 "GET /campaign/3/detail/ HTTP/1.1" 200 18140
+INFO 2017-01-10 11:42:40,899 basehttp 5844 2284 "GET /campaign/3/detail/ HTTP/1.1" 200 18140
+INFO 2017-01-10 11:42:41,028 basehttp 5844 4580 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-10 11:42:41,028 basehttp 5844 4580 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-10 11:42:41,214 basehttp 5844 5012 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-10 11:42:41,214 basehttp 5844 6696 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-10 11:42:41,214 basehttp 5844 5012 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-10 11:42:41,214 basehttp 5844 6696 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-10 11:42:41,234 basehttp 5844 7192 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-10 11:42:41,234 basehttp 5844 7192 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-10 11:42:41,245 basehttp 5844 7744 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-10 11:42:41,245 basehttp 5844 7744 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-10 11:42:41,261 basehttp 5844 8040 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-10 11:42:41,261 basehttp 5844 8040 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-10 11:42:41,331 basehttp 5844 2140 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-10 11:42:41,331 basehttp 5844 2140 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-10 11:42:41,579 basehttp 5844 6988 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-10 11:42:41,579 basehttp 5844 6988 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-10 11:42:43,279 basehttp 5844 7536 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-10 11:42:43,279 basehttp 5844 7536 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-10 11:42:43,945 basehttp 5844 6472 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-10 11:42:43,945 basehttp 5844 6472 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-10 11:42:44,338 basehttp 5844 7148 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-10 11:42:44,338 basehttp 5844 7148 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+WARNING 2017-01-10 11:43:37,544 views 5844 6044 asdaddqwdqwdqwd
+INFO 2017-01-10 11:43:37,640 basehttp 5844 6044 "GET /campaign/3/detail/ HTTP/1.1" 200 18518
+INFO 2017-01-10 11:43:37,640 basehttp 5844 6044 "GET /campaign/3/detail/ HTTP/1.1" 200 18518
+WARNING 2017-01-10 11:43:49,289 views 5844 7720 asdaddqwdqwdqwd
+INFO 2017-01-10 11:43:49,427 basehttp 5844 7720 "GET /campaign/3/detail/ HTTP/1.1" 200 22457
+INFO 2017-01-10 11:43:49,427 basehttp 5844 7720 "GET /campaign/3/detail/ HTTP/1.1" 200 22457
+WARNING 2017-01-10 11:43:50,174 basehttp 5844 7296 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:43:50,174 basehttp 5844 7296 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:44:10,986 views 5844 7644 asdaddqwdqwdqwd
+INFO 2017-01-10 11:44:11,128 basehttp 5844 7644 "GET /campaign/3/detail/ HTTP/1.1" 200 22772
+INFO 2017-01-10 11:44:11,128 basehttp 5844 7644 "GET /campaign/3/detail/ HTTP/1.1" 200 22772
+WARNING 2017-01-10 11:44:11,916 basehttp 5844 7388 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:44:11,916 basehttp 5844 7388 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:44:22,825 views 5844 7192 asdaddqwdqwdqwd
+INFO 2017-01-10 11:44:22,962 basehttp 5844 7192 "GET /campaign/3/detail/ HTTP/1.1" 200 22793
+INFO 2017-01-10 11:44:22,962 basehttp 5844 7192 "GET /campaign/3/detail/ HTTP/1.1" 200 22793
+WARNING 2017-01-10 11:44:23,702 basehttp 5844 7744 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:44:23,702 basehttp 5844 7744 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:44:35,004 views 5844 2204 asdaddqwdqwdqwd
+INFO 2017-01-10 11:44:35,141 basehttp 5844 2204 "GET /campaign/3/detail/ HTTP/1.1" 200 22760
+INFO 2017-01-10 11:44:35,141 basehttp 5844 2204 "GET /campaign/3/detail/ HTTP/1.1" 200 22760
+WARNING 2017-01-10 11:44:35,856 basehttp 5844 4912 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:44:35,856 basehttp 5844 4912 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:44:48,987 views 5844 7696 asdaddqwdqwdqwd
+INFO 2017-01-10 11:44:49,129 basehttp 5844 7696 "GET /campaign/3/detail/ HTTP/1.1" 200 22772
+INFO 2017-01-10 11:44:49,129 basehttp 5844 7696 "GET /campaign/3/detail/ HTTP/1.1" 200 22772
+WARNING 2017-01-10 11:44:49,902 basehttp 5844 5404 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:44:49,902 basehttp 5844 5404 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:47:19,339 views 5844 7192 asdaddqwdqwdqwd
+INFO 2017-01-10 11:47:19,475 basehttp 5844 7192 "GET /campaign/3/detail/ HTTP/1.1" 200 19651
+INFO 2017-01-10 11:47:19,475 basehttp 5844 7192 "GET /campaign/3/detail/ HTTP/1.1" 200 19651
+WARNING 2017-01-10 11:47:20,412 basehttp 5844 7172 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:47:20,412 basehttp 5844 7172 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:47:43,655 views 5844 152 asdaddqwdqwdqwd
+INFO 2017-01-10 11:47:43,793 basehttp 5844 152 "GET /campaign/3/detail/ HTTP/1.1" 200 19609
+INFO 2017-01-10 11:47:43,793 basehttp 5844 152 "GET /campaign/3/detail/ HTTP/1.1" 200 19609
+WARNING 2017-01-10 11:47:44,536 basehttp 5844 8008 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:47:44,536 basehttp 5844 8008 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-10 11:47:47,248 basehttp 5844 8108 "GET /account/ HTTP/1.1" 200 25772
+INFO 2017-01-10 11:47:47,248 basehttp 5844 8108 "GET /account/ HTTP/1.1" 200 25772
+WARNING 2017-01-10 11:47:47,776 basehttp 5844 4912 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 11:47:47,776 basehttp 5844 4912 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-10 11:49:02,043 basehttp 5844 6520 "GET /__debug__/render_panel/?store_id=5a6fca610031466abd6f2f921f861284&panel_id=SQLPanel HTTP/1.1" 200 38725
+INFO 2017-01-10 11:49:02,043 basehttp 5844 6520 "GET /__debug__/render_panel/?store_id=5a6fca610031466abd6f2f921f861284&panel_id=SQLPanel HTTP/1.1" 200 38725
+INFO 2017-01-10 11:49:02,216 basehttp 5844 7028 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484034467637 HTTP/1.1" 200 353
+INFO 2017-01-10 11:49:02,216 basehttp 5844 7028 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484034467637 HTTP/1.1" 200 353
+INFO 2017-01-10 13:06:34,714 basehttp 5844 2908 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+INFO 2017-01-10 13:06:34,714 basehttp 5844 2908 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+WARNING 2017-01-10 14:09:31,132 views 5844 3200 asdaddqwdqwdqwd
+INFO 2017-01-10 14:09:32,855 basehttp 5844 3200 "GET /campaign/3/ HTTP/1.1" 200 33773
+INFO 2017-01-10 14:09:32,855 basehttp 5844 3200 "GET /campaign/3/ HTTP/1.1" 200 33773
+INFO 2017-01-10 14:09:33,969 basehttp 5844 8080 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:33,969 basehttp 5844 8080 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:34,008 basehttp 5844 7336 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:34,008 basehttp 5844 7336 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:34,623 basehttp 5844 8164 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:34,623 basehttp 5844 8164 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:35,062 basehttp 5844 4956 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:35,062 basehttp 5844 4956 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:35,311 basehttp 5844 2460 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:35,311 basehttp 5844 2460 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:35,533 basehttp 5844 8060 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:35,533 basehttp 5844 8060 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:35,627 basehttp 5844 7596 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:35,627 basehttp 5844 7596 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:38,521 basehttp 5844 7620 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-10 14:09:38,521 basehttp 5844 7620 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2017-01-10 14:09:39,734 basehttp 5844 7728 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-10 14:09:39,734 basehttp 5844 7728 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-10 14:42:58,353 basehttp 5844 8084 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 200 133474
+INFO 2017-01-10 14:42:58,353 basehttp 5844 8084 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 200 133474
+WARNING 2017-01-11 13:02:22,115 views 4812 5396 asdaddqwdqwdqwd
+INFO 2017-01-11 13:02:22,472 basehttp 4812 5396 "GET / HTTP/1.1" 200 16033
+INFO 2017-01-11 13:02:22,472 basehttp 4812 5396 "GET / HTTP/1.1" 200 16033
+INFO 2017-01-11 13:02:22,520 basehttp 4812 6984 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:22,520 basehttp 4812 6984 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:22,821 basehttp 4812 7512 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:22,821 basehttp 4812 7512 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:22,902 basehttp 4812 5680 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:22,902 basehttp 4812 6908 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:22,902 basehttp 4812 5680 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:22,903 basehttp 4812 908 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:22,903 basehttp 4812 5008 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:22,902 basehttp 4812 6908 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:22,903 basehttp 4812 908 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:22,903 basehttp 4812 5008 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:23,218 basehttp 4812 6600 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:23,218 basehttp 4812 6600 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:23,469 basehttp 4812 6132 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:23,469 basehttp 4812 6132 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2017-01-11 13:02:23,716 base 4812 7660 Not Found: /favicon.ico
+WARNING 2017-01-11 13:02:23,716 base 4812 7660 Not Found: /favicon.ico
+WARNING 2017-01-11 13:02:23,717 basehttp 4812 7660 "GET /favicon.ico HTTP/1.1" 404 13646
+WARNING 2017-01-11 13:02:23,717 basehttp 4812 7660 "GET /favicon.ico HTTP/1.1" 404 13646
+WARNING 2017-01-11 13:02:26,587 views 4812 3096 asdaddqwdqwdqwd
+INFO 2017-01-11 13:02:26,842 basehttp 4812 3096 "GET /campaign/3/ HTTP/1.1" 200 33770
+INFO 2017-01-11 13:02:26,842 basehttp 4812 3096 "GET /campaign/3/ HTTP/1.1" 200 33770
+INFO 2017-01-11 13:02:26,922 basehttp 4812 7172 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+INFO 2017-01-11 13:02:26,922 basehttp 4812 7172 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+WARNING 2017-01-11 13:02:30,244 views 4812 6076 asdaddqwdqwdqwd
+INFO 2017-01-11 13:02:30,371 basehttp 4812 6076 "GET /campaign/3/28/ HTTP/1.1" 200 22089
+INFO 2017-01-11 13:02:30,371 basehttp 4812 6076 "GET /campaign/3/28/ HTTP/1.1" 200 22089
+WARNING 2017-01-11 13:02:39,851 basehttp 4812 7304 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-11 13:02:39,851 basehttp 4812 7304 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-11 13:03:34,678 views 4812 4288 asdaddqwdqwdqwd
+INFO 2017-01-11 13:03:34,794 basehttp 4812 4288 "GET /campaign/3/28/ HTTP/1.1" 200 22093
+INFO 2017-01-11 13:03:34,794 basehttp 4812 4288 "GET /campaign/3/28/ HTTP/1.1" 200 22093
+WARNING 2017-01-11 13:03:35,543 basehttp 4812 6068 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-11 13:03:35,543 basehttp 4812 6068 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-11 13:04:04,629 views 4812 6980 asdaddqwdqwdqwd
+INFO 2017-01-11 13:04:04,742 basehttp 4812 6980 "GET /campaign/3/28/ HTTP/1.1" 200 22089
+INFO 2017-01-11 13:04:04,742 basehttp 4812 6980 "GET /campaign/3/28/ HTTP/1.1" 200 22089
+WARNING 2017-01-11 13:04:05,486 basehttp 4812 2388 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-11 13:04:05,486 basehttp 4812 2388 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-11 13:04:07,651 views 4812 6164 asdaddqwdqwdqwd
+INFO 2017-01-11 13:04:07,766 basehttp 4812 6164 "GET /campaign/3/28/ HTTP/1.1" 200 22089
+INFO 2017-01-11 13:04:07,766 basehttp 4812 6164 "GET /campaign/3/28/ HTTP/1.1" 200 22089
+INFO 2017-01-11 13:04:07,919 basehttp 4812 5356 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-11 13:04:07,919 basehttp 4812 5356 "GET /static/campaign/css/mystyle.css HTTP/1.1" 200 3694
+INFO 2017-01-11 13:04:08,092 basehttp 4812 7916 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-11 13:04:08,092 basehttp 4812 7916 "GET /static/campaign/js/new.js HTTP/1.1" 200 2183
+INFO 2017-01-11 13:04:08,102 basehttp 4812 7556 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-11 13:04:08,102 basehttp 4812 7556 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 20293
+INFO 2017-01-11 13:04:08,192 basehttp 4812 3308 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-11 13:04:08,192 basehttp 4812 3308 "GET /static/campaign/js/app.js HTTP/1.1" 200 296
+INFO 2017-01-11 13:04:08,192 basehttp 4812 7808 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-11 13:04:08,192 basehttp 4812 7808 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 200 136
+INFO 2017-01-11 13:04:08,212 basehttp 4812 6684 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-11 13:04:08,212 basehttp 4812 6684 "GET /static/campaign/js/angular.min.js HTTP/1.1" 200 162859
+INFO 2017-01-11 13:04:08,223 basehttp 4812 5504 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-11 13:04:08,223 basehttp 4812 5504 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 200 118
+INFO 2017-01-11 13:04:08,396 basehttp 4812 7100 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-11 13:04:08,396 basehttp 4812 7100 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 12552
+INFO 2017-01-11 13:04:09,971 basehttp 4812 7484 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-11 13:04:09,971 basehttp 4812 7484 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 200 404
+INFO 2017-01-11 13:04:10,139 basehttp 4812 7496 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+INFO 2017-01-11 13:04:10,139 basehttp 4812 7496 "GET /static/campaign/images/bg.png HTTP/1.1" 200 328204
+WARNING 2017-01-11 13:04:10,159 basehttp 4812 5676 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-11 13:04:10,159 basehttp 4812 5676 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-11 13:04:10,223 basehttp 4812 7628 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+INFO 2017-01-11 13:04:10,223 basehttp 4812 7628 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 29
+WARNING 2017-01-11 13:13:07,515 views 4812 3924 asdaddqwdqwdqwd
+INFO 2017-01-11 13:13:07,584 basehttp 4812 3924 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-11 13:13:07,584 basehttp 4812 3924 "GET / HTTP/1.1" 200 16032
+WARNING 2017-01-11 13:13:08,001 views 4812 6104 asdaddqwdqwdqwd
+INFO 2017-01-11 13:13:08,068 basehttp 4812 6104 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-11 13:13:08,068 basehttp 4812 6104 "GET / HTTP/1.1" 200 16032
+WARNING 2017-01-11 13:13:13,492 views 4812 4588 asdaddqwdqwdqwd
+INFO 2017-01-11 13:13:13,663 basehttp 4812 4588 "GET /campaign/3/ HTTP/1.1" 200 33770
+INFO 2017-01-11 13:13:13,663 basehttp 4812 4588 "GET /campaign/3/ HTTP/1.1" 200 33770
+WARNING 2017-01-11 13:13:15,263 views 4812 6024 asdaddqwdqwdqwd
+INFO 2017-01-11 13:13:15,377 basehttp 4812 6024 "GET /campaign/3/28/ HTTP/1.1" 200 22103
+INFO 2017-01-11 13:13:15,377 basehttp 4812 6024 "GET /campaign/3/28/ HTTP/1.1" 200 22103
+WARNING 2017-01-11 13:13:19,728 basehttp 4812 4012 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-11 13:13:19,728 basehttp 4812 4012 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-11 13:15:36,676 views 4812 8180 asdaddqwdqwdqwd
+INFO 2017-01-11 13:15:36,793 basehttp 4812 8180 "GET /campaign/3/28/ HTTP/1.1" 200 22107
+INFO 2017-01-11 13:15:36,793 basehttp 4812 8180 "GET /campaign/3/28/ HTTP/1.1" 200 22107
+WARNING 2017-01-11 13:15:37,525 basehttp 4812 7772 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-11 13:15:37,525 basehttp 4812 7772 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-11 13:17:06,087 views 4812 5152 asdaddqwdqwdqwd
+INFO 2017-01-11 13:17:06,262 basehttp 4812 5152 "GET /campaign/3/ HTTP/1.1" 200 33770
+INFO 2017-01-11 13:17:06,262 basehttp 4812 5152 "GET /campaign/3/ HTTP/1.1" 200 33770
+WARNING 2017-01-11 13:17:13,952 views 4812 4912 asdaddqwdqwdqwd
+INFO 2017-01-11 13:17:14,086 basehttp 4812 4912 "GET /campaign/3/detail/ HTTP/1.1" 200 19735
+INFO 2017-01-11 13:17:14,086 basehttp 4812 4912 "GET /campaign/3/detail/ HTTP/1.1" 200 19735
+WARNING 2017-01-11 13:45:10,857 views 7276 3896 asdaddqwdqwdqwd
+INFO 2017-01-11 13:45:11,051 basehttp 7276 3896 "GET / HTTP/1.1" 200 16033
+INFO 2017-01-11 13:45:11,051 basehttp 7276 3896 "GET / HTTP/1.1" 200 16033
+WARNING 2017-01-11 13:45:16,151 views 7276 7236 asdaddqwdqwdqwd
+INFO 2017-01-11 13:45:16,223 basehttp 7276 7236 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-11 13:45:16,223 basehttp 7276 7236 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-11 13:45:20,343 basehttp 7276 6124 "GET /admin/ HTTP/1.1" 200 21244
+INFO 2017-01-11 13:45:20,343 basehttp 7276 6124 "GET /admin/ HTTP/1.1" 200 21244
+INFO 2017-01-11 13:45:20,363 basehttp 7276 4472 "GET /static/admin/css/base.css HTTP/1.1" 200 15937
+INFO 2017-01-11 13:45:20,363 basehttp 7276 4472 "GET /static/admin/css/base.css HTTP/1.1" 200 15937
+INFO 2017-01-11 13:45:20,367 basehttp 7276 7632 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+INFO 2017-01-11 13:45:20,367 basehttp 7276 7632 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+INFO 2017-01-11 13:45:20,448 basehttp 7276 7768 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2017-01-11 13:45:20,448 basehttp 7276 7768 "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO 2017-01-11 13:45:20,479 basehttp 7276 2432 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2017-01-11 13:45:20,479 basehttp 7276 4284 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2017-01-11 13:45:20,479 basehttp 7276 2432 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+INFO 2017-01-11 13:45:20,479 basehttp 7276 4284 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+INFO 2017-01-11 13:45:20,913 basehttp 7276 5452 "GET /admin/ HTTP/1.1" 200 21244
+INFO 2017-01-11 13:45:20,913 basehttp 7276 5452 "GET /admin/ HTTP/1.1" 200 21244
+INFO 2017-01-11 13:45:20,997 basehttp 7276 7204 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2017-01-11 13:45:20,997 basehttp 7276 8108 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2017-01-11 13:45:20,998 basehttp 7276 4800 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2017-01-11 13:45:20,997 basehttp 7276 7204 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2017-01-11 13:45:20,997 basehttp 7276 8108 "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2017-01-11 13:45:20,998 basehttp 7276 4800 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2017-01-11 13:45:21,000 basehttp 7276 4716 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2017-01-11 13:45:21,000 basehttp 7276 4716 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2017-01-11 13:45:25,351 basehttp 7276 7692 "GET /account/ HTTP/1.1" 200 25772
+INFO 2017-01-11 13:45:25,351 basehttp 7276 7692 "GET /account/ HTTP/1.1" 200 25772
+INFO 2017-01-11 13:45:28,218 basehttp 7276 5824 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16192
+INFO 2017-01-11 13:45:28,218 basehttp 7276 5824 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16192
+INFO 2017-01-11 13:45:28,293 basehttp 7276 6464 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6117
+INFO 2017-01-11 13:45:28,293 basehttp 7276 6464 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6117
+INFO 2017-01-11 13:45:28,540 basehttp 7276 3684 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2017-01-11 13:45:28,540 basehttp 7276 3684 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2017-01-11 13:45:28,541 basehttp 7276 5708 "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+INFO 2017-01-11 13:45:28,541 basehttp 7276 5708 "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+INFO 2017-01-11 13:45:28,573 basehttp 7276 7916 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 13:45:28,574 basehttp 7276 3016 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6577
+INFO 2017-01-11 13:45:28,573 basehttp 7276 7916 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 13:45:28,574 basehttp 7276 3016 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6577
+INFO 2017-01-11 13:45:28,596 basehttp 7276 2912 "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+INFO 2017-01-11 13:45:28,596 basehttp 7276 2912 "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+INFO 2017-01-11 13:45:28,606 basehttp 7276 5876 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+INFO 2017-01-11 13:45:28,606 basehttp 7276 5876 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+INFO 2017-01-11 13:45:28,845 basehttp 7276 3324 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+INFO 2017-01-11 13:45:28,846 basehttp 7276 6576 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+INFO 2017-01-11 13:45:28,845 basehttp 7276 3324 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+INFO 2017-01-11 13:45:28,846 basehttp 7276 6576 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+INFO 2017-01-11 13:45:28,896 basehttp 7276 5828 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2017-01-11 13:45:28,896 basehttp 7276 5828 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2017-01-11 13:45:29,154 basehttp 7276 5908 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2017-01-11 13:45:29,154 basehttp 7276 5908 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2017-01-11 13:45:29,225 basehttp 7276 4700 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2017-01-11 13:45:29,225 basehttp 7276 4700 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2017-01-11 13:45:38,629 basehttp 7276 7304 "POST /admin/campaign/campaign/ HTTP/1.1" 200 13462
+INFO 2017-01-11 13:45:38,629 basehttp 7276 7304 "POST /admin/campaign/campaign/ HTTP/1.1" 200 13462
+INFO 2017-01-11 13:45:38,694 basehttp 7276 5976 "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+INFO 2017-01-11 13:45:38,694 basehttp 7276 5976 "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+INFO 2017-01-11 13:45:40,615 basehttp 7276 6412 "POST /admin/campaign/campaign/ HTTP/1.1" 302 0
+INFO 2017-01-11 13:45:40,615 basehttp 7276 6412 "POST /admin/campaign/campaign/ HTTP/1.1" 302 0
+INFO 2017-01-11 13:45:40,757 basehttp 7276 7592 "GET /admin/campaign/campaign/ HTTP/1.1" 200 15925
+INFO 2017-01-11 13:45:40,757 basehttp 7276 7592 "GET /admin/campaign/campaign/ HTTP/1.1" 200 15925
+INFO 2017-01-11 13:45:41,105 basehttp 7276 5088 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 13:45:41,105 basehttp 7276 5088 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 13:45:41,321 basehttp 7276 7220 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2017-01-11 13:45:41,321 basehttp 7276 7220 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2017-01-11 13:45:44,553 basehttp 7276 7628 "GET /account/ HTTP/1.1" 200 24227
+INFO 2017-01-11 13:45:44,553 basehttp 7276 7628 "GET /account/ HTTP/1.1" 200 24227
+WARNING 2017-01-11 13:45:49,294 views 7276 7804 asdaddqwdqwdqwd
+INFO 2017-01-11 13:45:49,383 basehttp 7276 7804 "GET /campaign/3/createstory/ HTTP/1.1" 200 18723
+INFO 2017-01-11 13:45:49,383 basehttp 7276 7804 "GET /campaign/3/createstory/ HTTP/1.1" 200 18723
+INFO 2017-01-11 13:45:49,432 basehttp 7276 7348 "GET /static/campaign/css/file_upload.css HTTP/1.1" 200 1577
+INFO 2017-01-11 13:45:49,432 basehttp 7276 7348 "GET /static/campaign/css/file_upload.css HTTP/1.1" 200 1577
+INFO 2017-01-11 13:45:49,448 basehttp 7276 1640 "GET /static/campaign/js/imagepool.js HTTP/1.1" 200 3081
+INFO 2017-01-11 13:45:49,448 basehttp 7276 1640 "GET /static/campaign/js/imagepool.js HTTP/1.1" 200 3081
+INFO 2017-01-11 13:45:49,841 basehttp 7276 2020 "GET /media/imagepool/2016/12/push5.png HTTP/1.1" 200 34458
+INFO 2017-01-11 13:45:49,841 basehttp 7276 2020 "GET /media/imagepool/2016/12/push5.png HTTP/1.1" 200 34458
+INFO 2017-01-11 13:45:49,853 basehttp 7276 7116 "GET /media/imagepool/2016/12/push2.png HTTP/1.1" 200 29161
+INFO 2017-01-11 13:45:49,853 basehttp 7276 7116 "GET /media/imagepool/2016/12/push2.png HTTP/1.1" 200 29161
+INFO 2017-01-11 13:45:50,166 basehttp 7276 4280 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 13:45:50,166 basehttp 7276 4280 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 13:45:50,435 basehttp 7276 7612 "GET /media/imagepool/2017/01/nova.png HTTP/1.1" 200 153903
+INFO 2017-01-11 13:45:50,435 basehttp 7276 7612 "GET /media/imagepool/2017/01/nova.png HTTP/1.1" 200 153903
+ERROR 2017-01-11 13:46:10,050 exception 7276 6792 Internal Server Error: /campaign/3/createstory/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\edit.py", line 217, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\edit.py", line 183, in post
+    return self.form_valid(form)
+  File "E:\Scr\Git\DnD-Campaign-Blog\campaign\views.py", line 190, in form_valid
+    campaign.ended = self.object.posted
+AttributeError: 'NoneType' object has no attribute 'posted'
+ERROR 2017-01-11 13:46:10,050 exception 7276 6792 Internal Server Error: /campaign/3/createstory/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\edit.py", line 217, in post
+    return super(BaseCreateView, self).post(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\generic\edit.py", line 183, in post
+    return self.form_valid(form)
+  File "E:\Scr\Git\DnD-Campaign-Blog\campaign\views.py", line 190, in form_valid
+    campaign.ended = self.object.posted
+AttributeError: 'NoneType' object has no attribute 'posted'
+ERROR 2017-01-11 13:46:10,173 basehttp 7276 6792 "POST /campaign/3/createstory/ HTTP/1.1" 500 103092
+ERROR 2017-01-11 13:46:10,173 basehttp 7276 6792 "POST /campaign/3/createstory/ HTTP/1.1" 500 103092
+INFO 2017-01-11 14:01:52,125 basehttp 5676 5896 "POST /campaign/3/createstory/ HTTP/1.1" 302 0
+INFO 2017-01-11 14:01:52,125 basehttp 5676 5896 "POST /campaign/3/createstory/ HTTP/1.1" 302 0
+WARNING 2017-01-11 14:01:52,131 views 5676 6576 asdaddqwdqwdqwd
+INFO 2017-01-11 14:01:52,311 basehttp 5676 6576 "GET /campaign/3/30/ HTTP/1.1" 200 17519
+INFO 2017-01-11 14:01:52,311 basehttp 5676 6576 "GET /campaign/3/30/ HTTP/1.1" 200 17519
+INFO 2017-01-11 14:01:59,717 basehttp 5676 6884 "GET /admin/campaign/campaign/ HTTP/1.1" 200 15793
+INFO 2017-01-11 14:01:59,717 basehttp 5676 6884 "GET /admin/campaign/campaign/ HTTP/1.1" 200 15793
+INFO 2017-01-11 14:01:59,776 basehttp 5676 5640 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 14:01:59,776 basehttp 5676 5640 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 14:02:06,686 basehttp 5676 6152 "GET /account/ HTTP/1.1" 200 24228
+INFO 2017-01-11 14:02:06,686 basehttp 5676 6152 "GET /account/ HTTP/1.1" 200 24228
+WARNING 2017-01-11 14:02:12,058 views 5676 7236 asdaddqwdqwdqwd
+INFO 2017-01-11 14:02:12,108 basehttp 5676 7236 "GET /campaign/create/ HTTP/1.1" 200 15213
+INFO 2017-01-11 14:02:12,108 basehttp 5676 7236 "GET /campaign/create/ HTTP/1.1" 200 15213
+INFO 2017-01-11 14:02:21,480 basehttp 5676 5320 "POST /campaign/create/ HTTP/1.1" 302 0
+INFO 2017-01-11 14:02:21,480 basehttp 5676 5320 "POST /campaign/create/ HTTP/1.1" 302 0
+WARNING 2017-01-11 14:02:21,786 views 5676 7396 asdaddqwdqwdqwd
+INFO 2017-01-11 14:02:21,854 basehttp 5676 7396 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-11 14:02:21,854 basehttp 5676 7396 "GET / HTTP/1.1" 200 16032
+INFO 2017-01-11 14:05:43,583 basehttp 608 7200 "GET /account/ HTTP/1.1" 200 25783
+INFO 2017-01-11 14:05:43,583 basehttp 608 7200 "GET /account/ HTTP/1.1" 200 25783
+WARNING 2017-01-11 14:05:46,126 views 608 7236 asdaddqwdqwdqwd
+INFO 2017-01-11 14:05:46,174 basehttp 608 7236 "GET /campaign/create/ HTTP/1.1" 200 15213
+INFO 2017-01-11 14:05:46,174 basehttp 608 7236 "GET /campaign/create/ HTTP/1.1" 200 15213
+INFO 2017-01-11 14:05:51,841 basehttp 608 5884 "POST /campaign/create/ HTTP/1.1" 302 0
+INFO 2017-01-11 14:05:51,841 basehttp 608 5884 "POST /campaign/create/ HTTP/1.1" 302 0
+WARNING 2017-01-11 14:05:51,846 views 608 7960 asdaddqwdqwdqwd
+INFO 2017-01-11 14:05:51,978 basehttp 608 7960 "GET /campaign/9/detail/ HTTP/1.1" 200 16531
+INFO 2017-01-11 14:05:51,978 basehttp 608 7960 "GET /campaign/9/detail/ HTTP/1.1" 200 16531
+INFO 2017-01-11 14:05:57,634 basehttp 608 7244 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16636
+INFO 2017-01-11 14:05:57,634 basehttp 608 7244 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16636
+INFO 2017-01-11 14:05:57,680 basehttp 608 5864 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 14:05:57,680 basehttp 608 5864 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 14:06:05,909 basehttp 608 4660 "GET /account/ HTTP/1.1" 200 27341
+INFO 2017-01-11 14:06:05,909 basehttp 608 4660 "GET /account/ HTTP/1.1" 200 27341
+WARNING 2017-01-11 14:06:11,499 views 608 3896 asdaddqwdqwdqwd
+INFO 2017-01-11 14:06:11,553 basehttp 608 3896 "GET /campaign/9/createstory/ HTTP/1.1" 200 18854
+INFO 2017-01-11 14:06:11,553 basehttp 608 3896 "GET /campaign/9/createstory/ HTTP/1.1" 200 18854
+INFO 2017-01-11 14:06:12,199 basehttp 608 7100 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 14:06:12,199 basehttp 608 7100 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 14:06:26,286 basehttp 608 6044 "POST /campaign/9/createstory/ HTTP/1.1" 302 0
+INFO 2017-01-11 14:06:26,286 basehttp 608 6044 "POST /campaign/9/createstory/ HTTP/1.1" 302 0
+WARNING 2017-01-11 14:06:26,291 views 608 7484 asdaddqwdqwdqwd
+INFO 2017-01-11 14:06:26,457 basehttp 608 7484 "GET /campaign/9/31/ HTTP/1.1" 200 17616
+INFO 2017-01-11 14:06:26,457 basehttp 608 7484 "GET /campaign/9/31/ HTTP/1.1" 200 17616
+WARNING 2017-01-11 14:07:21,443 views 7556 1640 asdaddqwdqwdqwd
+INFO 2017-01-11 14:07:21,632 basehttp 7556 1640 "GET / HTTP/1.1" 200 16030
+INFO 2017-01-11 14:07:21,632 basehttp 7556 1640 "GET / HTTP/1.1" 200 16030
+INFO 2017-01-11 14:07:25,097 basehttp 7556 5280 "GET /admin/ HTTP/1.1" 200 21214
+INFO 2017-01-11 14:07:25,097 basehttp 7556 5280 "GET /admin/ HTTP/1.1" 200 21214
+INFO 2017-01-11 14:07:28,088 basehttp 7556 5832 "GET /admin/auth/user/ HTTP/1.1" 200 19532
+INFO 2017-01-11 14:07:28,088 basehttp 7556 5832 "GET /admin/auth/user/ HTTP/1.1" 200 19532
+INFO 2017-01-11 14:07:28,187 basehttp 7556 7680 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 14:07:28,187 basehttp 7556 7680 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 14:07:28,404 basehttp 7556 3436 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2017-01-11 14:07:28,404 basehttp 7556 3436 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2017-01-11 14:07:28,476 basehttp 7556 6700 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2017-01-11 14:07:28,476 basehttp 7556 6700 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+WARNING 2017-01-11 14:07:33,516 views 7556 4932 asdaddqwdqwdqwd
+INFO 2017-01-11 14:07:33,750 basehttp 7556 4932 "GET /campaign/3/ HTTP/1.1" 200 24033
+INFO 2017-01-11 14:07:33,750 basehttp 7556 4932 "GET /campaign/3/ HTTP/1.1" 200 24033
+INFO 2017-01-11 14:35:47,651 basehttp 7556 8332 "GET /__debug__/render_panel/?store_id=66fd0d6e96f34d0681ac2077fdea068a&panel_id=SQLPanel HTTP/1.1" 200 19434
+INFO 2017-01-11 14:35:47,651 basehttp 7556 8332 "GET /__debug__/render_panel/?store_id=66fd0d6e96f34d0681ac2077fdea068a&panel_id=SQLPanel HTTP/1.1" 200 19434
+INFO 2017-01-11 14:35:47,827 basehttp 7556 9044 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484129248250 HTTP/1.1" 200 353
+INFO 2017-01-11 14:35:47,827 basehttp 7556 9044 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484129248250 HTTP/1.1" 200 353
+WARNING 2017-01-11 14:35:54,601 views 7556 1400 asdaddqwdqwdqwd
+INFO 2017-01-11 14:35:54,677 basehttp 7556 1400 "GET / HTTP/1.1" 200 16029
+INFO 2017-01-11 14:35:54,677 basehttp 7556 1400 "GET / HTTP/1.1" 200 16029
+WARNING 2017-01-11 14:35:59,868 views 7556 5644 asdaddqwdqwdqwd
+INFO 2017-01-11 14:36:00,040 basehttp 7556 5644 "GET /campaign/3/ HTTP/1.1" 200 24033
+INFO 2017-01-11 14:36:00,040 basehttp 7556 5644 "GET /campaign/3/ HTTP/1.1" 200 24033
+INFO 2017-01-11 14:36:04,131 basehttp 7556 8460 "GET /account/ HTTP/1.1" 200 21550
+INFO 2017-01-11 14:36:04,131 basehttp 7556 8460 "GET /account/ HTTP/1.1" 200 21550
+INFO 2017-01-11 14:48:56,287 basehttp 7556 3280 "GET /character/8/edit/ HTTP/1.1" 200 18344
+INFO 2017-01-11 14:48:56,287 basehttp 7556 3280 "GET /character/8/edit/ HTTP/1.1" 200 18344
+INFO 2017-01-11 15:03:19,039 basehttp 7556 1824 "GET /admin/ HTTP/1.1" 200 21214
+INFO 2017-01-11 15:03:19,039 basehttp 7556 1824 "GET /admin/ HTTP/1.1" 200 21214
+INFO 2017-01-11 15:03:21,933 basehttp 7556 8672 "GET /admin/auth/user/ HTTP/1.1" 200 19532
+INFO 2017-01-11 15:03:21,933 basehttp 7556 8672 "GET /admin/auth/user/ HTTP/1.1" 200 19532
+INFO 2017-01-11 15:03:22,027 basehttp 7556 9148 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:22,027 basehttp 7556 9148 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:26,542 basehttp 7556 8588 "GET /admin/auth/user/6/change/ HTTP/1.1" 200 29199
+INFO 2017-01-11 15:03:26,542 basehttp 7556 8588 "GET /admin/auth/user/6/change/ HTTP/1.1" 200 29199
+INFO 2017-01-11 15:03:26,562 basehttp 7556 7212 "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+INFO 2017-01-11 15:03:26,562 basehttp 7556 7212 "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+INFO 2017-01-11 15:03:26,589 basehttp 7556 8980 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:26,589 basehttp 7556 8980 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:26,914 basehttp 7556 7732 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2017-01-11 15:03:26,914 basehttp 7556 7732 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+INFO 2017-01-11 15:03:26,944 basehttp 7556 8448 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+INFO 2017-01-11 15:03:26,944 basehttp 7556 8448 "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 5755
+INFO 2017-01-11 15:03:26,951 basehttp 7556 7808 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12389
+INFO 2017-01-11 15:03:26,951 basehttp 7556 7808 "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 12389
+INFO 2017-01-11 15:03:26,974 basehttp 7556 8212 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+INFO 2017-01-11 15:03:26,974 basehttp 7556 8212 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+INFO 2017-01-11 15:03:26,984 basehttp 7556 6860 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+INFO 2017-01-11 15:03:26,984 basehttp 7556 6860 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+INFO 2017-01-11 15:03:27,279 basehttp 7556 9032 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2017-01-11 15:03:27,279 basehttp 7556 9032 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2017-01-11 15:03:27,340 basehttp 7556 8928 "GET /static/admin/js/change_form.js HTTP/1.1" 200 698
+INFO 2017-01-11 15:03:27,340 basehttp 7556 8928 "GET /static/admin/js/change_form.js HTTP/1.1" 200 698
+INFO 2017-01-11 15:03:27,727 basehttp 7556 9016 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2017-01-11 15:03:27,727 basehttp 7556 9016 "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+INFO 2017-01-11 15:03:28,028 basehttp 7556 8276 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2017-01-11 15:03:28,028 basehttp 7556 8276 "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+INFO 2017-01-11 15:03:28,034 basehttp 7556 8800 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2017-01-11 15:03:28,034 basehttp 7556 8800 "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+INFO 2017-01-11 15:03:28,068 basehttp 7556 6424 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2017-01-11 15:03:28,068 basehttp 7556 8632 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2017-01-11 15:03:28,068 basehttp 7556 6424 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2017-01-11 15:03:28,068 basehttp 7556 8632 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2017-01-11 15:03:34,559 basehttp 7556 5276 "GET /admin/ HTTP/1.1" 200 21214
+INFO 2017-01-11 15:03:34,559 basehttp 7556 5276 "GET /admin/ HTTP/1.1" 200 21214
+INFO 2017-01-11 15:03:37,593 basehttp 7556 9040 "GET /admin/character/character/ HTTP/1.1" 200 15635
+INFO 2017-01-11 15:03:37,593 basehttp 7556 9040 "GET /admin/character/character/ HTTP/1.1" 200 15635
+INFO 2017-01-11 15:03:37,942 basehttp 7556 6496 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:37,942 basehttp 7556 6496 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:49,150 basehttp 7556 5168 "GET /admin/character/character/10/change/ HTTP/1.1" 200 26010
+INFO 2017-01-11 15:03:49,150 basehttp 7556 5168 "GET /admin/character/character/10/change/ HTTP/1.1" 200 26010
+INFO 2017-01-11 15:03:49,203 basehttp 7556 6660 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:49,203 basehttp 7556 6660 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:49,622 basehttp 7556 5508 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 2017-01-11 15:03:49,622 basehttp 7556 5508 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 2017-01-11 15:03:54,111 basehttp 7556 4036 "GET /admin/character/character/9/change/ HTTP/1.1" 200 22073
+INFO 2017-01-11 15:03:54,111 basehttp 7556 4036 "GET /admin/character/character/9/change/ HTTP/1.1" 200 22073
+INFO 2017-01-11 15:03:54,457 basehttp 7556 3076 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:54,457 basehttp 7556 3076 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:55,018 basehttp 7556 7208 "GET /admin/character/character/8/change/ HTTP/1.1" 200 23324
+INFO 2017-01-11 15:03:55,018 basehttp 7556 7208 "GET /admin/character/character/8/change/ HTTP/1.1" 200 23324
+INFO 2017-01-11 15:03:55,062 basehttp 7556 3344 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:55,062 basehttp 7556 3344 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:55,753 basehttp 7556 8296 "GET /admin/character/character/7/change/ HTTP/1.1" 200 22572
+INFO 2017-01-11 15:03:55,753 basehttp 7556 8296 "GET /admin/character/character/7/change/ HTTP/1.1" 200 22572
+INFO 2017-01-11 15:03:55,848 basehttp 7556 5172 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:55,848 basehttp 7556 5172 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:56,759 basehttp 7556 4404 "GET /admin/character/character/6/change/ HTTP/1.1" 200 22301
+INFO 2017-01-11 15:03:56,759 basehttp 7556 4404 "GET /admin/character/character/6/change/ HTTP/1.1" 200 22301
+INFO 2017-01-11 15:03:56,823 basehttp 7556 8224 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:56,823 basehttp 7556 8224 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:57,996 basehttp 7556 4912 "GET /admin/character/character/5/change/ HTTP/1.1" 200 22007
+INFO 2017-01-11 15:03:57,996 basehttp 7556 4912 "GET /admin/character/character/5/change/ HTTP/1.1" 200 22007
+INFO 2017-01-11 15:03:58,043 basehttp 7556 7516 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-11 15:03:58,043 basehttp 7556 7516 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+WARNING 2017-01-11 16:59:44,575 views 7272 8264 asdaddqwdqwdqwd
+INFO 2017-01-11 16:59:44,953 basehttp 7272 8264 "GET / HTTP/1.1" 200 16030
+INFO 2017-01-11 16:59:44,953 basehttp 7272 8264 "GET / HTTP/1.1" 200 16030
+WARNING 2017-01-11 17:00:16,460 views 9116 8720 asdaddqwdqwdqwd
+INFO 2017-01-11 17:00:16,791 basehttp 9116 8720 "GET /campaign/3/ HTTP/1.1" 200 24033
+INFO 2017-01-11 17:00:16,791 basehttp 9116 8720 "GET /campaign/3/ HTTP/1.1" 200 24033
+INFO 2017-01-11 17:00:18,711 basehttp 9116 4752 "GET /account/ HTTP/1.1" 200 21550
+INFO 2017-01-11 17:00:18,711 basehttp 9116 4752 "GET /account/ HTTP/1.1" 200 21550
+WARNING 2017-01-11 17:00:21,378 views 9116 7968 asdaddqwdqwdqwd
+INFO 2017-01-11 17:00:21,509 basehttp 9116 7968 "GET /campaign/7/createstory/ HTTP/1.1" 200 18852
+INFO 2017-01-11 17:00:21,509 basehttp 9116 7968 "GET /campaign/7/createstory/ HTTP/1.1" 200 18852
+INFO 2017-01-11 17:00:21,916 basehttp 9116 1088 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 17:00:21,916 basehttp 9116 1088 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 17:01:53,851 basehttp 7196 7952 "GET /__debug__/render_panel/?store_id=2a2ca432ef7f4923a7203e4aece50af9&panel_id=SQLPanel HTTP/1.1" 200 181
+INFO 2017-01-11 17:01:53,851 basehttp 7196 7952 "GET /__debug__/render_panel/?store_id=2a2ca432ef7f4923a7203e4aece50af9&panel_id=SQLPanel HTTP/1.1" 200 181
+INFO 2017-01-11 17:02:13,926 basehttp 7196 7192 "POST /campaign/7/createstory/ HTTP/1.1" 302 0
+INFO 2017-01-11 17:02:13,926 basehttp 7196 7192 "POST /campaign/7/createstory/ HTTP/1.1" 302 0
+WARNING 2017-01-11 17:02:13,933 views 7196 3392 asdaddqwdqwdqwd
+INFO 2017-01-11 17:02:14,126 basehttp 7196 3392 "GET /campaign/7/29/ HTTP/1.1" 200 17652
+INFO 2017-01-11 17:02:14,126 basehttp 7196 3392 "GET /campaign/7/29/ HTTP/1.1" 200 17652
+INFO 2017-01-11 17:03:01,755 basehttp 7196 908 "GET /account/ HTTP/1.1" 200 21550
+INFO 2017-01-11 17:03:01,755 basehttp 7196 908 "GET /account/ HTTP/1.1" 200 21550
+WARNING 2017-01-11 17:03:04,407 views 7196 4800 asdaddqwdqwdqwd
+INFO 2017-01-11 17:03:04,465 basehttp 7196 4800 "GET /campaign/7/createstory/ HTTP/1.1" 200 18932
+INFO 2017-01-11 17:03:04,465 basehttp 7196 4800 "GET /campaign/7/createstory/ HTTP/1.1" 200 18932
+INFO 2017-01-11 17:03:05,141 basehttp 7196 8336 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 17:03:05,141 basehttp 7196 8336 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 17:03:22,540 basehttp 7196 8824 "POST /campaign/7/createstory/ HTTP/1.1" 302 0
+INFO 2017-01-11 17:03:22,540 basehttp 7196 8824 "POST /campaign/7/createstory/ HTTP/1.1" 302 0
+WARNING 2017-01-11 17:03:22,546 views 7196 8268 asdaddqwdqwdqwd
+INFO 2017-01-11 17:03:22,650 basehttp 7196 8268 "GET /campaign/7/30/ HTTP/1.1" 200 17590
+INFO 2017-01-11 17:03:22,650 basehttp 7196 8268 "GET /campaign/7/30/ HTTP/1.1" 200 17590
+INFO 2017-01-11 17:03:44,008 basehttp 3024 8408 "GET /account/ HTTP/1.1" 200 21550
+INFO 2017-01-11 17:03:44,008 basehttp 3024 8408 "GET /account/ HTTP/1.1" 200 21550
+WARNING 2017-01-11 17:06:37,747 views 3024 7756 asdaddqwdqwdqwd
+INFO 2017-01-11 17:06:37,806 basehttp 3024 7756 "GET /campaign/7/createstory/ HTTP/1.1" 200 18932
+INFO 2017-01-11 17:06:37,806 basehttp 3024 7756 "GET /campaign/7/createstory/ HTTP/1.1" 200 18932
+INFO 2017-01-11 17:06:38,479 basehttp 3024 5644 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 17:06:38,479 basehttp 3024 5644 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 17:06:45,798 basehttp 3024 9212 "POST /campaign/7/createstory/ HTTP/1.1" 302 0
+INFO 2017-01-11 17:06:45,798 basehttp 3024 9212 "POST /campaign/7/createstory/ HTTP/1.1" 302 0
+WARNING 2017-01-11 17:06:45,809 views 3024 6760 asdaddqwdqwdqwd
+INFO 2017-01-11 17:06:45,981 basehttp 3024 6760 "GET /campaign/7/31/ HTTP/1.1" 200 17611
+INFO 2017-01-11 17:06:45,981 basehttp 3024 6760 "GET /campaign/7/31/ HTTP/1.1" 200 17611
+INFO 2017-01-11 17:10:16,977 basehttp 9120 8320 "GET /account/ HTTP/1.1" 200 21550
+INFO 2017-01-11 17:10:16,977 basehttp 9120 8320 "GET /account/ HTTP/1.1" 200 21550
+WARNING 2017-01-11 17:10:19,207 views 9120 7204 asdaddqwdqwdqwd
+INFO 2017-01-11 17:10:19,426 basehttp 9120 7204 "GET /campaign/7/ HTTP/1.1" 200 22559
+INFO 2017-01-11 17:10:19,426 basehttp 9120 7204 "GET /campaign/7/ HTTP/1.1" 200 22559
+WARNING 2017-01-11 17:10:25,342 views 9120 5676 asdaddqwdqwdqwd
+INFO 2017-01-11 17:10:25,400 basehttp 9120 5676 "GET /campaign/7/createstory/ HTTP/1.1" 200 18932
+INFO 2017-01-11 17:10:25,400 basehttp 9120 5676 "GET /campaign/7/createstory/ HTTP/1.1" 200 18932
+INFO 2017-01-11 17:10:26,088 basehttp 9120 8408 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 17:10:26,088 basehttp 9120 8408 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 17:10:35,865 basehttp 9120 8752 "POST /campaign/7/createstory/ HTTP/1.1" 302 0
+INFO 2017-01-11 17:10:35,865 basehttp 9120 8752 "POST /campaign/7/createstory/ HTTP/1.1" 302 0
+WARNING 2017-01-11 17:10:36,172 views 9120 8420 asdaddqwdqwdqwd
+INFO 2017-01-11 17:10:36,278 basehttp 9120 8420 "GET /campaign/7/32/ HTTP/1.1" 200 17578
+INFO 2017-01-11 17:10:36,278 basehttp 9120 8420 "GET /campaign/7/32/ HTTP/1.1" 200 17578
+INFO 2017-01-11 17:20:52,706 basehttp 7460 5504 "GET /account/ HTTP/1.1" 200 21550
+INFO 2017-01-11 17:20:52,706 basehttp 7460 5504 "GET /account/ HTTP/1.1" 200 21550
+WARNING 2017-01-11 17:20:59,008 views 7460 4932 asdaddqwdqwdqwd
+INFO 2017-01-11 17:20:59,065 basehttp 7460 4932 "GET /campaign/7/createstory/ HTTP/1.1" 200 18932
+INFO 2017-01-11 17:20:59,065 basehttp 7460 4932 "GET /campaign/7/createstory/ HTTP/1.1" 200 18932
+INFO 2017-01-11 17:20:59,777 basehttp 7460 8188 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-11 17:20:59,777 basehttp 7460 8188 "GET /imagepool/ HTTP/1.1" 200 399
+WARNING 2017-01-11 17:21:02,285 views 7460 7764 asdaddqwdqwdqwd
+INFO 2017-01-11 17:21:02,507 basehttp 7460 7764 "GET /campaign/7/ HTTP/1.1" 200 25316
+INFO 2017-01-11 17:21:02,507 basehttp 7460 7764 "GET /campaign/7/ HTTP/1.1" 200 25316
+INFO 2017-01-11 17:21:07,939 basehttp 7460 8656 "GET /campaign/7/32/delete/ HTTP/1.1" 302 0
+INFO 2017-01-11 17:21:07,939 basehttp 7460 8656 "GET /campaign/7/32/delete/ HTTP/1.1" 302 0
+WARNING 2017-01-11 17:21:08,267 views 7460 8776 asdaddqwdqwdqwd
+INFO 2017-01-11 17:21:08,417 basehttp 7460 8776 "GET /campaign/7/ HTTP/1.1" 200 22558
+INFO 2017-01-11 17:21:08,417 basehttp 7460 8776 "GET /campaign/7/ HTTP/1.1" 200 22558
+INFO 2017-01-11 17:21:12,913 basehttp 7460 8196 "GET /campaign/7/31/delete/ HTTP/1.1" 302 0
+INFO 2017-01-11 17:21:12,913 basehttp 7460 8196 "GET /campaign/7/31/delete/ HTTP/1.1" 302 0
+WARNING 2017-01-11 17:21:13,241 views 7460 1228 asdaddqwdqwdqwd
+INFO 2017-01-11 17:21:13,393 basehttp 7460 1228 "GET /campaign/7/ HTTP/1.1" 200 19769
+INFO 2017-01-11 17:21:13,393 basehttp 7460 1228 "GET /campaign/7/ HTTP/1.1" 200 19769
+INFO 2017-01-11 17:21:17,521 basehttp 7460 8408 "GET /campaign/7/30/delete/ HTTP/1.1" 302 0
+INFO 2017-01-11 17:21:17,521 basehttp 7460 8408 "GET /campaign/7/30/delete/ HTTP/1.1" 302 0
+WARNING 2017-01-11 17:21:17,849 views 7460 4164 asdaddqwdqwdqwd
+INFO 2017-01-11 17:21:17,995 basehttp 7460 4164 "GET /campaign/7/ HTTP/1.1" 200 17000
+INFO 2017-01-11 17:21:17,995 basehttp 7460 4164 "GET /campaign/7/ HTTP/1.1" 200 17000
+INFO 2017-01-11 17:21:21,137 basehttp 7460 5852 "GET /campaign/7/29/delete/ HTTP/1.1" 302 0
+INFO 2017-01-11 17:21:21,137 basehttp 7460 5852 "GET /campaign/7/29/delete/ HTTP/1.1" 302 0
+WARNING 2017-01-11 17:21:21,464 views 7460 5824 asdaddqwdqwdqwd
+INFO 2017-01-11 17:21:21,544 basehttp 7460 5824 "GET /campaign/7/ HTTP/1.1" 200 14088
+INFO 2017-01-11 17:21:21,544 basehttp 7460 5824 "GET /campaign/7/ HTTP/1.1" 200 14088
+WARNING 2017-01-11 17:25:53,047 views 7460 5548 asdaddqwdqwdqwd
+INFO 2017-01-11 17:25:53,118 basehttp 7460 5548 "GET / HTTP/1.1" 200 16029
+INFO 2017-01-11 17:25:53,118 basehttp 7460 5548 "GET / HTTP/1.1" 200 16029
+WARNING 2017-01-12 09:50:49,901 views 5340 3148 asdaddqwdqwdqwd
+WARNING 2017-01-12 09:50:50,142 views 5340 5284 asdaddqwdqwdqwd
+INFO 2017-01-12 09:50:50,245 basehttp 5340 3148 "GET / HTTP/1.1" 200 16030
+INFO 2017-01-12 09:50:50,245 basehttp 5340 3148 "GET / HTTP/1.1" 200 16030
+INFO 2017-01-12 09:50:50,272 basehttp 5340 5284 "GET / HTTP/1.1" 200 16030
+INFO 2017-01-12 09:50:50,272 basehttp 5340 5284 "GET / HTTP/1.1" 200 16030
+ERROR 2017-01-12 09:50:50,275 basehttp 5340 3148 "GET / HTTP/1.1" 500 59
+ERROR 2017-01-12 09:50:50,275 basehttp 5340 3148 "GET / HTTP/1.1" 500 59
+INFO 2017-01-12 09:50:50,306 basehttp 5340 8096 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,306 basehttp 5340 8096 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,724 basehttp 5340 5640 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,724 basehttp 5340 5640 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,725 basehttp 5340 7924 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,726 basehttp 5340 7216 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,725 basehttp 5340 7924 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,726 basehttp 5340 1076 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,726 basehttp 5340 7216 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,727 basehttp 5340 5376 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,726 basehttp 5340 1076 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,727 basehttp 5340 5376 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,973 basehttp 5340 444 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:50,973 basehttp 5340 444 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:51,087 basehttp 5340 1748 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-12 09:50:51,087 basehttp 5340 1748 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2017-01-12 09:50:51,464 base 5340 8036 Not Found: /favicon.ico
+WARNING 2017-01-12 09:50:51,464 base 5340 8036 Not Found: /favicon.ico
+WARNING 2017-01-12 09:50:51,465 basehttp 5340 8036 "GET /favicon.ico HTTP/1.1" 404 13646
+WARNING 2017-01-12 09:50:51,465 basehttp 5340 8036 "GET /favicon.ico HTTP/1.1" 404 13646
+WARNING 2017-01-12 09:50:54,829 basehttp 5340 1652 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 09:50:54,829 basehttp 5340 1652 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 09:52:17,189 views 5340 4948 asdaddqwdqwdqwd
+INFO 2017-01-12 09:52:17,259 basehttp 5340 4948 "GET / HTTP/1.1" 200 16029
+INFO 2017-01-12 09:52:17,259 basehttp 5340 4948 "GET / HTTP/1.1" 200 16029
+WARNING 2017-01-12 09:52:21,605 views 5340 3788 asdaddqwdqwdqwd
+INFO 2017-01-12 09:52:21,912 basehttp 5340 3788 "GET /campaign/3/ HTTP/1.1" 200 24034
+INFO 2017-01-12 09:52:21,912 basehttp 5340 3788 "GET /campaign/3/ HTTP/1.1" 200 24034
+INFO 2017-01-12 09:52:21,940 basehttp 5340 6288 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+INFO 2017-01-12 09:52:21,940 basehttp 5340 6288 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+WARNING 2017-01-12 09:52:23,707 views 5340 7648 asdaddqwdqwdqwd
+INFO 2017-01-12 09:52:23,832 basehttp 5340 7648 "GET /campaign/3/28/ HTTP/1.1" 200 20269
+INFO 2017-01-12 09:52:23,832 basehttp 5340 7648 "GET /campaign/3/28/ HTTP/1.1" 200 20269
+WARNING 2017-01-12 09:52:32,737 views 5340 7180 asdaddqwdqwdqwd
+INFO 2017-01-12 09:52:32,751 basehttp 5340 7180 "GET /campaign/3/28/ HTTP/1.1" 200 10290
+INFO 2017-01-12 09:52:32,751 basehttp 5340 7180 "GET /campaign/3/28/ HTTP/1.1" 200 10290
+WARNING 2017-01-12 09:52:33,037 base 5340 7460 Not Found: /angular.min.js.map
+WARNING 2017-01-12 09:52:33,037 base 5340 7460 Not Found: /angular.min.js.map
+WARNING 2017-01-12 09:52:33,038 basehttp 5340 7460 "GET /angular.min.js.map HTTP/1.1" 404 13667
+WARNING 2017-01-12 09:52:33,038 basehttp 5340 7460 "GET /angular.min.js.map HTTP/1.1" 404 13667
+WARNING 2017-01-12 09:55:49,138 views 5340 3116 asdaddqwdqwdqwd
+INFO 2017-01-12 09:55:49,152 basehttp 5340 3116 "GET /campaign/3/28/ HTTP/1.1" 200 10290
+INFO 2017-01-12 09:55:49,152 basehttp 5340 3116 "GET /campaign/3/28/ HTTP/1.1" 200 10290
+WARNING 2017-01-12 09:55:49,429 base 5340 2832 Not Found: /angular.min.js.map
+WARNING 2017-01-12 09:55:49,429 base 5340 2832 Not Found: /angular.min.js.map
+WARNING 2017-01-12 09:55:49,430 basehttp 5340 2832 "GET /angular.min.js.map HTTP/1.1" 404 13667
+WARNING 2017-01-12 09:55:49,430 basehttp 5340 2832 "GET /angular.min.js.map HTTP/1.1" 404 13667
+INFO 2017-01-12 10:28:25,012 basehttp 5340 5256 "GET /__debug__/render_panel/?store_id=d23c4967fd1d4e04ab4c291124c7512a&panel_id=SQLPanel HTTP/1.1" 200 14084
+INFO 2017-01-12 10:28:25,012 basehttp 5340 5256 "GET /__debug__/render_panel/?store_id=d23c4967fd1d4e04ab4c291124c7512a&panel_id=SQLPanel HTTP/1.1" 200 14084
+INFO 2017-01-12 10:28:25,216 basehttp 5340 7028 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484200251075 HTTP/1.1" 200 353
+INFO 2017-01-12 10:28:25,216 basehttp 5340 7028 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484200251075 HTTP/1.1" 200 353
+WARNING 2017-01-12 10:29:33,625 basehttp 5340 6872 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:29:33,625 basehttp 5340 6872 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:29:40,424 views 5340 7880 asdaddqwdqwdqwd
+INFO 2017-01-12 10:29:40,541 basehttp 5340 7880 "GET /campaign/3/28/ HTTP/1.1" 200 20269
+INFO 2017-01-12 10:29:40,541 basehttp 5340 7880 "GET /campaign/3/28/ HTTP/1.1" 200 20269
+WARNING 2017-01-12 10:29:41,362 basehttp 5340 6580 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:29:41,362 basehttp 5340 6580 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:31:33,134 views 5340 5828 asdaddqwdqwdqwd
+INFO 2017-01-12 10:31:33,203 basehttp 5340 5828 "GET / HTTP/1.1" 200 16029
+INFO 2017-01-12 10:31:33,203 basehttp 5340 5828 "GET / HTTP/1.1" 200 16029
+WARNING 2017-01-12 10:33:47,391 views 5340 7628 asdaddqwdqwdqwd
+INFO 2017-01-12 10:33:47,460 basehttp 5340 7628 "GET / HTTP/1.1" 200 16029
+INFO 2017-01-12 10:33:47,460 basehttp 5340 7628 "GET / HTTP/1.1" 200 16029
+WARNING 2017-01-12 10:33:51,856 basehttp 5340 7632 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:33:51,856 basehttp 5340 7632 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:34:00,173 views 5340 6736 asdaddqwdqwdqwd
+INFO 2017-01-12 10:34:00,338 basehttp 5340 6736 "GET /campaign/3/ HTTP/1.1" 200 24033
+INFO 2017-01-12 10:34:00,338 basehttp 5340 6736 "GET /campaign/3/ HTTP/1.1" 200 24033
+WARNING 2017-01-12 10:34:01,082 basehttp 5340 4300 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:34:01,082 basehttp 5340 4300 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:34:03,256 views 5340 1412 asdaddqwdqwdqwd
+INFO 2017-01-12 10:34:03,387 basehttp 5340 1412 "GET /campaign/3/detail/ HTTP/1.1" 200 19199
+INFO 2017-01-12 10:34:03,387 basehttp 5340 1412 "GET /campaign/3/detail/ HTTP/1.1" 200 19199
+WARNING 2017-01-12 10:34:03,883 basehttp 5340 3840 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:34:03,883 basehttp 5340 3840 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:34:07,446 views 5340 3808 asdaddqwdqwdqwd
+INFO 2017-01-12 10:34:07,605 basehttp 5340 3808 "GET /character/5/ HTTP/1.1" 200 18947
+INFO 2017-01-12 10:34:07,605 basehttp 5340 3808 "GET /character/5/ HTTP/1.1" 200 18947
+INFO 2017-01-12 10:34:07,697 basehttp 5340 6228 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1553
+INFO 2017-01-12 10:34:07,697 basehttp 5340 6228 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1553
+INFO 2017-01-12 10:34:07,973 basehttp 5340 6040 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-12 10:34:07,973 basehttp 5340 6040 "GET /media/sorc_face.png HTTP/1.1" 200 85214
+INFO 2017-01-12 10:34:08,033 basehttp 5340 4156 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+INFO 2017-01-12 10:34:08,033 basehttp 5340 4156 "GET /media/sorc_fullbody.jpg HTTP/1.1" 200 40211
+WARNING 2017-01-12 10:34:08,250 basehttp 5340 7320 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:34:08,250 basehttp 5340 7320 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:34:32,408 views 5340 6984 asdaddqwdqwdqwd
+INFO 2017-01-12 10:34:32,551 basehttp 5340 6984 "GET /character/5/ HTTP/1.1" 200 18947
+INFO 2017-01-12 10:34:32,551 basehttp 5340 6984 "GET /character/5/ HTTP/1.1" 200 18947
+INFO 2017-01-12 10:34:32,660 basehttp 5340 5376 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1559
+INFO 2017-01-12 10:34:32,660 basehttp 5340 5376 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1559
+WARNING 2017-01-12 10:34:33,267 basehttp 5340 4892 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:34:33,267 basehttp 5340 4892 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:35:32,048 views 5340 6456 asdaddqwdqwdqwd
+INFO 2017-01-12 10:35:32,188 basehttp 5340 6456 "GET /character/5/ HTTP/1.1" 200 18947
+INFO 2017-01-12 10:35:32,188 basehttp 5340 6456 "GET /character/5/ HTTP/1.1" 200 18947
+INFO 2017-01-12 10:35:32,300 basehttp 5340 2560 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1599
+INFO 2017-01-12 10:35:32,300 basehttp 5340 2560 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1599
+WARNING 2017-01-12 10:35:32,956 basehttp 5340 7180 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:35:32,956 basehttp 5340 7180 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:36:22,159 views 5340 4608 asdaddqwdqwdqwd
+INFO 2017-01-12 10:36:22,297 basehttp 5340 4608 "GET /character/5/ HTTP/1.1" 200 18947
+INFO 2017-01-12 10:36:22,297 basehttp 5340 4608 "GET /character/5/ HTTP/1.1" 200 18947
+INFO 2017-01-12 10:36:22,416 basehttp 5340 4896 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1597
+INFO 2017-01-12 10:36:22,416 basehttp 5340 4896 "GET /static/campaign/js/char_detail.js HTTP/1.1" 200 1597
+WARNING 2017-01-12 10:36:23,017 basehttp 5340 1448 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 10:36:23,017 basehttp 5340 1448 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-12 11:43:49,834 views 5340 5872 asdaddqwdqwdqwd
+INFO 2017-01-12 11:43:49,905 basehttp 5340 5872 "GET / HTTP/1.1" 200 16029
+INFO 2017-01-12 11:43:49,905 basehttp 5340 5872 "GET / HTTP/1.1" 200 16029
+WARNING 2017-01-16 09:56:25,122 views 6460 2568 asdaddqwdqwdqwd
+WARNING 2017-01-16 09:56:25,562 views 6460 6840 asdaddqwdqwdqwd
+INFO 2017-01-16 09:56:25,861 basehttp 6460 2568 "GET / HTTP/1.1" 200 16031
+INFO 2017-01-16 09:56:25,861 basehttp 6460 2568 "GET / HTTP/1.1" 200 16031
+INFO 2017-01-16 09:56:25,862 basehttp 6460 6840 "GET / HTTP/1.1" 200 16031
+INFO 2017-01-16 09:56:25,862 basehttp 6460 6840 "GET / HTTP/1.1" 200 16031
+INFO 2017-01-16 09:56:25,894 basehttp 6460 8016 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:25,894 basehttp 6460 8016 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+ERROR 2017-01-16 09:56:25,920 basehttp 6460 2568 "GET / HTTP/1.1" 500 59
+ERROR 2017-01-16 09:56:25,920 basehttp 6460 2568 "GET / HTTP/1.1" 500 59
+INFO 2017-01-16 09:56:25,988 basehttp 6460 7540 "GET /static/campaign/js/angular.min.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:25,988 basehttp 6460 7540 "GET /static/campaign/js/angular.min.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:25,990 basehttp 6460 7384 "GET /static/campaign/js/app.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:25,990 basehttp 6460 7848 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:25,990 basehttp 6460 7384 "GET /static/campaign/js/app.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:25,990 basehttp 6460 7848 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,291 basehttp 6460 7240 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,292 basehttp 6460 3800 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,291 basehttp 6460 7240 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,292 basehttp 6460 3800 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,390 basehttp 6460 8092 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,391 basehttp 6460 6368 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,390 basehttp 6460 8092 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,391 basehttp 6460 6368 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,610 basehttp 6460 7156 "GET /static/campaign/images/bg.png HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,610 basehttp 6460 7156 "GET /static/campaign/images/bg.png HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,611 basehttp 6460 1112 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,611 basehttp 6460 8040 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,611 basehttp 6460 1112 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-16 09:56:26,611 basehttp 6460 8040 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+WARNING 2017-01-16 09:56:27,195 base 6460 7984 Not Found: /favicon.ico
+WARNING 2017-01-16 09:56:27,195 base 6460 7984 Not Found: /favicon.ico
+WARNING 2017-01-16 09:56:27,195 basehttp 6460 7984 "GET /favicon.ico HTTP/1.1" 404 13646
+WARNING 2017-01-16 09:56:27,195 basehttp 6460 7984 "GET /favicon.ico HTTP/1.1" 404 13646
+WARNING 2017-01-16 10:02:11,124 views 7656 8152 asdaddqwdqwdqwd
+INFO 2017-01-16 10:02:11,315 basehttp 7656 8152 "GET / HTTP/1.1" 200 16030
+INFO 2017-01-16 10:02:11,315 basehttp 7656 8152 "GET / HTTP/1.1" 200 16030
+WARNING 2017-01-16 10:02:16,751 views 7656 6908 asdaddqwdqwdqwd
+INFO 2017-01-16 10:02:17,056 basehttp 7656 6908 "GET /campaign/3/ HTTP/1.1" 200 24034
+INFO 2017-01-16 10:02:17,056 basehttp 7656 6908 "GET /campaign/3/ HTTP/1.1" 200 24034
+INFO 2017-01-16 10:02:17,128 basehttp 7656 8128 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+INFO 2017-01-16 10:02:17,128 basehttp 7656 8128 "GET /media/imagepool/2017/01/Banyan-grove_tree.png HTTP/1.1" 304 0
+WARNING 2017-01-16 10:44:02,141 views 5956 7800 asdaddqwdqwdqwd
+INFO 2017-01-16 10:44:02,468 basehttp 5956 7800 "GET /campaign/3/28/ HTTP/1.1" 200 20269
+INFO 2017-01-16 10:44:02,468 basehttp 5956 7800 "GET /campaign/3/28/ HTTP/1.1" 200 20269
+WARNING 2017-01-16 10:55:09,388 views 6824 7804 asdaddqwdqwdqwd
+INFO 2017-01-16 10:55:09,578 basehttp 6824 7804 "GET / HTTP/1.1" 200 16030
+INFO 2017-01-16 10:55:09,578 basehttp 6824 7804 "GET / HTTP/1.1" 200 16030
+INFO 2017-01-16 10:55:14,437 basehttp 6824 2340 "GET /admin/ HTTP/1.1" 200 21214
+INFO 2017-01-16 10:55:14,437 basehttp 6824 2340 "GET /admin/ HTTP/1.1" 200 21214
+INFO 2017-01-16 10:55:14,454 basehttp 6824 7468 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:55:14,454 basehttp 6824 7468 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:55:14,456 basehttp 6824 6104 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:55:14,456 basehttp 6824 6104 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:55:14,537 basehttp 6824 5152 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:55:14,537 basehttp 6824 5152 "GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:55:14,567 basehttp 6824 1196 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2017-01-16 10:55:14,567 basehttp 6824 7288 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2017-01-16 10:55:14,567 basehttp 6824 1196 "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO 2017-01-16 10:55:14,567 basehttp 6824 7288 "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO 2017-01-16 10:55:14,870 basehttp 6824 8064 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2017-01-16 10:55:14,870 basehttp 6824 8064 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2017-01-16 10:55:14,871 basehttp 6824 6480 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2017-01-16 10:55:14,871 basehttp 6824 6480 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2017-01-16 10:55:14,882 basehttp 6824 7912 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2017-01-16 10:55:14,882 basehttp 6824 7912 "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+INFO 2017-01-16 10:56:44,137 basehttp 8012 1784 "GET /admin/ HTTP/1.1" 200 21667
+INFO 2017-01-16 10:56:44,137 basehttp 8012 1784 "GET /admin/ HTTP/1.1" 200 21667
+INFO 2017-01-16 10:57:04,334 basehttp 8012 5016 "GET /admin/campaign/campaignmap/ HTTP/1.1" 200 13243
+INFO 2017-01-16 10:57:04,334 basehttp 8012 5016 "GET /admin/campaign/campaignmap/ HTTP/1.1" 200 13243
+INFO 2017-01-16 10:57:04,385 basehttp 8012 3336 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,385 basehttp 8012 3336 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,660 basehttp 8012 7080 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,661 basehttp 8012 7976 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,660 basehttp 8012 7080 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,661 basehttp 8012 7976 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,661 basehttp 8012 6372 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,662 basehttp 8012 1448 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,661 basehttp 8012 6372 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,662 basehttp 8012 1448 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,687 basehttp 8012 7180 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,687 basehttp 8012 7180 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,712 basehttp 8012 7256 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 10:57:04,712 basehttp 8012 7256 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 10:57:04,963 basehttp 8012 7612 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,964 basehttp 8012 7528 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,963 basehttp 8012 7612 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,964 basehttp 8012 7528 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,970 basehttp 8012 7888 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:04,970 basehttp 8012 7888 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:05,326 basehttp 8012 7948 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:05,326 basehttp 8012 7948 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:06,720 basehttp 8012 1740 "GET /admin/campaign/campaignmap/add/ HTTP/1.1" 200 16903
+INFO 2017-01-16 10:57:06,720 basehttp 8012 1740 "GET /admin/campaign/campaignmap/add/ HTTP/1.1" 200 16903
+INFO 2017-01-16 10:57:07,034 basehttp 8012 6288 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:07,034 basehttp 8012 6288 "GET /static/admin/css/forms.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:07,066 basehttp 8012 7508 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 10:57:07,066 basehttp 8012 7508 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 10:57:07,282 basehttp 8012 7316 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:07,282 basehttp 8012 7316 "GET /static/admin/css/widgets.css HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:07,340 basehttp 8012 3272 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:07,340 basehttp 8012 6968 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:07,340 basehttp 8012 3272 "GET /static/admin/js/change_form.js HTTP/1.1" 304 0
+INFO 2017-01-16 10:57:07,340 basehttp 8012 6968 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 304 0
+INFO 2017-01-16 11:10:53,310 basehttp 6672 7532 "GET /admin/campaign/campaignmap/add/ HTTP/1.1" 200 16851
+INFO 2017-01-16 11:10:53,310 basehttp 6672 7532 "GET /admin/campaign/campaignmap/add/ HTTP/1.1" 200 16851
+INFO 2017-01-16 11:10:53,360 basehttp 6672 7184 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 11:10:53,360 basehttp 6672 7184 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 11:11:01,937 basehttp 5072 608 "GET /admin/campaign/campaignmap/add/ HTTP/1.1" 200 15924
+INFO 2017-01-16 11:11:01,937 basehttp 5072 608 "GET /admin/campaign/campaignmap/add/ HTTP/1.1" 200 15924
+INFO 2017-01-16 11:11:01,992 basehttp 5072 7124 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 11:11:01,992 basehttp 5072 7124 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+ERROR 2017-01-16 11:11:18,940 exception 5072 3328 Internal Server Error: /admin/campaign/campaignmap/add/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "e:\utils\anaconda\Lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 1441, in changeform_view
+    if form.is_valid():
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 169, in is_valid
+    return self.is_bound and not self.errors
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 161, in errors
+    self.full_clean()
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 372, in full_clean
+    self._post_clean()
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\models.py", line 393, in _post_clean
+    self.instance = construct_instance(self, self.instance, opts.fields, opts.exclude)
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\models.py", line 68, in construct_instance
+    f.save_form_data(instance, cleaned_data[f.name])
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 339, in save_form_data
+    setattr(instance, self.name, data)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 373, in __set__
+    self.field.update_dimension_fields(instance, force=True)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 460, in update_dimension_fields
+    (self.width_field and not getattr(instance, self.width_field)) or
+TypeError: getattr(): attribute name must be string
+ERROR 2017-01-16 11:11:18,940 exception 5072 3328 Internal Server Error: /admin/campaign/campaignmap/add/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "e:\utils\anaconda\Lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 1441, in changeform_view
+    if form.is_valid():
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 169, in is_valid
+    return self.is_bound and not self.errors
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 161, in errors
+    self.full_clean()
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 372, in full_clean
+    self._post_clean()
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\models.py", line 393, in _post_clean
+    self.instance = construct_instance(self, self.instance, opts.fields, opts.exclude)
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\models.py", line 68, in construct_instance
+    f.save_form_data(instance, cleaned_data[f.name])
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 339, in save_form_data
+    setattr(instance, self.name, data)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 373, in __set__
+    self.field.update_dimension_fields(instance, force=True)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 460, in update_dimension_fields
+    (self.width_field and not getattr(instance, self.width_field)) or
+TypeError: getattr(): attribute name must be string
+ERROR 2017-01-16 11:11:19,110 basehttp 5072 3328 "POST /admin/campaign/campaignmap/add/ HTTP/1.1" 500 155113
+ERROR 2017-01-16 11:11:19,110 basehttp 5072 3328 "POST /admin/campaign/campaignmap/add/ HTTP/1.1" 500 155113
+INFO 2017-01-16 11:13:07,770 basehttp 5152 7920 "GET /admin/campaign/campaignmap/add/ HTTP/1.1" 200 15924
+INFO 2017-01-16 11:13:07,770 basehttp 5152 7920 "GET /admin/campaign/campaignmap/add/ HTTP/1.1" 200 15924
+ERROR 2017-01-16 11:13:11,899 exception 5152 6300 Internal Server Error: /admin/campaign/campaignmap/add/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "e:\utils\anaconda\Lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 1441, in changeform_view
+    if form.is_valid():
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 169, in is_valid
+    return self.is_bound and not self.errors
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 161, in errors
+    self.full_clean()
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 372, in full_clean
+    self._post_clean()
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\models.py", line 393, in _post_clean
+    self.instance = construct_instance(self, self.instance, opts.fields, opts.exclude)
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\models.py", line 68, in construct_instance
+    f.save_form_data(instance, cleaned_data[f.name])
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 339, in save_form_data
+    setattr(instance, self.name, data)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 373, in __set__
+    self.field.update_dimension_fields(instance, force=True)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 460, in update_dimension_fields
+    (self.width_field and not getattr(instance, self.width_field)) or
+TypeError: getattr(): attribute name must be string
+ERROR 2017-01-16 11:13:11,899 exception 5152 6300 Internal Server Error: /admin/campaign/campaignmap/add/
+Traceback (most recent call last):
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\Scr\Git\venv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\Scr\Git\venv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "e:\utils\anaconda\Lib\contextlib.py", line 30, in inner
+    return func(*args, **kwds)
+  File "E:\Scr\Git\venv\lib\site-packages\django\contrib\admin\options.py", line 1441, in changeform_view
+    if form.is_valid():
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 169, in is_valid
+    return self.is_bound and not self.errors
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 161, in errors
+    self.full_clean()
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\forms.py", line 372, in full_clean
+    self._post_clean()
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\models.py", line 393, in _post_clean
+    self.instance = construct_instance(self, self.instance, opts.fields, opts.exclude)
+  File "E:\Scr\Git\venv\lib\site-packages\django\forms\models.py", line 68, in construct_instance
+    f.save_form_data(instance, cleaned_data[f.name])
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 339, in save_form_data
+    setattr(instance, self.name, data)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 373, in __set__
+    self.field.update_dimension_fields(instance, force=True)
+  File "E:\Scr\Git\venv\lib\site-packages\django\db\models\fields\files.py", line 460, in update_dimension_fields
+    (self.width_field and not getattr(instance, self.width_field)) or
+TypeError: getattr(): attribute name must be string
+ERROR 2017-01-16 11:13:12,062 basehttp 5152 6300 "POST /admin/campaign/campaignmap/add/ HTTP/1.1" 500 155113
+ERROR 2017-01-16 11:13:12,062 basehttp 5152 6300 "POST /admin/campaign/campaignmap/add/ HTTP/1.1" 500 155113
+INFO 2017-01-16 11:14:32,183 basehttp 8164 2544 "GET /admin/campaign/campaignmap/add/ HTTP/1.1" 200 15924
+INFO 2017-01-16 11:14:32,183 basehttp 8164 2544 "GET /admin/campaign/campaignmap/add/ HTTP/1.1" 200 15924
+INFO 2017-01-16 11:14:34,636 basehttp 8164 7288 "POST /admin/campaign/campaignmap/add/ HTTP/1.1" 302 0
+INFO 2017-01-16 11:14:34,636 basehttp 8164 7288 "POST /admin/campaign/campaignmap/add/ HTTP/1.1" 302 0
+INFO 2017-01-16 11:14:34,794 basehttp 8164 268 "GET /admin/campaign/campaignmap/ HTTP/1.1" 200 14732
+INFO 2017-01-16 11:14:34,794 basehttp 8164 268 "GET /admin/campaign/campaignmap/ HTTP/1.1" 200 14732
+INFO 2017-01-16 11:14:34,862 basehttp 8164 7792 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 11:14:34,862 basehttp 8164 7792 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 11:14:34,932 basehttp 8164 4380 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2017-01-16 11:14:34,932 basehttp 8164 4380 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO 2017-01-16 11:14:38,116 basehttp 8164 5172 "GET /admin/campaign/campaignmap/1/change/ HTTP/1.1" 200 16467
+INFO 2017-01-16 11:14:38,116 basehttp 8164 5172 "GET /admin/campaign/campaignmap/1/change/ HTTP/1.1" 200 16467
+INFO 2017-01-16 11:14:38,247 basehttp 8164 7024 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 11:14:38,247 basehttp 8164 7024 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 11:14:39,990 basehttp 8164 6236 "GET /media/maps/world.jpg HTTP/1.1" 200 298758
+INFO 2017-01-16 11:14:39,990 basehttp 8164 6236 "GET /media/maps/world.jpg HTTP/1.1" 200 298758
+WARNING 2017-01-16 11:16:07,999 views 8164 7640 asdaddqwdqwdqwd
+INFO 2017-01-16 11:16:08,237 basehttp 8164 7640 "GET /campaign/3/ HTTP/1.1" 200 24033
+INFO 2017-01-16 11:16:08,237 basehttp 8164 7640 "GET /campaign/3/ HTTP/1.1" 200 24033
+WARNING 2017-01-16 11:16:09,810 views 8164 5144 asdaddqwdqwdqwd
+INFO 2017-01-16 11:16:09,940 basehttp 8164 5144 "GET /campaign/3/detail/ HTTP/1.1" 200 19199
+INFO 2017-01-16 11:16:09,940 basehttp 8164 5144 "GET /campaign/3/detail/ HTTP/1.1" 200 19199
+WARNING 2017-01-16 11:17:20,892 views 8164 7024 asdaddqwdqwdqwd
+INFO 2017-01-16 11:17:21,011 basehttp 8164 7024 "GET /campaign/3/detail/ HTTP/1.1" 200 19524
+INFO 2017-01-16 11:17:21,011 basehttp 8164 7024 "GET /campaign/3/detail/ HTTP/1.1" 200 19524
+WARNING 2017-01-16 11:18:17,758 views 8164 7776 asdaddqwdqwdqwd
+INFO 2017-01-16 11:18:17,878 basehttp 8164 7776 "GET /campaign/3/detail/ HTTP/1.1" 200 19525
+INFO 2017-01-16 11:18:17,878 basehttp 8164 7776 "GET /campaign/3/detail/ HTTP/1.1" 200 19525
+WARNING 2017-01-16 11:18:25,336 basehttp 8164 7480 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+WARNING 2017-01-16 11:18:25,336 basehttp 8164 7480 "GET /static/campaign/js/angular.min.js.map HTTP/1.1" 404 1804
+INFO 2017-01-16 11:28:04,073 basehttp 8164 8024 "GET /__debug__/render_panel/?store_id=f189b2028a1849ba84deed612cec6a31&panel_id=SQLPanel HTTP/1.1" 200 30227
+INFO 2017-01-16 11:28:04,073 basehttp 8164 8024 "GET /__debug__/render_panel/?store_id=f189b2028a1849ba84deed612cec6a31&panel_id=SQLPanel HTTP/1.1" 200 30227
+INFO 2017-01-16 11:28:04,281 basehttp 8164 1960 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484551098854 HTTP/1.1" 200 353
+INFO 2017-01-16 11:28:04,281 basehttp 8164 1960 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484551098854 HTTP/1.1" 200 353
+WARNING 2017-01-16 11:36:26,209 views 7296 2176 asdaddqwdqwdqwd
+INFO 2017-01-16 11:36:26,464 basehttp 7296 2176 "GET /campaign/3/detail/ HTTP/1.1" 200 19601
+INFO 2017-01-16 11:36:26,464 basehttp 7296 2176 "GET /campaign/3/detail/ HTTP/1.1" 200 19601
+WARNING 2017-01-16 11:37:05,212 views 7296 5620 asdaddqwdqwdqwd
+INFO 2017-01-16 11:37:05,346 basehttp 7296 5620 "GET /campaign/3/detail/ HTTP/1.1" 200 19659
+INFO 2017-01-16 11:37:05,346 basehttp 7296 5620 "GET /campaign/3/detail/ HTTP/1.1" 200 19659
+INFO 2017-01-16 11:37:05,467 basehttp 7296 6920 "GET /media/maps/world.jpg HTTP/1.1" 304 0
+INFO 2017-01-16 11:37:05,467 basehttp 7296 6920 "GET /media/maps/world.jpg HTTP/1.1" 304 0
+WARNING 2017-01-16 11:37:32,318 views 7296 1148 asdaddqwdqwdqwd
+INFO 2017-01-16 11:37:32,453 basehttp 7296 1148 "GET /campaign/3/detail/ HTTP/1.1" 200 19672
+INFO 2017-01-16 11:37:32,453 basehttp 7296 1148 "GET /campaign/3/detail/ HTTP/1.1" 200 19672
+INFO 2017-01-16 12:03:19,163 basehttp 7296 3076 "GET /admin/campaign/campaignmap/1/change/ HTTP/1.1" 200 16467
+INFO 2017-01-16 12:03:19,163 basehttp 7296 3076 "GET /admin/campaign/campaignmap/1/change/ HTTP/1.1" 200 16467
+INFO 2017-01-16 12:03:19,257 basehttp 7296 6468 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 12:03:19,257 basehttp 7296 6468 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 12:03:46,376 basehttp 7296 6944 "GET /__debug__/render_panel/?store_id=2cf664771b904403a7c896e704d71e63&panel_id=SQLPanel HTTP/1.1" 200 34866
+INFO 2017-01-16 12:03:46,376 basehttp 7296 6944 "GET /__debug__/render_panel/?store_id=2cf664771b904403a7c896e704d71e63&panel_id=SQLPanel HTTP/1.1" 200 34866
+INFO 2017-01-16 12:03:49,452 basehttp 7296 1224 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484552253052 HTTP/1.1" 200 353
+INFO 2017-01-16 12:03:49,452 basehttp 7296 1224 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484552253052 HTTP/1.1" 200 353
+INFO 2017-01-16 12:06:55,669 basehttp 6092 5152 "GET /campaign/3/detail/ HTTP/1.1" 200 19582
+INFO 2017-01-16 12:06:55,669 basehttp 6092 5152 "GET /campaign/3/detail/ HTTP/1.1" 200 19582
+INFO 2017-01-16 12:06:56,664 basehttp 6092 8024 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:56,664 basehttp 6092 8024 "GET /static/campaign/css/mystyle.css HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:56,966 basehttp 6092 5360 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:56,966 basehttp 6092 5360 "GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,043 basehttp 6092 6476 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,043 basehttp 6092 6476 "GET /static/campaign/js/new.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,938 basehttp 6092 7048 "GET /static/campaign/images/bg.png HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,938 basehttp 6092 7048 "GET /static/campaign/images/bg.png HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,965 basehttp 6092 7344 "GET /static/campaign/js/angular.min.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,966 basehttp 6092 3328 "GET /static/campaign/js/app.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,965 basehttp 6092 7344 "GET /static/campaign/js/angular.min.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,966 basehttp 6092 3328 "GET /static/campaign/js/app.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,966 basehttp 6092 8140 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,967 basehttp 6092 7200 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,966 basehttp 6092 8140 "GET /static/debug_toolbar/js/jquery_pre.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,967 basehttp 6092 7200 "GET /static/debug_toolbar/js/jquery_post.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,967 basehttp 6092 5200 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:57,967 basehttp 6092 5200 "GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:59,865 basehttp 6092 1364 "GET /media/maps/world.jpg HTTP/1.1" 304 0
+INFO 2017-01-16 12:06:59,865 basehttp 6092 1364 "GET /media/maps/world.jpg HTTP/1.1" 304 0
+INFO 2017-01-16 12:07:01,627 basehttp 6092 7804 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-16 12:07:01,627 basehttp 6092 7804 "GET /static/debug_toolbar/img/ajax-loader.gif HTTP/1.1" 304 0
+INFO 2017-01-16 12:07:01,638 basehttp 6092 5624 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-16 12:07:01,638 basehttp 6092 5624 "GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+INFO 2017-01-16 12:07:24,547 basehttp 6092 8120 "GET /__debug__/render_panel/?store_id=7eeecd3aafa647deb4c062d7dfc73e9a&panel_id=SQLPanel HTTP/1.1" 200 29201
+INFO 2017-01-16 12:07:24,547 basehttp 6092 8120 "GET /__debug__/render_panel/?store_id=7eeecd3aafa647deb4c062d7dfc73e9a&panel_id=SQLPanel HTTP/1.1" 200 29201
+INFO 2017-01-16 12:07:33,851 basehttp 6092 7092 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484554021346 HTTP/1.1" 200 353
+INFO 2017-01-16 12:07:33,851 basehttp 6092 7092 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484554021346 HTTP/1.1" 200 353
+INFO 2017-01-16 12:46:35,301 basehttp 7928 6540 "GET /campaign/3/detail/ HTTP/1.1" 200 19755
+INFO 2017-01-16 12:46:35,301 basehttp 7928 6540 "GET /campaign/3/detail/ HTTP/1.1" 200 19755
+INFO 2017-01-16 12:46:35,715 basehttp 7928 7380 "GET /media/maps/world.jpg HTTP/1.1" 304 0
+INFO 2017-01-16 12:46:35,715 basehttp 7928 7380 "GET /media/maps/world.jpg HTTP/1.1" 304 0
+INFO 2017-01-16 12:46:38,086 basehttp 7928 6456 "GET /__debug__/render_panel/?store_id=f2c5d5b5d3e74ff991b4aa11cadf6867&panel_id=SQLPanel HTTP/1.1" 200 33189
+INFO 2017-01-16 12:46:38,086 basehttp 7928 6456 "GET /__debug__/render_panel/?store_id=f2c5d5b5d3e74ff991b4aa11cadf6867&panel_id=SQLPanel HTTP/1.1" 200 33189
+INFO 2017-01-16 12:46:38,096 basehttp 7928 6664 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484556395796 HTTP/1.1" 200 353
+INFO 2017-01-16 12:46:38,096 basehttp 7928 6664 "GET /static/debug_toolbar/js/toolbar.sql.js?_=1484556395796 HTTP/1.1" 200 353
+INFO 2017-01-16 12:47:14,268 basehttp 6432 6816 "GET /campaign/3/detail/ HTTP/1.1" 200 19753
+INFO 2017-01-16 12:47:14,268 basehttp 6432 6816 "GET /campaign/3/detail/ HTTP/1.1" 200 19753
+INFO 2017-01-16 12:47:51,117 basehttp 6432 6956 "GET /campaign/7/ HTTP/1.1" 200 14170
+INFO 2017-01-16 12:47:51,117 basehttp 6432 6956 "GET /campaign/7/ HTTP/1.1" 200 14170
+INFO 2017-01-16 12:47:58,055 basehttp 6432 7228 "GET / HTTP/1.1" 200 16110
+INFO 2017-01-16 12:47:58,055 basehttp 6432 7228 "GET / HTTP/1.1" 200 16110
+INFO 2017-01-16 12:48:02,062 basehttp 6432 8164 "GET /admin/ HTTP/1.1" 200 21669
+INFO 2017-01-16 12:48:02,062 basehttp 6432 8164 "GET /admin/ HTTP/1.1" 200 21669
+INFO 2017-01-16 12:48:02,079 basehttp 6432 7116 "GET /admin/ HTTP/1.1" 200 21669
+INFO 2017-01-16 12:48:02,079 basehttp 6432 7116 "GET /admin/ HTTP/1.1" 200 21669
+ERROR 2017-01-16 12:48:02,166 basehttp 6432 7116 "GET /admin/ HTTP/1.1" 500 59
+ERROR 2017-01-16 12:48:02,166 basehttp 6432 7116 "GET /admin/ HTTP/1.1" 500 59
+INFO 2017-01-16 12:48:20,552 basehttp 6432 8008 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16568
+INFO 2017-01-16 12:48:20,552 basehttp 6432 8008 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16568
+INFO 2017-01-16 12:48:20,730 basehttp 6432 7912 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 12:48:20,730 basehttp 6432 7912 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 12:48:21,446 basehttp 6432 7096 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2017-01-16 12:48:21,446 basehttp 6432 7096 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2017-01-16 12:48:22,998 basehttp 6432 6528 "GET /admin/campaign/campaign/7/change/ HTTP/1.1" 200 18294
+INFO 2017-01-16 12:48:22,998 basehttp 6432 6528 "GET /admin/campaign/campaign/7/change/ HTTP/1.1" 200 18294
+INFO 2017-01-16 12:48:23,384 basehttp 6432 2848 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 12:48:23,384 basehttp 6432 2848 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 12:48:23,472 basehttp 6432 5172 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+INFO 2017-01-16 12:48:23,472 basehttp 6432 5172 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+INFO 2017-01-16 12:48:23,480 basehttp 6432 7084 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+INFO 2017-01-16 12:48:23,480 basehttp 6432 7084 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+INFO 2017-01-16 12:48:23,603 basehttp 6432 4476 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 2017-01-16 12:48:23,603 basehttp 6432 4476 "GET /static/admin/img/tooltag-arrowright.svg HTTP/1.1" 200 280
+INFO 2017-01-16 12:48:23,819 basehttp 6432 900 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2017-01-16 12:48:23,819 basehttp 6432 900 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2017-01-16 12:48:29,079 basehttp 6432 7360 "POST /admin/campaign/campaign/7/change/ HTTP/1.1" 302 0
+INFO 2017-01-16 12:48:29,079 basehttp 6432 7360 "POST /admin/campaign/campaign/7/change/ HTTP/1.1" 302 0
+INFO 2017-01-16 12:48:29,529 basehttp 6432 6920 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16707
+INFO 2017-01-16 12:48:29,529 basehttp 6432 6920 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16707
+INFO 2017-01-16 12:48:29,669 basehttp 6432 7928 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 12:48:29,669 basehttp 6432 7928 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 12:48:39,284 basehttp 6432 7372 "GET /campaign/7/ HTTP/1.1" 200 14088
+INFO 2017-01-16 12:48:39,284 basehttp 6432 7372 "GET /campaign/7/ HTTP/1.1" 200 14088
+INFO 2017-01-16 12:48:42,067 basehttp 6432 1360 "GET / HTTP/1.1" 200 16029
+INFO 2017-01-16 12:48:42,067 basehttp 6432 1360 "GET / HTTP/1.1" 200 16029
+INFO 2017-01-16 12:48:51,027 basehttp 6432 5016 "GET /account/ HTTP/1.1" 200 21422
+INFO 2017-01-16 12:48:51,027 basehttp 6432 5016 "GET /account/ HTTP/1.1" 200 21422
+INFO 2017-01-16 12:48:55,919 basehttp 6432 5312 "GET /campaign/7/createstory/ HTTP/1.1" 200 18852
+INFO 2017-01-16 12:48:55,919 basehttp 6432 5312 "GET /campaign/7/createstory/ HTTP/1.1" 200 18852
+INFO 2017-01-16 12:48:56,261 basehttp 6432 7044 "GET /static/campaign/css/file_upload.css HTTP/1.1" 304 0
+INFO 2017-01-16 12:48:56,261 basehttp 6432 7044 "GET /static/campaign/css/file_upload.css HTTP/1.1" 304 0
+INFO 2017-01-16 12:48:56,293 basehttp 6432 6412 "GET /static/campaign/js/imagepool.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:48:56,293 basehttp 6432 6412 "GET /static/campaign/js/imagepool.js HTTP/1.1" 304 0
+INFO 2017-01-16 12:48:56,518 basehttp 6432 7204 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-16 12:48:56,518 basehttp 6432 7204 "GET /imagepool/ HTTP/1.1" 200 399
+INFO 2017-01-16 12:48:56,639 basehttp 6432 8172 "GET /media/imagepool/2016/12/push2.png HTTP/1.1" 304 0
+INFO 2017-01-16 12:48:56,639 basehttp 6432 1916 "GET /media/imagepool/2016/12/push5.png HTTP/1.1" 304 0
+INFO 2017-01-16 12:48:56,639 basehttp 6432 8172 "GET /media/imagepool/2016/12/push2.png HTTP/1.1" 304 0
+INFO 2017-01-16 12:48:56,639 basehttp 6432 1916 "GET /media/imagepool/2016/12/push5.png HTTP/1.1" 304 0
+INFO 2017-01-16 12:48:56,702 basehttp 6432 7180 "GET /media/imagepool/2017/01/nova.png HTTP/1.1" 304 0
+INFO 2017-01-16 12:48:56,702 basehttp 6432 7180 "GET /media/imagepool/2017/01/nova.png HTTP/1.1" 304 0
+INFO 2017-01-16 12:49:13,945 basehttp 6432 6196 "POST /campaign/7/createstory/ HTTP/1.1" 302 0
+INFO 2017-01-16 12:49:13,945 basehttp 6432 6196 "POST /campaign/7/createstory/ HTTP/1.1" 302 0
+INFO 2017-01-16 12:49:14,149 basehttp 6432 7844 "GET /campaign/7/33/ HTTP/1.1" 200 17573
+INFO 2017-01-16 12:49:14,149 basehttp 6432 7844 "GET /campaign/7/33/ HTTP/1.1" 200 17573
+INFO 2017-01-16 12:49:21,260 basehttp 6432 6956 "GET /account/ HTTP/1.1" 200 21551
+INFO 2017-01-16 12:49:21,260 basehttp 6432 6956 "GET /account/ HTTP/1.1" 200 21551
+INFO 2017-01-16 12:49:26,843 basehttp 6432 5072 "GET /campaign/create/ HTTP/1.1" 200 15291
+INFO 2017-01-16 12:49:26,843 basehttp 6432 5072 "GET /campaign/create/ HTTP/1.1" 200 15291
+INFO 2017-01-16 12:49:31,044 basehttp 6432 7272 "POST /campaign/create/ HTTP/1.1" 302 0
+INFO 2017-01-16 12:49:31,044 basehttp 6432 7272 "POST /campaign/create/ HTTP/1.1" 302 0
+INFO 2017-01-16 12:49:31,296 basehttp 6432 7276 "GET /campaign/8/detail/ HTTP/1.1" 200 16950
+INFO 2017-01-16 12:49:31,296 basehttp 6432 7276 "GET /campaign/8/detail/ HTTP/1.1" 200 16950
+INFO 2017-01-16 12:49:34,541 basehttp 6432 7228 "GET /account/ HTTP/1.1" 200 22984
+INFO 2017-01-16 12:49:34,541 basehttp 6432 7228 "GET /account/ HTTP/1.1" 200 22984
+INFO 2017-01-16 12:49:40,247 basehttp 6432 6672 "GET /campaign/3/ HTTP/1.1" 200 24114
+INFO 2017-01-16 12:49:40,247 basehttp 6432 6672 "GET /campaign/3/ HTTP/1.1" 200 24114
+INFO 2017-01-16 12:49:42,093 basehttp 6432 7916 "GET /campaign/3/detail/ HTTP/1.1" 200 19753
+INFO 2017-01-16 12:49:42,093 basehttp 6432 7916 "GET /campaign/3/detail/ HTTP/1.1" 200 19753
+INFO 2017-01-16 16:18:35,912 basehttp 6692 8180 "GET /admin/ HTTP/1.1" 200 21672
+INFO 2017-01-16 16:18:35,912 basehttp 6692 8180 "GET /admin/ HTTP/1.1" 200 21672
+INFO 2017-01-16 16:18:53,207 basehttp 6692 6208 "GET /admin/auth/user/ HTTP/1.1" 200 19532
+INFO 2017-01-16 16:18:53,207 basehttp 6692 6208 "GET /admin/auth/user/ HTTP/1.1" 200 19532
+INFO 2017-01-16 16:18:53,314 basehttp 6692 5620 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 16:18:53,314 basehttp 6692 5620 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 16:18:53,736 basehttp 6692 6948 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2017-01-16 16:18:53,736 basehttp 6692 6948 "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO 2017-01-16 16:18:53,929 basehttp 6692 8568 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2017-01-16 16:18:53,929 basehttp 6692 8568 "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2017-01-16 16:19:05,470 basehttp 6692 6752 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16568
+INFO 2017-01-16 16:19:05,470 basehttp 6692 6752 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16568
+INFO 2017-01-16 16:19:05,518 basehttp 6692 776 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 16:19:05,518 basehttp 6692 776 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 16:19:17,232 basehttp 6692 3320 "POST /admin/campaign/campaign/ HTTP/1.1" 200 13462
+INFO 2017-01-16 16:19:17,232 basehttp 6692 3320 "POST /admin/campaign/campaign/ HTTP/1.1" 200 13462
+INFO 2017-01-16 16:19:17,343 basehttp 6692 5788 "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+INFO 2017-01-16 16:19:17,343 basehttp 6692 5788 "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+INFO 2017-01-16 16:19:20,353 basehttp 6692 8212 "POST /admin/campaign/campaign/ HTTP/1.1" 302 0
+INFO 2017-01-16 16:19:20,353 basehttp 6692 8212 "POST /admin/campaign/campaign/ HTTP/1.1" 302 0
+INFO 2017-01-16 16:19:20,500 basehttp 6692 7380 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16278
+INFO 2017-01-16 16:19:20,500 basehttp 6692 7380 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16278
+INFO 2017-01-16 16:19:20,862 basehttp 6692 7672 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 16:19:20,862 basehttp 6692 7672 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 16:19:25,633 basehttp 6692 2324 "GET /admin/campaign/campaign/3/change/ HTTP/1.1" 200 18722
+INFO 2017-01-16 16:19:25,633 basehttp 6692 2324 "GET /admin/campaign/campaign/3/change/ HTTP/1.1" 200 18722
+INFO 2017-01-16 16:19:26,031 basehttp 6692 8788 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 16:19:26,031 basehttp 6692 8788 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 16:19:38,002 basehttp 6692 8076 "POST /admin/campaign/campaign/3/change/ HTTP/1.1" 302 0
+INFO 2017-01-16 16:19:38,002 basehttp 6692 8076 "POST /admin/campaign/campaign/3/change/ HTTP/1.1" 302 0
+INFO 2017-01-16 16:19:38,149 basehttp 6692 3204 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16336
+INFO 2017-01-16 16:19:38,149 basehttp 6692 3204 "GET /admin/campaign/campaign/ HTTP/1.1" 200 16336
+INFO 2017-01-16 16:19:38,510 basehttp 6692 6848 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 16:19:38,510 basehttp 6692 6848 "GET /admin/jsi18n/ HTTP/1.1" 200 14899
+INFO 2017-01-16 16:19:44,745 basehttp 6692 9064 "GET / HTTP/1.1" 200 16030
+INFO 2017-01-16 16:19:44,745 basehttp 6692 9064 "GET / HTTP/1.1" 200 16030
+INFO 2017-01-16 16:19:48,145 basehttp 6692 8704 "GET /campaign/3/ HTTP/1.1" 200 24035
+INFO 2017-01-16 16:19:48,145 basehttp 6692 8704 "GET /campaign/3/ HTTP/1.1" 200 24035
+INFO 2017-01-16 16:19:50,799 basehttp 6692 8844 "GET /campaign/3/detail/ HTTP/1.1" 200 19544
+INFO 2017-01-16 16:19:50,799 basehttp 6692 8844 "GET /campaign/3/detail/ HTTP/1.1" 200 19544
+INFO 2017-01-16 16:22:50,485 basehttp 6692 1736 "GET /campaign/3/detail/ HTTP/1.1" 200 19544
+INFO 2017-01-16 16:22:50,485 basehttp 6692 1736 "GET /campaign/3/detail/ HTTP/1.1" 200 19544
+INFO 2017-01-16 16:23:12,512 basehttp 6692 7896 "GET /campaign/3/detail/ HTTP/1.1" 200 19505
+INFO 2017-01-16 16:23:12,512 basehttp 6692 7896 "GET /campaign/3/detail/ HTTP/1.1" 200 19505

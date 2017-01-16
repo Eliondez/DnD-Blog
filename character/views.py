@@ -18,7 +18,8 @@ class CharacterDetail(TemplateView, MainContext):
         context['char'] = get_object_or_404(Character, id=kwargs['id'])
         context['available_chars'] = Character.objects.filter(campaign__isnull=True)
         context['owner'] = (self.request.user == context['char'].owner.user)
-        context['master'] = (self.request.user == context['char'].campaign.master.user)
+        if context['char'].campaign:
+            context['master'] = (self.request.user == context['char'].campaign.master.user)
         return context
 #
 # def char_detail(request, id=0):

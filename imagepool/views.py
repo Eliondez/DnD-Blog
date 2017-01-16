@@ -28,7 +28,7 @@ def get_list(request):
         output['next_url'] = reverse('imagepool:index') + '?page=' + str(page.next_page_number())
     else:
         output['next_url'] = ""
-    print("Got images: ", len(output)-2)
+    #print("Got images: ", len(output)-2)
     return JsonResponse(output)
 
 

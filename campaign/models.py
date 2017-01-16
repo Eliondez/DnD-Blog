@@ -13,8 +13,8 @@ class Campaign(models.Model):
                              verbose_name='Система')
 
     description = models.TextField(verbose_name='Описание кампании')
-    started = models.DateField(null=True, blank=True, verbose_name='Дата начала')
-    ended = models.DateField(null=True, blank=True, verbose_name='Дата окончания')
+    started = models.DateField(blank=True, null=True, verbose_name='Дата начала')
+    ended = models.DateField(blank=True, null=True, verbose_name='Последняя история')
 
     def __str__(self):
         return self.title
@@ -28,7 +28,7 @@ class Story(models.Model):
 
     title = models.CharField(max_length=200, verbose_name='Название')
     content = models.TextField(verbose_name='Содержание')
-    ingamedate = models.DateField(blank=False, verbose_name='Внутриигровая дата')
+    ingamedate = models.DateField(blank=False, verbose_name='Внутриигровая дата', help_text='Формат ГГГГ-ММ-ДД')
     posted = models.DateTimeField(auto_now_add=True, null=True, help_text='Формат ГГГГ-ММ-ДД')
     campaign = models.ForeignKey(Campaign, null=True)
     tags = TaggableManager(blank=True, verbose_name='Теги')
@@ -50,3 +50,11 @@ class Story(models.Model):
 
     def get_absolute_url(self):
         return reverse('campaign:detail_story', kwargs={'campaign_id': self.campaign.id, 'story_id': self.id})
+
+class CampaignMap(models.Model):
+    title = models.CharField(max_length=200)
+    img_width = models.IntegerField(blank=True)
+    img_height = models.IntegerField(blank=True)
+    file = models.ImageField(upload_to='maps/', blank=True, height_field='img_height', width_field='img_width')
+    campaign = models.ForeignKey(Campaign)
+

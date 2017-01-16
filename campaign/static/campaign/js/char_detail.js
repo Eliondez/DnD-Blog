@@ -22,7 +22,13 @@ $(function(){
         })
     });
 
+    window.setInterval(azaza, 2000);
+
 });
+
+function azaza() {
+    console.log('azaza');
+};
 
 // using jQuery
 function getCookie(name) {

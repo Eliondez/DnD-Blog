@@ -92,7 +92,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'dndblog.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
@@ -193,3 +192,6 @@ MEDIA_URL = '/media/'
 
 
 SITE_ID = 1
+
+VK_APP_ID = '5817297'
+VK_API_SECRET = 'uZxXBLlNCRzpIN7EEEfS'

@@ -10,8 +10,9 @@
         <div>
             <div class="char-menu" ng-controller="CharPanelController as cPanel">
                 <ul class="nav nav-tabs"  ng-init='cPanel.selectTab({{ panel }})'>
-                  <li ng-class="{active:cPanel.isSelected(1)}"><a href ng-click="cPanel.selectTab(1)"><span class="glyphicon glyphicon-book"></span></a></li>
-                  <li ng-class="{active:cPanel.isSelected(2)}"><a href ng-click="cPanel.selectTab(2)"><span class="glyphicon glyphicon-user"></span></a></li>
+                  <li ng-class="{active:cPanel.isSelected(1)}"><a class="tag" href ng-click="cPanel.selectTab(1)"><span class="glyphicon glyphicon-book"></span> Описание</a></li>
+                  <li ng-class="{active:cPanel.isSelected(2)}"><a class="tag" href ng-click="cPanel.selectTab(2)"><span class="glyphicon glyphicon-user"></span> Состав</a></li>
+                    <li ng-class="{active:cPanel.isSelected(3)}"><a class="tag" href ng-click="cPanel.selectTab(3)"><span class="glyphicon glyphicon-picture"></span> Карты</a></li>
                 </ul>
                 <div ng-show='cPanel.isSelected(1)'>
                     <br>
@@ -21,9 +22,8 @@
                     <div class="row">
                         <div class="col-sm-6">
                             <h2>Персонажи в кампании:</h2>
-                            <!--<div class="list-group">-->
-                            <div class="btn-group" role="group" aria-label="...">
-                              {% for char in chars %}
+                                {% for char in chars %}
+                                <div class="btn-group" role="group" aria-label="...">
                                 {% if can_edit %}
                                     <a href="{% url 'char_detail' char.id %}" class="btn btn-default my-btn">
                                 {{ char.name }} ({{ char.char_class }})</a>
@@ -39,9 +39,10 @@
                                     <a href="{% url 'char_detail' char.id %}" class="btn btn-default my-btn">
                                 {{ char.name }} ({{ char.char_class }})</a>
                                 {% endif %}
+                                </div>
                                 <br><br>
-                              {% endfor %}
-                            </div>
+                                {% endfor %}
+
                             <!--</div>-->
                         </div>
                         <div class="col-sm-6">
@@ -66,6 +67,13 @@
                         </div>
                     </div>
                 </div>
+                <div ng-show='cPanel.isSelected(3)'>
+                    <br>
+                    {% for map in maps %}
+                        <h2>{{ map.title }}</h2>
+                        <img src="{{ map.file.url }}" width="100%">
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
@@ -74,13 +82,14 @@
 <script>
 /**
 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = {{ request.build_absolute_uri }};  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = {{ campaign.id }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
 */
+
+var disqus_config = function () {
+    this.page.url = '{{ request.build_absolute_uri }}';  // Replace PAGE_URL with your page's canonical URL variable
+    //this.page.identifier = campaign{{ campaign.id }}; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
 s.src = '//d20-roleblog-com.disqus.com/embed.js';

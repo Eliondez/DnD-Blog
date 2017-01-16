@@ -9,7 +9,7 @@ from django.db.models import Count
 from datetime import date
 
 from character.models import Character
-from .models import Story, Campaign
+from .models import Story, Campaign, CampaignMap
 import logging
 
 logger = logging.getLogger(__name__)
@@ -17,9 +17,7 @@ logger = logging.getLogger(__name__)
 class MainContext(ContextMixin):
     def get_context_data(self, **kwargs):
         context = super(MainContext, self).get_context_data(**kwargs)
-        #context['active_campaign_list'] = Campaign.objects.filter(started__isnull=False)
-        context['active_campaign_list'] = Campaign.objects.annotate(Count('story')).filter(story__count__gt = 0)
-        logger.warning('asdaddqwdqwdqwd')
+        context['active_campaign_list'] = Campaign.objects.filter(started__isnull=False)
         return context
 
 
@@ -37,18 +35,20 @@ class CampaignDetail(TemplateView, MainContext):
         context['chars'] = context['campaign'].character_set.all()
         context['available_chars'] = Character.objects.filter(campaign__isnull=True)
         context['can_edit'] = (self.request.user == context['campaign'].master.user)
+        context['maps'] = CampaignMap.objects.filter(campaign=context['campaign'])
         return context
 
 
 class CampaignCreate(CreateView, MainContext):
     model = Campaign
     template_name = 'campaign/campaign_create.html'
-    success_url = '/' #reverse('home')
     fields = ['title', 'rp_system', 'description']
 
     def form_valid(self, form):
-        form.instance.master = self.request.user.profile
-        return super(CampaignCreate, self).form_valid(form)
+        campaign = form.save(commit=False)
+        campaign.master = self.request.user.profile
+        campaign.save()
+        return redirect(campaign)
 
 
 class CampaignEdit(UpdateView, MainContext):
@@ -183,11 +183,16 @@ class StoryCreate(CreateView, MainContext):
     def form_valid(self, form):
         campaign = get_object_or_404(Campaign, pk=self.kwargs['campaign_id'])
         if campaign.master != self.request.user.profile:
-            print('wrong user')
             return redirect('accounts:home')
-        form.instance.campaign = campaign
-        form.save()
-        return redirect('accounts:home')
+        story = form.save(commit = False)
+        story.campaign = campaign
+        story.save()
+        if not campaign.started:
+            campaign.started = story.posted
+        campaign.ended = story.posted
+        campaign.save()
+        return redirect(story)
+
 
 class StoryEdit(UpdateView, MainContext):
     model = Story
@@ -216,28 +221,3 @@ class StoryDelete(DeleteView):
 
     def get_success_url(self):
         return reverse('campaign:story_list', kwargs={'campaign_id': self.kwargs['campaign_id']})
-
-class AjaxTest(View):
-    def get(self, *args, **kwargs):
-        print(self.request.method)
-        return JsonResponse({
-            'yay?': 'yay!!!',
-        })
-
-    def post(self, *args, **kwargs):
-        print(self.request.method)
-        return JsonResponse({
-            'nya?': 'NYA!!!',
-        })
-
-    def update(self, *args, **kwargs):
-        print(self.request.method)
-        return JsonResponse({
-            'nya?': 'NYA!!!',
-        })
-
-    def delete(self, *args, **kwargs):
-        print(self.request.method)
-        return JsonResponse({
-            'nya?': 'NYA!!!',
-        })

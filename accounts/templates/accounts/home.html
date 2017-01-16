@@ -6,7 +6,7 @@
 <div class="row featurette">
     <div class='col-sm-12'>
         <h2 class="text-left">Персонажи
-        <small><a class="text-right" href="{% url 'char_create' %}"><span class="glyphicon glyphicon-plus"></span></a></small>
+        <small><a class="text-right tag" href="{% url 'char_create' %}"><span class="glyphicon glyphicon-plus"></span></a></small>
         </h2>
         <div class="row">
             {% for char in char_list %}
@@ -16,7 +16,7 @@
     </div>
     <div class='col-sm-12'>
         <h2 class="text-left">Кампании
-        <small><a class="text-right" href="{% url 'campaign:campaign_create' %}"><span class="glyphicon glyphicon-plus"></span></a></small>
+        <small><a class="text-right tag" href="{% url 'campaign:campaign_create' %}"><span class="glyphicon glyphicon-plus"></span></a></small>
         </h2>
     </div>
 </div>

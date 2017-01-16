@@ -29,8 +29,6 @@ urlpatterns = [
     url(r'^(?P<campaign_id>\d+)/createstory/', login_required(views.StoryCreate.as_view()), name='create_story'),
     url(r'^(?P<campaign_id>\d+)/$', views.CampaignStoryListView.as_view(), name='story_list'),
 
-    url(r'^ajax/$', views.AjaxTest.as_view(), name='ajax'),
-
     url(r'^(?P<id>\d+)/detail/', views.CampaignDetail.as_view(), name='campaign_detail'),
     url(r'^(?P<id>\d+)/end/', login_required(views.CampaignEnd.as_view()), name='campaign_end'),
     url(r'^(?P<id>\d+)/delay/', login_required(views.CampaignDelay.as_view()), name='campaign_delay'),

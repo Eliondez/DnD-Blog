@@ -14,13 +14,18 @@
                     <span class="glyphicon glyphicon-calendar"></span>
                     <span>{{ campaign.started|date }} - {{ campaign.ended|date }}</span>
                 </div>
+                <a class="tag" href="{% url 'campaign:campaign_edit' campaign.id %}">
+                <div class="panel-btn col-xs-4">
+                    <span class="glyphicon glyphicon-cog"></span>
+                </div>
+                </a>
                 <a class="tag" href="{% url 'campaign:story_list' campaign.id %}">
-                <div class="panel-btn col-xs-6">
+                <div class="panel-btn col-xs-4">
                     <span class="glyphicon glyphicon-menu-hamburger"></span>
                 </div>
                 </a>
                 <a class="tag" href="{% url 'campaign:create_story' campaign.id %}">
-                <div class="panel-btn col-xs-6">
+                <div class="panel-btn col-xs-4">
                     <span class="glyphicon glyphicon-pencil"></span>
                 </div>
                 </a>

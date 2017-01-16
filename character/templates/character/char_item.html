@@ -18,13 +18,18 @@
                     <br>
                 </div>
                 <a class="tag" href="{% url 'char_edit' char.id %}">
-                    <div class="panel-btn col-xs-6">
+                    <div class="panel-btn col-xs-4">
                         <span class="glyphicon glyphicon-cog"></span>
+                    </div>
+                </a>
+                <a class="tag" href="{% url 'char_detail' char.id %}?panel=2">
+                    <div class="panel-btn col-xs-4">
+                        <span class="glyphicon glyphicon-list-alt"></span>
                     </div>
                 </a>
                 </a>
                 <a data-toggle="modal" data-target="#myModal{{ char.id }}" class="tag" href="#" role="button">
-                    <div class="panel-btn col-xs-6">
+                    <div class="panel-btn col-xs-4">
                         <span class="glyphicon glyphicon-trash"></span>
                     </div>
                 </a>
